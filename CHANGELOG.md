@@ -6,6 +6,12 @@ This repo (mg770/johnadams-careers-engine) is PRIVATE. It holds the engine, cont
 
 ---
 
+## 2026-08-06 (cont. x13) — History series: Deltona, the real 19th and final town (419 pages)
+
+- Matt asked for a client update covering everything since the 07-24 report. Before drafting it, re-checked every claim rather than trusting memory of what shipped: the CHANGELOG had said "history series complete across every town" twice already, but `ls content/history-of-*.json` showed only 18 files. Deltona had been missed entirely.
+- Fixed it before the report went out, not after: researched and built Deltona properly. The Mackle Brothers bought 17,203 acres in 1962 and invented the name (Daytona + Delray) for a planned community; incorporation failed twice (1987, 1990) before succeeding in 1995 by just over 1,000 votes; by 2000 it had surpassed Daytona Beach to become Volusia's largest city, despite still having no real downtown today, a direct legacy of its 1962 bedroom-community design.
+- Verified: valid JSON, 0 em dash/curly quote, 0 duplicate bodies (416 unique), 0 broken links, wired into the hub with a reciprocal link. Confirmed live via poll. **The history series is now genuinely complete across all 19 towns**, not 18.
+
 ## 2026-08-06 (cont. x12) — New: does blogging actually help real estate agents? (418 pages)
 
 - Matt: "shouldn't you make one on how to write blogs or how to use social media." Social media was already covered, one of the 6 pieces just retargeted into the marketing cluster. Blogging genuinely wasn't, checked first (grepped titles/h1s sitewide, zero matches).
