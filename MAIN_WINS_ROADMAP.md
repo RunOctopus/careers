@@ -2,9 +2,9 @@
 
 The only query pattern on this site with real GSC proof behind it: a 3-column model comparison ("Adams, Cameron & Co." vs. "National Franchise" vs. "Discount / 100% Model"), titled **"Best Real Estate Brokerage to Join in [geography]"** (aspiring track) and **"Best Brokerage for Experienced Agents in [geography]"** (experienced track). At Volusia County level: 20% CTR / position 4.0 (aspiring), 100% CTR / position 1.0 (experienced). Both beat every city-level equivalent measured. Everything below is testing whether the pattern holds at other real geography framings, not inventing new topics.
 
-Last updated 2026-08-06. This file lives in the private repo only.
+Last updated 2026-08-06 (cont.). This file lives in the private repo only.
 
-## Done (11 geography variants shipped so far)
+## STATUS: geography-extension test set COMPLETE (18 variants, 417 pages total)
 
 | Geography | Aspiring | Experienced |
 |---|---|---|
@@ -12,22 +12,17 @@ Last updated 2026-08-06. This file lives in the private repo only.
 | Volusia County | done | done |
 | Flagler County | done | done |
 | Volusia & Flagler County (combined) | done | done |
-| Daytona Beach Area (colloquial) | done | **missing** |
+| Daytona Beach Area (colloquial) | done | done |
+| West Volusia | done | done |
+| New Smyrna Beach Area | done | done |
+| Palm Coast Area (colloquial) | done | done |
 
-## To produce — in priority order
+All 7 titles from the prior "to produce" list shipped 2026-08-06, verified (417/417 valid JSON, 0 em dash/curly quote, 0 duplicate bodies, 0 broken links, each wired into its correct track hub) and confirmed live.
 
-Grounded in real, legitimate sub-regions, not invented ones: the first three match the actual territory of Volusia County's three real Realtor associations (Daytona Beach Area Association, West Volusia Association, New Smyrna Beach Board), confirmed in the site's own MLS/association research page. The fourth mirrors the Daytona Beach Area test — Palm Coast is the colloquial name most people would actually use before "Flagler County."
+## What's next: wait for real data, then decide
 
-1. **Best Brokerage for Experienced Agents in the Daytona Beach Area** (experienced) — closes the pair, Daytona Beach Area aspiring is already live.
-2. **Best Real Estate Brokerage to Join in West Volusia** (aspiring) — DeLand, Deltona, DeBary, Orange City, Lake Helen, Pierson.
-3. **Best Brokerage for Experienced Agents in West Volusia** (experienced) — same region.
-4. **Best Real Estate Brokerage to Join in the New Smyrna Beach Area** (aspiring) — New Smyrna Beach, Edgewater, Oak Hill (Southeast Volusia).
-5. **Best Brokerage for Experienced Agents in the New Smyrna Beach Area** (experienced) — same region.
-6. **Best Real Estate Brokerage to Join in the Palm Coast Area** (aspiring) — colloquial Flagler County equivalent.
-7. **Best Brokerage for Experienced Agents in the Palm Coast Area** (experienced) — same region.
-
-7 titles left to complete the full geography-extension test set. Each one: same 3-column compare table, same voice, no new claims, register in manifest, verify (JSON valid, 0 em dash/curly quote, 0 duplicate body, 0 broken links, wired into the correct track hub), commit to the private repo, deploy static output only to the public repo, confirm live.
+This was a real test, not a guaranteed win. The next real step isn't more titles, it's checking GSC performance on all 8 new sub-region/combined pages once they've had a few weeks to index (comparable to when the original Volusia County win first showed up in the data). If the pattern holds at these broader/colloquial geographies too, that's the strongest signal yet for where the site's real leverage is. If it doesn't, that's useful too, it means the win was specific to "county," not geography framing in general.
 
 ## Not in scope here
 
-Anything that isn't a geography variant of this exact proven pattern (new query shapes, new topics, more long-tail) is separate work, tracked elsewhere in CHANGELOG.md, not this list. This file is specifically the "extend the one proven winner" backlog.
+Anything that isn't a geography variant of this exact proven pattern (new query shapes, new topics, more long-tail) is separate work, tracked in CHANGELOG.md, not this list. This file is specifically the "extend the one proven winner" backlog, and for now, it's done.
