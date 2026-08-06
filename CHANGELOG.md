@@ -6,6 +6,14 @@ This repo (mg770/johnadams-careers-engine) is PRIVATE. It holds the engine, cont
 
 ---
 
+## 2026-08-06 (cont. x14) — Client report drafted (John-Adams-Update-2026-08-06.pdf) + a real typo caught while writing it
+
+- Matt: needed a client update tonight, matching the format of the 07-24 report (`/Users/mattg/Downloads/John-Adams-Update-2026-07-24.pdf`). Read the full prior report first to match its exact structure: subject line, narrative letter with bolded thematic sections, honest data, sign-off, then a full appendix table of every page shipped, organized by category with a one-line "why it matters" note each.
+- Drafted the full update covering everything since 383 pages: the GSC re-connection and real trend data (384/419 pages now surfaced in search, up from 312/383), the 5 proven-pattern geography tests, the now-complete 19-town history series, the E&O title fix and the two cluster reorganizations, the 6 new long-tail pages, the self-assessment tool, the regional-comparison test, and the blogging page. Deliberately excluded anything internal (the private-repo split, GSC tool limitations, any mention of the engine's former codename) since none of it is relevant to John.
+- Rendered as HTML matching the prior PDF's visual style (navy section headers, gold-brown appendix category labels, same two-column table format), converted via headless Chrome print-to-pdf, saved to `~/Downloads/John-Adams-Update-2026-08-06.pdf`. Verified by reading the actual rendered PDF pages, not just trusting the HTML source.
+- **Caught a real, live typo while proofreading the PDF against the actual page**: the self-assessment tool's title and h1 read "A Honest Self-Assessment" instead of "An Honest Self-Assessment," a genuine grammar error that had been live on the site since I built the page earlier today. Grepped the whole site for the same pattern (`grep -ril "a honest"`), confirmed it was isolated to this one page, fixed both fields, rebuilt, verified 0 broken links, deployed, confirmed live.
+- Report saved to Matt's Downloads folder, not sent. Matt sends client communications himself per standing practice.
+
 ## 2026-08-06 (cont. x13) — History series: Deltona, the real 19th and final town (419 pages)
 
 - Matt asked for a client update covering everything since the 07-24 report. Before drafting it, re-checked every claim rather than trusting memory of what shipped: the CHANGELOG had said "history series complete across every town" twice already, but `ls content/history-of-*.json` showed only 18 files. Deltona had been missed entirely.
