@@ -6,6 +6,13 @@ This repo (mg770/johnadams-careers-engine) is PRIVATE. It holds the engine, cont
 
 ---
 
+## 2026-08-06 (cont. x12) — New: does blogging actually help real estate agents? (418 pages)
+
+- Matt: "shouldn't you make one on how to write blogs or how to use social media." Social media was already covered, one of the 6 pieces just retargeted into the marketing cluster. Blogging genuinely wasn't, checked first (grepped titles/h1s sitewide, zero matches).
+- Validated real demand before writing (web search confirmed genuine, current interest in the topic), but deliberately did not repeat the vendor-sourced stats that came back in that research (5.4x more leads, etc., all from companies like Luxury Presence that sell content marketing services and are structurally incentivized to oversell the channel). Wrote the honest, independently-reasoned version instead: blogging works, but only with real, specific, local content published consistently, most agents quit before giving it a fair chance, generic content doesn't work and never really did.
+- Wired in as the 10th piece of the marketing cluster, in the "running it like a business" group on the trunk page, with a reciprocal link back.
+- Verified: valid JSON, 0 em dash/curly quote, 0 duplicate bodies (415 unique), 0 broken links, wired into both the aspiring hub and the marketing cluster trunk. Confirmed live via poll.
+
 ## 2026-08-06 (cont. x11) — Retargeted 6 marketing pages to the aspiring track + built the marketing cluster (417 pages, same count)
 
 - Matt: "do more gsc analysis you have to master it" then, mid-analysis: "by the way maybe we should do a series of how to do marketing as a new agent." Checked real demand first (real, confirmed via web search: getting first clients, social media, farming, sphere of influence are all genuinely searched topics), then checked the site before writing anything new: 10 marketing-adjacent pieces already existed (farm a neighborhood, sphere of influence, first listing, network beyond sphere, open house leads, social media without wasting time, video marketing, AI marketing tools, marketing budget setup, marketing tools that grow your business).
