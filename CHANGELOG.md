@@ -6,6 +6,15 @@ This repo (mg770/johnadams-careers-engine) is PRIVATE. It holds the engine, cont
 
 ---
 
+## 2026-08-06 (cont. x5) — Extended the one proven winning pattern to a new geography (407 -> 409)
+
+- Matt asked what searches the site is actually targeting. Answer, grounded in the manifest: the core scale engine is 4 decision-stage query shapes x 21 markets ("best brokerage to join," "best company for new agents," "become an agent," "best brokerage for experienced agents"), plus ~320 supporting pages across is-it-right-for-me, licensing, switching, local, and economics. But only ONE query shape has real GSC proof: "best real estate brokerage to join in [county]" (20% CTR, Volusia) and "best brokerage for experienced agents in [county]" (100% CTR, Volusia), both at county level, both using "brokerage" not "company."
+- Matt: "just do it" — extend that exact proven pattern to a new geography rather than more topic breadth. Found the real gap: the winning shape existed for Volusia County alone and Flagler County alone, but never combined, even though the experienced track's own hub already frames itself as "Volusia & Flagler." Built both missing pieces: `best-real-estate-brokerage-to-join-volusia-flagler-county` (aspiring) and `best-brokerage-experienced-agents-volusia-flagler-county` (experienced), same 3-column model comparison, same voice, adapted to speak to prospects who don't specify a single county.
+- Done directly, no Agent dispatches, per Matt's "not agent wise wasting tokens."
+- Verified: valid JSON, 0 em dash/curly quote, 0 duplicate bodies (406 unique), 0 broken links, each wired into its correct track hub (aspiring page in the aspiring hub, experienced page in the experienced hub). Confirmed both live via poll.
+
+---
+
 ## 2026-08-06 (cont. x4) — History series COMPLETE: last 6 towns, done one at a time, no agents (401 -> 407)
 
 - Matt: "Do it one at a time no agents." After the prior 5-town parallel-agent batch, switched process for the remaining 6 towns: wrote each one myself, sequentially, full cycle per town (write, validate, dedup check, register in manifest, wire reciprocal link, rebuild twice, verify doctrine/links/hub wiring, commit to this private repo, deploy to the public repo, confirm live via poll) before starting the next. No Agent dispatches this stretch.
