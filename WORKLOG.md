@@ -11,6 +11,36 @@ of here — this file picks back up for anything that isn't a content batch.
 
 ---
 
+
+## 2026-08-09 — Let the GSC data pick the wave, not the page count
+
+**What:** Pulled 28 days of Search Console before writing anything, found the site's
+converting audience is licensed agents rather than aspiring ones, and built 15 pages into
+that seam (9 renewal, 6 switching) plus an internal-link fix on the two money pages.
+
+**Why:** "Build more" could have meant 15 more aspiring-track pages, which is what the
+existing 219-page bulk would suggest. The data said that track pulls impressions at
+position 55-70 and converts nearly nothing, while every clicking page is a licensed-agent
+page. The transfer guide alone is a third of all site clicks. Building more of what is not
+converting would have been busywork that looked like progress.
+
+**The finding worth remembering:** the site's top page by impressions (renewal, 305 in 28d)
+was at position 54.6 with **3 inbound internal links** while the aspiring hub had 335. Same
+pattern as Sterman. Counting inbound links before blaming authority is now two-for-two.
+
+**The mistake I caught on myself:** after registering the new pages, the brand-new
+"renewal requirements" page had 14 inbound links and the page Google actually ranks still
+had 2. I had built internal authority pointing at a rival to the incumbent. Reversed it so
+children link up and the incumbent became the cluster hub. Worth watching for on any future
+cluster build: the new page is not automatically the head.
+
+**Two false alarms, both caught by checking the instrument:** a competitor-name regex firing
+on "aceable" inside "traceable", and text clipping in headless screenshots that an untouched
+control page reproduced identically.
+
+**Not done:** the AI-citation re-measure is still the standing next move and still involves
+paid live AI queries Matt has not green-lit. Unchanged from prior sessions.
+
 ## 2026-07-24 — First real GSC data, one fix shipped, 4 topics scoped for next batch
 
 - Full findings + the Daytona Beach metaDesc fix are in CHANGELOG.md (2026-07-24

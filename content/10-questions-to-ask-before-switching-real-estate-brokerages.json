@@ -12,7 +12,10 @@
   "heroImg": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=1500&q=80&fit=crop",
   "about": "Questions experienced real estate agents should ask before switching brokerages",
   "updatedLabel": "June 2026",
-  "hub": { "slug": "best-brokerage-for-experienced-agents-volusia-flagler", "name": "For Experienced Agents" },
+  "hub": {
+    "slug": "best-brokerage-for-experienced-agents-volusia-flagler",
+    "name": "For Experienced Agents"
+  },
   "answer": "Before switching brokerages, an experienced agent should ask about real take-home after every fee, what tools and support are actually included, whether managers compete for listings, how pending deals and active listings are handled, and how long agents actually stay. The answers matter more than the recruiting pitch, and a brokerage confident in its numbers will answer all ten in writing.",
   "takeaways": [
     "The headline split is the least useful number in a recruiting conversation. Ask for total take-home after every fee instead.",
@@ -22,18 +25,48 @@
     "A brokerage that hesitates to answer any of these ten questions directly is telling you something important."
   ],
   "tldr": "Before switching brokerages, ask about real take-home after every fee, what's actually included, whether management competes with you, how pending deals and listings transfer, agent retention, total monthly costs, marketing support, local reputation, referral network access, and onboarding. These ten questions separate an honest fit from a recruiting pitch.",
-  "body": "<p>A recruiting conversation is designed to make a brokerage sound as good as possible. That&rsquo;s normal, and it&rsquo;s not a reason for suspicion on its own. It is a reason to walk in with your own list of questions instead of just reacting to theirs. The ten questions below are the ones that actually predict whether a move will pay off, on both the income side and the day-to-day side. Ask all ten of any brokerage you&rsquo;re seriously considering, and get the answers in writing wherever you can.</p>",
+  "body": "<p>A recruiting conversation is designed to make a brokerage sound as good as possible. That&rsquo;s normal, and it&rsquo;s not a reason for suspicion on its own. It is a reason to walk in with your own list of questions instead of just reacting to theirs. The ten questions below are the ones that actually predict whether a move will pay off, on both the income side and the day-to-day side. Ask all ten of any brokerage you&rsquo;re seriously considering, and get the answers in writing wherever you can.</p>\n\n  <p>Once you have your answers, <a href=\"how-to-transfer-your-florida-real-estate-license-to-a-new-broker.html\">transferring your license to a new broker</a> covers the mechanics, and <a href=\"how-long-does-it-take-to-transfer-your-florida-real-estate-license.html\">how long a transfer takes</a> covers the realistic timeline.</p>",
   "faq": [
-    { "q": "1. What is my real take-home after every fee, not just the split?", "a": "The headline split is a starting number, not the real one. Ask for a full worksheet: any franchise or royalty fee taken off the top, the desk fee, transaction fees, technology fees, and MLS or board dues. Then run your own last twelve months of production through that worksheet. A lower advertised split with fewer add-on fees can put more money in your account than a higher split loaded with deductions." },
-    { "q": "2. What tools and technology are actually included, and what would I still pay for myself?", "a": "Ask for the exact list: CRM, transaction management platform, professional agent website, social media marketing, listing marketing materials. Get it in writing, then compare it against what you're currently paying for out of pocket. If you're spending money every month on a CRM or a marketing tool that the new brokerage includes for free, that's real money back in your pocket that a split comparison alone won't show you." },
-    { "q": "3. Are the managers non-competing, or are they also active listing agents?", "a": "Ask directly whether the office manager or broker holds personal listings in the same market you work in. A manager who's also competing for listings has a structural conflict of interest, even an unspoken one, and is often harder to reach when you need help because they're busy running their own business. Ask specifically what support looks like on evenings and weekends, since that's when deals tend to get complicated." },
-    { "q": "4. What does agent retention actually look like here?", "a": "Ask how many experienced agents have joined and left in the past year, and why the ones who left, left. Ask to speak directly with two or three agents who joined in the last twelve months, not just the top producers the brokerage puts forward in a pitch. A brokerage with strong retention will have no problem connecting you with agents who'll speak honestly about their experience." },
-    { "q": "5. How will my active listings and pending deals be handled during the transition?", "a": "Ask the new brokerage to walk you through exactly how they handle incoming agents with active listings and pending contracts, including how they coordinate with your outgoing broker and how seller consent gets handled for any listing moves. A brokerage that's done this many times will have a clear, specific answer rather than a vague reassurance." },
-    { "q": "6. What is the total monthly and per-transaction cost, in writing?", "a": "Beyond the split, ask for every recurring charge: desk fee, transaction fee, E&O insurance cost, technology fee, and how MLS or local board dues are handled. Ask for actual dollar figures, not a range, and get them in an email or document rather than relying on what was said out loud in a meeting." },
-    { "q": "7. What marketing and lead support do agents actually get, beyond a template?", "a": "Ask what's genuinely done for you versus what you have to build yourself: social media content, listing marketing packages, any lead generation, and whether leads (if offered) are shared, paid, or optional. A brokerage that talks only in generalities about 'marketing support' usually means less than one that can show you an actual example of what an agent received last month." },
-    { "q": "8. How long has this brokerage actually operated in this market?", "a": "A recognizable national name doesn't guarantee local depth. Ask how long the specific office has operated in your market, and how buyers and sellers in the immediate area recognize the name. Longevity in a specific market tends to show up directly in listing presentations and referral business, which is worth more locally than brand recognition alone." },
-    { "q": "9. Does the brokerage have a referral network for relocation and out-of-area business?", "a": "Ask whether the brokerage belongs to a referral network, such as an international relocation affiliation, that can send you business from buyers and sellers moving into or out of the area. In a market with meaningful second-home or relocation activity, that network access is a real income source that a brokerage with no outside affiliation simply can't offer." },
-    { "q": "10. What does onboarding actually look like, and how fast can I be fully productive?", "a": "Ask for a specific onboarding timeline: license transfer, tool setup, introductions to management and staff, and your first real support call. Ask who stays involved after you sign, a recruiter who moves on to the next candidate, or a manager who's there for your first closing at the new brokerage. The honesty of that answer tells you a lot about what the relationship looks like a year in." }
+    {
+      "q": "1. What is my real take-home after every fee, not just the split?",
+      "a": "The headline split is a starting number, not the real one. Ask for a full worksheet: any franchise or royalty fee taken off the top, the desk fee, transaction fees, technology fees, and MLS or board dues. Then run your own last twelve months of production through that worksheet. A lower advertised split with fewer add-on fees can put more money in your account than a higher split loaded with deductions."
+    },
+    {
+      "q": "2. What tools and technology are actually included, and what would I still pay for myself?",
+      "a": "Ask for the exact list: CRM, transaction management platform, professional agent website, social media marketing, listing marketing materials. Get it in writing, then compare it against what you're currently paying for out of pocket. If you're spending money every month on a CRM or a marketing tool that the new brokerage includes for free, that's real money back in your pocket that a split comparison alone won't show you."
+    },
+    {
+      "q": "3. Are the managers non-competing, or are they also active listing agents?",
+      "a": "Ask directly whether the office manager or broker holds personal listings in the same market you work in. A manager who's also competing for listings has a structural conflict of interest, even an unspoken one, and is often harder to reach when you need help because they're busy running their own business. Ask specifically what support looks like on evenings and weekends, since that's when deals tend to get complicated."
+    },
+    {
+      "q": "4. What does agent retention actually look like here?",
+      "a": "Ask how many experienced agents have joined and left in the past year, and why the ones who left, left. Ask to speak directly with two or three agents who joined in the last twelve months, not just the top producers the brokerage puts forward in a pitch. A brokerage with strong retention will have no problem connecting you with agents who'll speak honestly about their experience."
+    },
+    {
+      "q": "5. How will my active listings and pending deals be handled during the transition?",
+      "a": "Ask the new brokerage to walk you through exactly how they handle incoming agents with active listings and pending contracts, including how they coordinate with your outgoing broker and how seller consent gets handled for any listing moves. A brokerage that's done this many times will have a clear, specific answer rather than a vague reassurance."
+    },
+    {
+      "q": "6. What is the total monthly and per-transaction cost, in writing?",
+      "a": "Beyond the split, ask for every recurring charge: desk fee, transaction fee, E&O insurance cost, technology fee, and how MLS or local board dues are handled. Ask for actual dollar figures, not a range, and get them in an email or document rather than relying on what was said out loud in a meeting."
+    },
+    {
+      "q": "7. What marketing and lead support do agents actually get, beyond a template?",
+      "a": "Ask what's genuinely done for you versus what you have to build yourself: social media content, listing marketing packages, any lead generation, and whether leads (if offered) are shared, paid, or optional. A brokerage that talks only in generalities about 'marketing support' usually means less than one that can show you an actual example of what an agent received last month."
+    },
+    {
+      "q": "8. How long has this brokerage actually operated in this market?",
+      "a": "A recognizable national name doesn't guarantee local depth. Ask how long the specific office has operated in your market, and how buyers and sellers in the immediate area recognize the name. Longevity in a specific market tends to show up directly in listing presentations and referral business, which is worth more locally than brand recognition alone."
+    },
+    {
+      "q": "9. Does the brokerage have a referral network for relocation and out-of-area business?",
+      "a": "Ask whether the brokerage belongs to a referral network, such as an international relocation affiliation, that can send you business from buyers and sellers moving into or out of the area. In a market with meaningful second-home or relocation activity, that network access is a real income source that a brokerage with no outside affiliation simply can't offer."
+    },
+    {
+      "q": "10. What does onboarding actually look like, and how fast can I be fully productive?",
+      "a": "Ask for a specific onboarding timeline: license transfer, tool setup, introductions to management and staff, and your first real support call. Ask who stays involved after you sign, a recruiter who moves on to the next candidate, or a manager who's there for your first closing at the new brokerage. The honesty of that answer tells you a lot about what the relationship looks like a year in."
+    }
   ],
   "ctaHeading": "Ask us all ten. We'll answer every one.",
   "ctaSub": "A non-competing Adams, Cameron &amp; Co. manager will walk through real take-home, tools, and support for your production, in writing."

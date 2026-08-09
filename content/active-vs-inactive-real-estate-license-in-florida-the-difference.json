@@ -12,7 +12,10 @@
   "heroImg": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=1500&q=80&fit=crop",
   "about": "Comparing active and inactive real estate license status in Florida",
   "updatedLabel": "June 2026",
-  "hub": { "slug": "real-estate-referral-program-florida", "name": "Referral Program" },
+  "hub": {
+    "slug": "real-estate-referral-program-florida",
+    "name": "Referral Program"
+  },
   "answer": "An active Florida real estate license is placed under a broker and can legally earn commission and referral fees; an inactive license still exists with the state but cannot earn anything, show property, or practice until it&rsquo;s reactivated under a broker. Both still require renewal every two years. The main reason agents choose to stay active with no production is to keep referral income available.",
   "takeaways": [
     "Only an active license can legally earn commission or a referral fee. An inactive license cannot earn anything from a real estate transaction.",
@@ -24,28 +27,100 @@
   "tldr": "The core difference is simple: an active Florida license is placed under a broker and can earn commission or a referral fee; an inactive license cannot earn anything until it's reactivated. Both still renew every two years. If you don't want to sell but don't want to give up the ability to earn a referral fee either, active status under a referral-focused broker is usually the better fit than going inactive.",
   "intro": "<p>Agents who step back from active production often assume the choice is binary: keep selling, or let the license go inactive. The honest answer is more useful than that. Active and inactive are two specific legal statuses with real differences in what you can do, what you pay, and what it takes to move between them. Here is the side-by-side comparison.</p>",
   "compare": {
-    "columns": ["Active License", "Inactive License"],
+    "columns": [
+      "Active License",
+      "Inactive License"
+    ],
     "highlight": -1,
     "rows": [
-      { "label": "Can you earn commission?", "values": ["Yes, on any closed transaction you're legally part of.", "No. An inactive license cannot earn commission of any kind, including referral fees."] },
-      { "label": "Can you earn a referral fee?", "values": ["Yes, as long as your license is placed under a broker who accepts referral business.", "No. Referral fees are still real estate compensation and require an active license to collect."] },
-      { "label": "Must be held by a broker?", "values": ["Yes. Active status requires a current broker of record; you cannot practice independently.", "No. An inactive license can sit with the state without being placed under any broker."] },
-      { "label": "Can you practice real estate?", "values": ["Yes: list, show, and represent clients under your broker.", "No. You cannot list, show property, or represent a buyer or seller while inactive."] },
-      { "label": "MLS &amp; local board dues", "values": ["Typically required only if you're actively producing and join a local board or MLS.", "None. Inactive status has no MLS or board obligations."] },
-      { "label": "Continuing education", "values": ["Required on your normal two-year renewal cycle to keep the license valid.", "Requirements vary by how long you've been inactive; missed CE typically has to be completed before reactivating."] },
-      { "label": "Biennial DBPR renewal", "values": ["Still required, same two-year cycle and fee as any Florida license.", "Still required. Going inactive doesn't remove the renewal obligation."] },
-      { "label": "How to switch into this status", "values": ["Place your license with a broker (a referral-focused broker if you don't want production demands).", "Notify your current broker and let the broker relationship end, or simply don't renew a broker placement."] },
-      { "label": "Best for", "values": ["Agents who want to keep earning, even occasionally, through referrals or production.", "Agents taking a full break who understand they'll earn nothing from real estate until they reactivate."] }
+      {
+        "label": "Can you earn commission?",
+        "values": [
+          "Yes, on any closed transaction you're legally part of.",
+          "No. An inactive license cannot earn commission of any kind, including referral fees."
+        ]
+      },
+      {
+        "label": "Can you earn a referral fee?",
+        "values": [
+          "Yes, as long as your license is placed under a broker who accepts referral business.",
+          "No. Referral fees are still real estate compensation and require an active license to collect."
+        ]
+      },
+      {
+        "label": "Must be held by a broker?",
+        "values": [
+          "Yes. Active status requires a current broker of record; you cannot practice independently.",
+          "No. An inactive license can sit with the state without being placed under any broker."
+        ]
+      },
+      {
+        "label": "Can you practice real estate?",
+        "values": [
+          "Yes: list, show, and represent clients under your broker.",
+          "No. You cannot list, show property, or represent a buyer or seller while inactive."
+        ]
+      },
+      {
+        "label": "MLS &amp; local board dues",
+        "values": [
+          "Typically required only if you're actively producing and join a local board or MLS.",
+          "None. Inactive status has no MLS or board obligations."
+        ]
+      },
+      {
+        "label": "Continuing education",
+        "values": [
+          "Required on your normal two-year renewal cycle to keep the license valid.",
+          "Requirements vary by how long you've been inactive; missed CE typically has to be completed before reactivating."
+        ]
+      },
+      {
+        "label": "Biennial DBPR renewal",
+        "values": [
+          "Still required, same two-year cycle and fee as any Florida license.",
+          "Still required. Going inactive doesn't remove the renewal obligation."
+        ]
+      },
+      {
+        "label": "How to switch into this status",
+        "values": [
+          "Place your license with a broker (a referral-focused broker if you don't want production demands).",
+          "Notify your current broker and let the broker relationship end, or simply don't renew a broker placement."
+        ]
+      },
+      {
+        "label": "Best for",
+        "values": [
+          "Agents who want to keep earning, even occasionally, through referrals or production.",
+          "Agents taking a full break who understand they'll earn nothing from real estate until they reactivate."
+        ]
+      }
     ],
     "note": "General comparison at the status level. Specific continuing education and reactivation requirements are set by the Florida DBPR and can change; confirm current rules before making a decision."
   },
-  "body": "<h2>Why this distinction actually matters</h2>\n  <p>The words &ldquo;active&rdquo; and &ldquo;inactive&rdquo; sound like a minor technicality, but they control whether your license can earn you anything at all. An active license, even one attached to an agent who never lists a home, can legally collect a referral fee for connecting a buyer or seller to a working agent. An inactive license cannot, under any circumstance, because inactive status specifically strips the license of its ability to participate in compensation tied to a real estate transaction.</p>\n  <p>That single fact is why so many licensed agents who&rsquo;ve stopped actively selling choose to stay active anyway. It isn&rsquo;t about pretending to still be in production. It&rsquo;s about keeping a door open that inactive status closes completely.</p>\n\n  <h2>What actually keeps a license active</h2>\n  <p>Active status has exactly two requirements: a current broker of record, and up-to-date continuing education on your normal renewal cycle. Neither requirement says anything about how many transactions you close. A referral-focused broker satisfies the first requirement without expecting production, which is why placing your license there, rather than letting it go inactive, is worth considering before you decide.</p>\n\n  <h2>What inactive status actually costs you</h2>\n  <p>Going inactive can feel like the simpler option when you&rsquo;re not selling, since it removes the broker relationship and any related fees. But it also removes your ability to earn a single dollar from real estate, including a referral fee for a client you didn&rsquo;t even have to work with directly. And inactive status doesn&rsquo;t remove your renewal obligation to the state; you&rsquo;re still required to renew on the standard two-year cycle even while inactive.</p>\n  <p>Reactivating later typically means completing continuing education you missed while inactive before you can be placed back under a broker. That catch-up requirement is one more reason agents who expect to want any referral income down the road tend to stay active from the start rather than go inactive and reactivate later.</p>\n\n  <h2>Neither status is the same as expired</h2>\n  <p>It&rsquo;s worth separating inactive from expired, since the two get confused often. Inactive means the license still exists with the state but currently has no broker and cannot earn anything. Expired means the license has fully lapsed, which typically involves a more significant process, sometimes including retesting, to restore. Staying active, or at worst inactive, keeps you meaningfully closer to working again than letting a license expire outright.</p>\n\n  <h2>Making the call for your situation</h2>\n  <p>If you know you&rsquo;ll never refer another client and want zero ties to a broker, inactive status is the lower-maintenance path, understanding you&rsquo;ll earn nothing from real estate until you reactivate. If there&rsquo;s any chance you&rsquo;ll refer a relocating friend, a past client, or anyone else in your network, staying active under a referral-focused broker keeps that option available without the demands of active production.</p>\n  <p>Adams, Cameron &amp; Co., the largest brokerage in Volusia and Flagler County since 1963, runs a <a href=\"real-estate-referral-program-florida.html\">Realty Referral Program</a> built for agents who want to stay active without selling. See <a href=\"how-to-keep-your-florida-real-estate-license-active-without-selling.html\">how to keep your license active without selling</a> for the practical steps, or <a href=\"join.html\">start a conversation</a> about which status fits where you are right now.</p>\n  <p><em>License status rules, continuing education requirements, and reactivation processes are set by the Florida DBPR and can change. This page is educational, not legal advice; confirm current details with the DBPR before you decide.</em></p>",
+  "body": "<h2>Why this distinction actually matters</h2>\n  <p>The words &ldquo;active&rdquo; and &ldquo;inactive&rdquo; sound like a minor technicality, but they control whether your license can earn you anything at all. An active license, even one attached to an agent who never lists a home, can legally collect a referral fee for connecting a buyer or seller to a working agent. An inactive license cannot, under any circumstance, because inactive status specifically strips the license of its ability to participate in compensation tied to a real estate transaction.</p>\n\n  <p>If you are trying to avoid involuntary inactive status in the first place, start with <a href=\"how-to-renew-your-florida-real-estate-license.html\">how to renew your Florida real estate license</a>. If you are already there, see <a href=\"how-to-reactivate-an-involuntary-inactive-florida-real-estate-license.html\">how to reactivate an involuntarily inactive license</a>.</p>\n  <p>That single fact is why so many licensed agents who&rsquo;ve stopped actively selling choose to stay active anyway. It isn&rsquo;t about pretending to still be in production. It&rsquo;s about keeping a door open that inactive status closes completely.</p>\n\n  <h2>What actually keeps a license active</h2>\n  <p>Active status has exactly two requirements: a current broker of record, and up-to-date continuing education on your normal renewal cycle. Neither requirement says anything about how many transactions you close. A referral-focused broker satisfies the first requirement without expecting production, which is why placing your license there, rather than letting it go inactive, is worth considering before you decide.</p>\n\n  <h2>What inactive status actually costs you</h2>\n  <p>Going inactive can feel like the simpler option when you&rsquo;re not selling, since it removes the broker relationship and any related fees. But it also removes your ability to earn a single dollar from real estate, including a referral fee for a client you didn&rsquo;t even have to work with directly. And inactive status doesn&rsquo;t remove your renewal obligation to the state; you&rsquo;re still required to renew on the standard two-year cycle even while inactive.</p>\n  <p>Reactivating later typically means completing continuing education you missed while inactive before you can be placed back under a broker. That catch-up requirement is one more reason agents who expect to want any referral income down the road tend to stay active from the start rather than go inactive and reactivate later.</p>\n\n  <h2>Neither status is the same as expired</h2>\n  <p>It&rsquo;s worth separating inactive from expired, since the two get confused often. Inactive means the license still exists with the state but currently has no broker and cannot earn anything. Expired means the license has fully lapsed, which typically involves a more significant process, sometimes including retesting, to restore. Staying active, or at worst inactive, keeps you meaningfully closer to working again than letting a license expire outright.</p>\n\n  <h2>Making the call for your situation</h2>\n  <p>If you know you&rsquo;ll never refer another client and want zero ties to a broker, inactive status is the lower-maintenance path, understanding you&rsquo;ll earn nothing from real estate until you reactivate. If there&rsquo;s any chance you&rsquo;ll refer a relocating friend, a past client, or anyone else in your network, staying active under a referral-focused broker keeps that option available without the demands of active production.</p>\n  <p>Adams, Cameron &amp; Co., the largest brokerage in Volusia and Flagler County since 1963, runs a <a href=\"real-estate-referral-program-florida.html\">Realty Referral Program</a> built for agents who want to stay active without selling. See <a href=\"how-to-keep-your-florida-real-estate-license-active-without-selling.html\">how to keep your license active without selling</a> for the practical steps, or <a href=\"join.html\">start a conversation</a> about which status fits where you are right now.</p>\n  <p><em>License status rules, continuing education requirements, and reactivation processes are set by the Florida DBPR and can change. This page is educational, not legal advice; confirm current details with the DBPR before you decide.</em></p>",
   "faq": [
-    { "q": "What is the main difference between an active and inactive real estate license in Florida?", "a": "An active license is placed under a broker and can legally earn commission or referral fees. An inactive license still exists with the state but cannot earn anything or be used to practice until it's reactivated under a broker." },
-    { "q": "Can an inactive license earn a referral fee?", "a": "No. Referral fees are still real estate compensation, and Florida requires an active license held by a broker to collect one. An inactive license cannot earn a referral fee under any circumstance." },
-    { "q": "Do I still have to renew my license if it's inactive?", "a": "Yes. Going inactive doesn't remove your renewal obligation. Florida requires renewal on the standard two-year cycle whether your license is active or inactive." },
-    { "q": "Is an inactive license the same as an expired license?", "a": "No. Inactive means the license still exists but has no broker and can't currently earn anything. Expired means the license has fully lapsed and typically requires a more involved process, sometimes including retesting, to restore." },
-    { "q": "How do I switch from inactive back to active?", "a": "You generally need to complete any continuing education missed while inactive and place your license under a licensed broker. Requirements can change, so confirm the current process with the Florida DBPR before you plan around it." }
+    {
+      "q": "What is the main difference between an active and inactive real estate license in Florida?",
+      "a": "An active license is placed under a broker and can legally earn commission or referral fees. An inactive license still exists with the state but cannot earn anything or be used to practice until it's reactivated under a broker."
+    },
+    {
+      "q": "Can an inactive license earn a referral fee?",
+      "a": "No. Referral fees are still real estate compensation, and Florida requires an active license held by a broker to collect one. An inactive license cannot earn a referral fee under any circumstance."
+    },
+    {
+      "q": "Do I still have to renew my license if it's inactive?",
+      "a": "Yes. Going inactive doesn't remove your renewal obligation. Florida requires renewal on the standard two-year cycle whether your license is active or inactive."
+    },
+    {
+      "q": "Is an inactive license the same as an expired license?",
+      "a": "No. Inactive means the license still exists but has no broker and can't currently earn anything. Expired means the license has fully lapsed and typically requires a more involved process, sometimes including retesting, to restore."
+    },
+    {
+      "q": "How do I switch from inactive back to active?",
+      "a": "You generally need to complete any continuing education missed while inactive and place your license under a licensed broker. Requirements can change, so confirm the current process with the Florida DBPR before you plan around it."
+    }
   ],
   "ctaHeading": "Not sure which status fits your situation?",
   "ctaSub": "Talk with Adams, Cameron &amp; Co. about staying active under a referral program, no active-sales pressure required."

@@ -97,11 +97,23 @@ Each page targets a real question a prospect asks before choosing a brokerage, m
 - **A concrete first-90-days plan for a new agent**, distinct from the existing "day in the life" content, answering a specific way people search when they're deciding whether and how to get started.
 - **An honest, consolidated "common mistakes" page** pulling together a topic that was previously scattered across several other pages into one clear resource, with new practical guidance not found elsewhere on the site.
 
+## Search data now points the strategy: a wave built for licensed agents
+- **Search Console shows the site tripling.** Over the most recent 28 days the site drew 3,628 impressions against 1,180 in the prior 28 days, with clicks up from 5 to 25. The library is working its way into search results.
+- **The data revealed something more useful than growth.** Every page currently earning clicks is aimed at *already-licensed* agents, not at people deciding to get licensed. The guide on transferring a license to a new broker alone accounts for roughly a third of all site clicks, sitting at the top of page one. That is precisely the recruiting audience Adams, Cameron & Co. cares most about.
+- **The single most-viewed page on the site was underserving that audience.** The license renewal guide draws more impressions than any other page, but it was ranking far down and trying to answer twenty-five different renewal questions at once. Searchers asking about renewal fees, deadlines, the state's online system, extensions and reactivation were all landing on one general page.
+- **Fifteen new pages now answer those questions individually**, each one researched against the Florida statutes and the state licensing rules directly rather than secondhand sources:
+  - **Renewal**: complete renewal requirements, what renewal actually costs, when a license expires, renewing through the state's online system, the post-license course required at a first renewal, whether extensions exist, reactivating a lapsed license, broker-specific requirements, and the difference between renewing a license and renewing Realtor membership.
+  - **Switching brokerages**: how long a transfer takes, whether a broker can refuse to release an agent, whether to switch before or after a renewal, whether any coursework has to be redone, what happens to MLS access when moving within Volusia and Flagler, and whether a license is tied to a brokerage at all.
+- **Several of these correct errors that are common elsewhere.** Florida's rules for restoring a lapsed license are graduated by how long it has been inactive, and the consequence of missing a first-renewal course is far more serious than missing later coursework. Most published guidance blurs both. These pages get them right, which is exactly the kind of accuracy that earns citations from AI assistants.
+- **Every new page ends where recruiting begins.** An agent renewing a license is an agent deciding where the next two years happen, and each page makes that connection without overselling it.
+- **Internal linking was rebuilt around the pages that matter.** The two highest-value pages on the site were barely linked to from anywhere else, which limits how search engines value them. Both are now properly connected into the rest of the library.
+
 ## Editorial quality
 - **A full copy-quality pass** removed automated-writing tells across the entire site, so every page reads as professionally written by a person, not by a machine. This covers both the new pages and the original site pages.
 - **No other company is named anywhere on the site.** Every page speaks only to what Adams, Cameron & Co. offers; reputation and comparison content is written generically (review sites, brokerage models) rather than naming any competitor or third-party platform.
 
 ## What's next
 - Re-measure how often the site is cited by AI assistants and search, to show the gain against the starting baseline. That window has now arrived.
+- Watch the new renewal and switching pages over the next several weeks. They target the audience already converting best, so this is the clearest test yet of where to concentrate future work.
 - Continue the town history series to the remaining smaller towns, and extend the two-market comparison test to other neighboring pairs if the first one performs well.
 - Confirm Search Console access is fully handed to John as a Full user.

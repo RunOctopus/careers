@@ -11,7 +11,10 @@
   "heroImg": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=1500&q=80&fit=crop",
   "about": "Switching real estate brokerages in Florida",
   "updatedLabel": "June 2026",
-  "hub": { "slug": "best-brokerage-for-experienced-agents-volusia-flagler", "name": "For Experienced Agents" },
+  "hub": {
+    "slug": "best-brokerage-for-experienced-agents-volusia-flagler",
+    "name": "For Experienced Agents"
+  },
   "answer": "To switch real estate brokerages in Florida: review your current agreement, choose your new brokerage, give your broker professional notice, transfer your license to the new broker through the DBPR, and move your listings and pending deals by agreement. Handled professionally it&rsquo;s routine and takes days, not weeks.",
   "takeaways": [
     "Switching is a defined process. The agents who stall just don&rsquo;t know the order.",
@@ -22,19 +25,49 @@
   ],
   "tldr": "Switching brokerages in Florida means reviewing your agreement, picking a new broker, giving notice, transferring your license through the DBPR, and moving your listings by agreement. Done right it's routine, and the bigger decision is which brokerage you move to.",
   "howto": [
-    { "name": "Review your current agreement", "text": "Read your independent contractor agreement for how active listings, pending deals, fees, and any post-departure terms are handled." },
-    { "name": "Choose your new brokerage", "text": "Decide where you're going. That's the real decision. Compare take-home after all fees plus the training, tools, and support you'd gain." },
-    { "name": "Give your broker professional notice", "text": "Tell your current broker directly and professionally. A clean exit protects your reputation and referral relationships." },
-    { "name": "Transfer your license with the DBPR", "text": "Update your employing broker with the Florida Department of Business and Professional Regulation, usually online, so your license is active under the new brokerage." },
-    { "name": "Move your listings and pending deals", "text": "Coordinate with both brokers and your sellers to transfer active listings (with seller consent) and decide where pending deals close." },
-    { "name": "Update your marketing and profiles", "text": "Update your signage, websites, MLS profile, social media, and business cards to your new brokerage." }
+    {
+      "name": "Review your current agreement",
+      "text": "Read your independent contractor agreement for how active listings, pending deals, fees, and any post-departure terms are handled."
+    },
+    {
+      "name": "Choose your new brokerage",
+      "text": "Decide where you're going. That's the real decision. Compare take-home after all fees plus the training, tools, and support you'd gain."
+    },
+    {
+      "name": "Give your broker professional notice",
+      "text": "Tell your current broker directly and professionally. A clean exit protects your reputation and referral relationships."
+    },
+    {
+      "name": "Transfer your license with the DBPR",
+      "text": "Update your employing broker with the Florida Department of Business and Professional Regulation, usually online, so your license is active under the new brokerage."
+    },
+    {
+      "name": "Move your listings and pending deals",
+      "text": "Coordinate with both brokers and your sellers to transfer active listings (with seller consent) and decide where pending deals close."
+    },
+    {
+      "name": "Update your marketing and profiles",
+      "text": "Update your signage, websites, MLS profile, social media, and business cards to your new brokerage."
+    }
   ],
-  "body": "<h2>Will switching brokerages cost me my pending deals?</h2><p>No, not if you handle it professionally. Pending deals are typically allowed to close at your current brokerage or transferred by agreement between the brokers. <strong>Active listings</strong> technically belong to the brokerage, so moving them requires your current broker&rsquo;s cooperation and your seller&rsquo;s consent, which is routine when everyone behaves professionally. Map this out before you give notice so nothing falls through.</p>\n\n  <h2>How long does it take to switch brokerages in Florida?</h2>\n  <p>The license transfer itself is fast, often the same day through the DBPR once you change your employing broker. The real timeline is how long you take to <strong>choose the right new brokerage</strong> and wind down cleanly. Most agents complete the move in days.</p>\n\n  <h2>The part that actually matters: where you go</h2>\n  <p>The mechanics are easy. The decision is everything. Run your real take-home after every fee at the new brokerage, and weigh the training, marketing, tools, and manager support you&rsquo;d gain. A small change in split can be dwarfed by what&rsquo;s included (or not). See the honest side-by-side in our <a href=\"best-brokerage-experienced-agents-volusia-county.html\">brokerage comparison for experienced agents</a> and run your numbers in the <a href=\"real-estate-commission-split-calculator.html\">commission calculator</a>.</p>\n\n  <h2>Moving to Adams, Cameron &amp; Co.</h2>\n  <p>If you&rsquo;re considering a move in Volusia or Flagler County, Adams, Cameron &amp; Co., the area&rsquo;s largest brokerage since 1963, helps experienced agents transition cleanly: a non-competing manager walks you through the license transfer, listing moves, and onboarding so you keep producing through the change. <a href=\"join.html\">Start a confidential conversation.</a></p>\n  <p><em>License and contract specifics are set by Florida and your agreements. Confirm details with the DBPR and review your contract. Educational only, not legal advice.</em></p>",
+  "body": "<h2>Will switching brokerages cost me my pending deals?</h2><p>No, not if you handle it professionally. Pending deals are typically allowed to close at your current brokerage or transferred by agreement between the brokers. <strong>Active listings</strong> technically belong to the brokerage, so moving them requires your current broker&rsquo;s cooperation and your seller&rsquo;s consent, which is routine when everyone behaves professionally. Map this out before you give notice so nothing falls through.</p>\n\n  <p>The state-side mechanics of the move have their own page: <a href=\"how-to-transfer-your-florida-real-estate-license-to-a-new-broker.html\">how to transfer your Florida real estate license to a new broker</a>, including how long it takes and who has to act.</p>\n\n  <h2>How long does it take to switch brokerages in Florida?</h2>\n  <p>The license transfer itself is fast, often the same day through the DBPR once you change your employing broker. The real timeline is how long you take to <strong>choose the right new brokerage</strong> and wind down cleanly. Most agents complete the move in days.</p>\n\n  <h2>The part that actually matters: where you go</h2>\n  <p>The mechanics are easy. The decision is everything. Run your real take-home after every fee at the new brokerage, and weigh the training, marketing, tools, and manager support you&rsquo;d gain. A small change in split can be dwarfed by what&rsquo;s included (or not). See the honest side-by-side in our <a href=\"best-brokerage-experienced-agents-volusia-county.html\">brokerage comparison for experienced agents</a> and run your numbers in the <a href=\"real-estate-commission-split-calculator.html\">commission calculator</a>.</p>\n\n  <h2>Moving to Adams, Cameron &amp; Co.</h2>\n  <p>If you&rsquo;re considering a move in Volusia or Flagler County, Adams, Cameron &amp; Co., the area&rsquo;s largest brokerage since 1963, helps experienced agents transition cleanly: a non-competing manager walks you through the license transfer, listing moves, and onboarding so you keep producing through the change. <a href=\"join.html\">Start a confidential conversation.</a></p>\n  <p><em>License and contract specifics are set by Florida and your agreements. Confirm details with the DBPR and review your contract. Educational only, not legal advice.</em></p>",
   "faq": [
-    { "q": "How do I switch real estate brokerages in Florida?", "a": "Review your current agreement, choose your new brokerage, give your broker professional notice, transfer your license to the new employing broker through the DBPR (usually online), and move your active listings and pending deals by agreement. Done professionally it's routine and quick." },
-    { "q": "What happens to my listings if I switch brokerages?", "a": "Active listings belong to the brokerage, so transferring them requires your current broker's cooperation and the seller's consent. Pending deals usually either close at your current brokerage or transfer by agreement between the brokers." },
-    { "q": "How long does it take to transfer a real estate license to a new broker in Florida?", "a": "The DBPR license transfer itself is often same-day online once you update your employing broker. The overall move usually takes a few days, mostly depending on how quickly you choose the new brokerage and wind down cleanly." },
-    { "q": "Will I lose income while switching brokerages?", "a": "You shouldn't if you plan the timing: keep pending deals on track, transfer your license promptly, and line up your new brokerage first. A good new broker helps you keep producing through the transition." }
+    {
+      "q": "How do I switch real estate brokerages in Florida?",
+      "a": "Review your current agreement, choose your new brokerage, give your broker professional notice, transfer your license to the new employing broker through the DBPR (usually online), and move your active listings and pending deals by agreement. Done professionally it's routine and quick."
+    },
+    {
+      "q": "What happens to my listings if I switch brokerages?",
+      "a": "Active listings belong to the brokerage, so transferring them requires your current broker's cooperation and the seller's consent. Pending deals usually either close at your current brokerage or transfer by agreement between the brokers."
+    },
+    {
+      "q": "How long does it take to transfer a real estate license to a new broker in Florida?",
+      "a": "The DBPR license transfer itself is often same-day online once you update your employing broker. The overall move usually takes a few days, mostly depending on how quickly you choose the new brokerage and wind down cleanly."
+    },
+    {
+      "q": "Will I lose income while switching brokerages?",
+      "a": "You shouldn't if you plan the timing: keep pending deals on track, transfer your license promptly, and line up your new brokerage first. A good new broker helps you keep producing through the transition."
+    }
   ],
   "ctaHeading": "Make the move cleanly.",
   "ctaSub": "A non-competing Adams, Cameron &amp; Co. manager will walk you through the license transfer and listing moves, confidentially."
