@@ -12,6 +12,33 @@ of here — this file picks back up for anything that isn't a content batch.
 ---
 
 
+
+## 2026-08-09 (cont.) — Wave 2: five more, picked from GSC gaps
+
+**What:** 5 more licensed-agent pages (489 total). Matt: "build more licensed-agent pages,"
+then "let's do a couple more and be done."
+
+**Why these five:** pulled the gaps rather than inventing topics. The standout: **"real estate
+career path fl" had 86 impressions and no page on the site answered it** — the query was
+splitting across the aspiring hub, a careers-change page, and `guides`, the 484-link site
+index, which was ranking at position 47 purely because it lists everything. The real answer
+did not exist. Same class of finding as the renewal page in wave 1.
+
+**Killed 2 of my own planned pages** after checking the existing broker guide — "how long to
+become a broker" and "is it worth it" were both already sections inside it. Shipping them
+would have been building cannibals. Replaced with insurance and support pages.
+
+**Two schema errors on the comparison page, both caught pre-deploy:** wrote the compare block
+from memory (`cols`/flat rows) when the real shape is `columns` + `rows:[{label,values}]`; then
+found by diffing rendered HTML against an existing comparison page that **`intro` expects HTML,
+not plain text** — mine was rendering unwrapped and jammed against the table. Lesson holding
+across both waves: read a real example of any block type before writing one from memory.
+
+**Next seam if we come back:** the `scale` pillar (brokerage tools and support) is still the
+thinnest at 9 pages and is the most on-message for recruiting producing agents.
+
+**Still not done:** AI-citation re-measure. Matt said "no citation right now."
+
 ## 2026-08-09 — Let the GSC data pick the wave, not the page count
 
 **What:** Pulled 28 days of Search Console before writing anything, found the site's

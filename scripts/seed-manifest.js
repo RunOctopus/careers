@@ -366,6 +366,11 @@ const EVERGREEN = [
   { pillar: 'switch-exp', format: 'guide', title: 'Do You Have to Retake Any Education When You Switch Brokerages in Florida?', query: 'Do I have to retake education when I switch brokerages in Florida?', beat: 'Reddit, Gold Coast Schools' },
   { pillar: 'switch-exp', format: 'guide', title: 'What Happens to Your MLS Access When You Switch Brokerages in Volusia and Flagler?', query: 'What happens to my MLS access when I switch brokerages in Volusia County?', beat: 'Stellar MLS, local boards' },
   { pillar: 'switch-exp', format: 'guide', title: 'Is Your Florida Real Estate License Tied to Your Brokerage?', query: 'Is my Florida real estate license tied to my brokerage?', beat: 'Reddit, FastExpert' },
+  { pillar: 'grow', format: 'guide', title: 'The Florida Real Estate Career Path: From Sales Associate to Broker', query: 'What is the real estate career path in Florida?', beat: 'Indeed, Reddit' },
+  { pillar: 'license', format: 'guide', title: 'Florida Real Estate Mutual Recognition: The 10 States and How It Works', query: 'Which states have real estate mutual recognition with Florida?', beat: 'myfloridalicense, Gold Coast Schools' },
+  { pillar: 'grow', format: 'comparison', title: 'Real Estate Team vs. Solo Agent: Which Model Actually Fits You?', query: 'Should I join a real estate team or work solo?', beat: 'Reddit, Inman' },
+  { pillar: 'economics', format: 'guide', title: 'Do Real Estate Agents Need Insurance? What Florida Agents Actually Carry', query: 'Do real estate agents need insurance?', beat: 'Reddit, insurance carriers' },
+  { pillar: 'scale', format: 'guide', title: 'What Is Transaction and Admin Support Actually Worth to a Producing Agent?', query: 'How much is brokerage transaction and admin support worth?', beat: 'Inman, Reddit' },
 ];
 
 // interactive tools (the "tool" format — high citation value)
@@ -378,6 +383,11 @@ const TOOLS = [
 ];
 
 const BUILT = {
+  'the-florida-real-estate-career-path-from-sales-associate-to-broker': { spec: 'content/the-florida-real-estate-career-path-from-sales-associate-to-broker.json' },
+  'florida-real-estate-mutual-recognition-the-10-states-and-how-it-works': { spec: 'content/florida-real-estate-mutual-recognition-the-10-states-and-how-it-works.json' },
+  'real-estate-team-vs-solo-agent-which-model-actually-fits-you': { spec: 'content/real-estate-team-vs-solo-agent-which-model-actually-fits-you.json' },
+  'do-real-estate-agents-need-insurance-what-florida-agents-actually-carry': { spec: 'content/do-real-estate-agents-need-insurance-what-florida-agents-actually-carry.json' },
+  'what-is-transaction-and-admin-support-actually-worth-to-a-producing-agent': { spec: 'content/what-is-transaction-and-admin-support-actually-worth-to-a-producing-agent.json' },
   'florida-real-estate-license-renewal-requirements': { spec: 'content/florida-real-estate-license-renewal-requirements.json' },
   'what-it-really-costs-to-renew-your-florida-real-estate-license': { spec: 'content/what-it-really-costs-to-renew-your-florida-real-estate-license.json' },
   'when-does-your-florida-real-estate-license-expire': { spec: 'content/when-does-your-florida-real-estate-license-expire.json' },

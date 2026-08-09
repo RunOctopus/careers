@@ -108,6 +108,13 @@ Each page targets a real question a prospect asks before choosing a brokerage, m
 - **Every new page ends where recruiting begins.** An agent renewing a license is an agent deciding where the next two years happen, and each page makes that connection without overselling it.
 - **Internal linking was rebuilt around the pages that matter.** The two highest-value pages on the site were barely linked to from anywhere else, which limits how search engines value them. Both are now properly connected into the rest of the library.
 
+## Five more pages for licensed agents, chosen from search gaps
+- **A page that did not exist for a question people were already asking.** Search Console showed steady demand for the real estate career path in Florida, and no page on the site answered it. Search engines were falling back on the site's index page. There is now a real answer: the two Florida licenses, what a broker license requires, and an honest case that most successful agents deliberately stop before it.
+- **Mutual recognition, for agents licensed in other states.** Florida has agreements with ten states that let an out-of-state agent skip the Florida pre-license course. The page names all ten and flags the condition most published guidance omits, which is that you cannot already be a Florida resident when you apply. Agents who move first can lose the option.
+- **Team versus solo, treated as three choices rather than two.** Joining a team, leading one, and staying solo are different jobs with different economics. The comparison deliberately marks no winner, because the right answer depends on the agent.
+- **What insurance Florida agents actually carry**, and the distinction that costs people money: professional-error coverage does not cover someone injured at an open house, and personal auto policies often exclude driving clients.
+- **What administrative and transaction support is actually worth**, with the arithmetic to compare it against a commission split. For a producing agent, one additional closing a year is frequently worth more than several points of split, which is a case Adams, Cameron & Co. can make with numbers rather than adjectives.
+
 ## Editorial quality
 - **A full copy-quality pass** removed automated-writing tells across the entire site, so every page reads as professionally written by a person, not by a machine. This covers both the new pages and the original site pages.
 - **No other company is named anywhere on the site.** Every page speaks only to what Adams, Cameron & Co. offers; reputation and comparison content is written generically (review sites, brokerage models) rather than naming any competitor or third-party platform.

@@ -6,6 +6,20 @@ This repo (mg770/johnadams-careers-engine) is PRIVATE. It holds the engine, cont
 
 ---
 
+## 2026-08-06 (cont. x17) — Wave 2, licensed-agent deepening (+5 pages, 484 -> 489)
+
+- Matt chose "build more licensed-agent pages" over waiting for wave 1 to index, then mid-build: "Let's do a couple more and be done." Scoped to 5.
+- **Picked the topics from GSC gaps, not from a list.** Two findings drove it:
+  - **`real estate career path fl` = 86 impressions and NO page answers it.** The query was splitting across three pages that are about something else: the aspiring hub (39 imps, pos 64.1), **`guides` — the 484-link site index (24 imps, pos 47.3)** — and can-you-change-careers (23 imps, pos 32.1). Textbook version of the index-page-outranks-the-real-answer pattern, except the real answer did not exist at all. Built it.
+  - `mutual recognition real estate` served only by a general transfer page at position 69; `team model vs solo agent model` split between two pages at positions 43 and 71; `do real estate agents need insurance` at position 89 answered by a general-liability page.
+- **Shipped:** the Florida career path (sales associate -> broker, and why most agents correctly stop before that) · Florida mutual recognition, the 10 states · team vs. solo (three models, not two) · what insurance Florida agents actually carry · what transaction and admin support is worth against a split.
+- **Mutual recognition facts verified twice.** The DBPR page fetch said "9 states" while listing 10; corroborated the list of 10 (Alabama, Arkansas, Connecticut, Georgia, Illinois, Kentucky, Mississippi, Nebraska, Rhode Island, West Virginia) against the official FAQ and multiple sources before publishing a count. Also captured the condition most content omits: **the applicant must not be a Florida resident at time of application**, so relocating first can close off the route entirely.
+- **Cut 2 planned pages after checking for overlap.** "How long to become a broker" and "Is becoming a broker worth it" both duplicated sections already inside the existing `how-to-get-your-florida-real-estate-broker-license` page. Replaced with the insurance and support pages rather than shipping cannibals.
+- **Comparison-block schema error caught before deploy.** Wrote the team-vs-solo compare block from memory as `{cols, rows:[[...]]}`; the real schema is `{columns, highlight, rows:[{label, values}]}` with `intro` as a separate top-level key. Rebuilt it. Then caught a second, subtler one by diffing rendered output against an existing comparison page: **`intro` expects HTML, not plain text** — mine was rendering as bare unwrapped text jammed against the table. Wrapped in `<p>`. `highlight: -1` verified working: 0 cells carry `c-win`, so no column is marked a winner, which is right for a neutral team-vs-solo comparison.
+- **Three wrong internal-link slugs caught by the checker**, all cases of guessing a slug instead of listing it: `...-if-a-real-estate-agent-gets-sick...` (real: `...-if-an-agent-gets-sick...`), `what-is-a-real-estate-agents-eo-insurance-deductible-and-who-pays-it` (real: `what-is-real-estate-agent-errors-and-omissions-deductible`), `whats-a-realistic-monthly-expense-budget...` (real: drops the `whats-`).
+- **Verification:** 489/489 valid JSON · 0 em dash · 0 curly quotes · 8,278 internal links, 0 broken · 486 unique bodies, 0 duplicates · all 5 pages 1,553-1,773 words, metaDesc <=160.
+- Site is now 489 pages. The `scale` pillar (brokerage tools and support) is still the thinnest at 9 and is the most on-message for recruiting producing agents — the obvious next seam.
+
 ## 2026-08-06 (cont. x16) — GSC-driven wave: the licensed-agent cluster (+15 pages, 469 -> 484) + internal-link fix
 
 - Matt: "Pull up John Adams gsc and build more." Pulled 28 days of Search Console (2026-07-12 to 2026-08-08) via `~/gsc-tool/gsc.mjs` before writing anything, and the data changed what the wave should be.
