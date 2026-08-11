@@ -122,6 +122,13 @@ Built directly from the common questions John raised, the ones that come up cons
 - **Transaction brokerage, recalibrated.** Rather than adding a competing page, the existing explainer was extended to answer the question the way agents actually ask it: why pre-licensing spends so much time on it, and how little of it you decide day to day, since Florida already sets the default and the disclosure sits in the brokerage's standard forms. Single agency is framed correctly, as a firm-policy conversation with a broker rather than an individual judgment call.
 - **A contradiction on an existing page found and corrected.** An earlier page still said clients generally expect their agent to drive them between properties. That is the outdated assumption John was correcting, so it was rewritten on the older page too rather than left to disagree with the new one. The two pages now cross-link and tell the same story.
 
+Five more built in the same vein, from the pattern underneath John's three rather than a fresh list:
+- **What agents actually wear**, answered by situation rather than as a rule, with the Florida realities national advice ignores.
+- **How you get an MLS lockbox key here.** The most locally specific page on the site. It explains that the association issues the key rather than the state or the brokerage, which of the four local associations applies to you and why, how to open a box across an association line, and the rules that carry genuine penalties. A national site cannot write this page.
+- **What floor duty is, and whether it is worth it.** Reframed honestly: it is a share of the traffic a brokerage already generates, so its value measures the firm rather than the policy. That is a comparison Adams, Cameron & Co. wins on the facts, with offices across the footprint and sixty years of local name recognition.
+- **What Florida requires on your business cards, signs and social media.** Real compliance content covering the advertising rule and the separate team-name rule, including the word list most new agents unknowingly break. The most common violation is a social profile with contact details and no brokerage name.
+- **What to say when a client asks something you do not know.** Includes the questions a licensee must not answer at all, because characterizing a neighborhood risks a fair housing violation. It closes on having a non-competing manager to call, which is a real structural advantage rather than a slogan.
+
 Managers were copied on the original request for more questions. As those come in, they slot straight into this same pattern.
 
 ## Editorial quality
