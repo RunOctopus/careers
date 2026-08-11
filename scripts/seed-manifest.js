@@ -371,6 +371,8 @@ const EVERGREEN = [
   { pillar: 'grow', format: 'comparison', title: 'Real Estate Team vs. Solo Agent: Which Model Actually Fits You?', query: 'Should I join a real estate team or work solo?', beat: 'Reddit, Inman' },
   { pillar: 'economics', format: 'guide', title: 'Do Real Estate Agents Need Insurance? What Florida Agents Actually Carry', query: 'Do real estate agents need insurance?', beat: 'Reddit, insurance carriers' },
   { pillar: 'scale', format: 'guide', title: 'What Is Transaction and Admin Support Actually Worth to a Producing Agent?', query: 'How much is brokerage transaction and admin support worth?', beat: 'Inman, Reddit' },
+  { pillar: 'decide', format: 'article', title: 'Do You Need a Local Area Code for Your Cell Phone as a Real Estate Agent?', query: 'Do I need a local area code for my cell phone as a real estate agent?', beat: 'Reddit, agent forums' },
+  { pillar: 'decide', format: 'article', title: 'Do You Need a Big or Expensive Car to Be a Real Estate Agent?', query: 'Do I need a big car to drive clients around as a real estate agent?', beat: 'Reddit, agent forums' },
 ];
 
 // interactive tools (the "tool" format — high citation value)
@@ -817,6 +819,8 @@ const BUILT = {
   'history-of-holly-hill-florida-for-new-real-estate-agents': { spec: 'content/history-of-holly-hill-florida-for-new-real-estate-agents.json' },
   'history-of-daytona-beach-shores-florida-for-new-real-estate-agents': { spec: 'content/history-of-daytona-beach-shores-florida-for-new-real-estate-agents.json' },
   'what-is-a-transaction-broker-in-florida-real-estate': { spec: 'content/what-is-a-transaction-broker-in-florida-real-estate.json' },
+  'do-you-need-a-local-area-code-as-a-real-estate-agent': { spec: 'content/do-you-need-a-local-area-code-as-a-real-estate-agent.json' },
+  'do-you-need-a-big-or-expensive-car-to-be-a-real-estate-agent': { spec: 'content/do-you-need-a-big-or-expensive-car-to-be-a-real-estate-agent.json' },
   'what-mls-and-realtor-association-do-you-join-in-volusia-and-flagler-county': { spec: 'content/what-mls-and-realtor-association-do-you-join-in-volusia-and-flagler-county.json' },
   'can-a-real-estate-agent-get-a-referral-fee-from-a-mortgage-lender-or-title-company': { spec: 'content/can-a-real-estate-agent-get-a-referral-fee-from-a-mortgage-lender-or-title-company.json' },
   'how-much-can-a-real-estate-agent-deduct-for-mileage': { spec: 'content/how-much-can-a-real-estate-agent-deduct-for-mileage.json' },
@@ -914,6 +918,8 @@ const EVERGREEN_SLUG_OVERRIDE = {
   'The History of Holly Hill, Florida, for New Real Estate Agents': 'history-of-holly-hill-florida-for-new-real-estate-agents',
   'The History of Daytona Beach Shores, Florida, for New Real Estate Agents': 'history-of-daytona-beach-shores-florida-for-new-real-estate-agents',
   'What Is a Transaction Broker in Florida Real Estate?': 'what-is-a-transaction-broker-in-florida-real-estate',
+  'Do You Need a Local Area Code for Your Cell Phone as a Real Estate Agent?': 'do-you-need-a-local-area-code-as-a-real-estate-agent',
+  'Do You Need a Big or Expensive Car to Be a Real Estate Agent?': 'do-you-need-a-big-or-expensive-car-to-be-a-real-estate-agent',
   'What MLS and Realtor Association Do You Join in Volusia and Flagler County?': 'what-mls-and-realtor-association-do-you-join-in-volusia-and-flagler-county',
   'Can a Real Estate Agent Get a Referral Fee From a Mortgage Lender or Title Company?': 'can-a-real-estate-agent-get-a-referral-fee-from-a-mortgage-lender-or-title-company',
   'How Much Can a Real Estate Agent Deduct for Mileage?': 'how-much-can-a-real-estate-agent-deduct-for-mileage',
