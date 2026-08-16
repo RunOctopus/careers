@@ -378,6 +378,8 @@ const EVERGREEN = [
   { pillar: 'choose-new', format: 'article', title: 'What Is Floor Duty (Opportunity Time), and Is It Worth It for a New Agent?', query: 'What is floor duty in real estate and is it worth it?', beat: 'Reddit, Inman' },
   { pillar: 'license', format: 'guide', title: 'What Does Florida Require on Your Business Cards, Signs, and Social Media?', query: 'What are Florida real estate advertising rules for agents?', beat: 'Florida Realtors, DBPR' },
   { pillar: 'decide', format: 'article', title: 'What Do You Say When a Client Asks Something You Don&rsquo;t Know?', query: 'What do you say when a client asks a question you cannot answer?', beat: 'Reddit, agent forums' },
+  { pillar: 'local', format: 'article', title: 'Where Can You Legally Put a Real Estate Sign in Volusia and Flagler County?', query: 'Where can I legally put a real estate sign?', beat: 'municipal codes, Reddit' },
+  { pillar: 'scale', format: 'article', title: 'Who Provides Your Real Estate Signs, and Who Installs Them?', query: 'Does my brokerage provide yard signs and who installs them?', beat: 'Reddit, agent forums' },
 ];
 
 // interactive tools (the "tool" format — high citation value)
@@ -886,6 +888,8 @@ const BUILT = {
   'whats-the-difference-between-a-realtor-and-a-broker-associate': { spec: 'content/whats-the-difference-between-a-realtor-and-a-broker-associate.json' },
   'when-does-a-florida-home-buyer-need-a-survey': { spec: 'content/when-does-a-florida-home-buyer-need-a-survey.json' },
   'who-pays-for-owners-title-insurance-in-florida': { spec: 'content/who-pays-for-owners-title-insurance-in-florida.json' },
+  'where-can-you-legally-put-a-real-estate-sign-in-volusia-and-flagler-county': { spec: 'content/where-can-you-legally-put-a-real-estate-sign-in-volusia-and-flagler-county.json' },
+  'who-provides-your-real-estate-signs-and-who-installs-them': { spec: 'content/who-provides-your-real-estate-signs-and-who-installs-them.json' },
 };
 const EVERGREEN_SLUG_OVERRIDE = {
   'State of Real Estate Careers in Volusia & Flagler County': 'state-of-real-estate-careers-volusia-flagler',
