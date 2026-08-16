@@ -381,6 +381,9 @@ const EVERGREEN = [
   { pillar: 'local', format: 'article', title: 'Where Can You Legally Put a Real Estate Sign in Volusia and Flagler County?', query: 'Where can I legally put a real estate sign?', beat: 'municipal codes, Reddit' },
   { pillar: 'scale', format: 'article', title: 'Who Provides Your Real Estate Signs, and Who Installs Them?', query: 'Does my brokerage provide yard signs and who installs them?', beat: 'Reddit, agent forums' },
   { pillar: 'scale', format: 'article', title: 'What Does a Real Estate Brokerage Actually Provide? The Infrastructure Questions', query: 'What does a real estate brokerage provide to its agents?', beat: 'Inman, Reddit' },
+  { pillar: 'decide', format: 'article', title: 'Can Mortgage Loan Officers Transition Into a Real Estate Career?', query: 'Can a loan officer become a real estate agent?', beat: 'Reddit, agent forums' },
+  { pillar: 'decide', format: 'article', title: 'Can Restaurant and Hospitality Workers Transition Into a Real Estate Career?', query: 'Can a server or bartender become a real estate agent?', beat: 'Reddit, agent forums' },
+  { pillar: 'decide', format: 'article', title: 'Can Construction and Trades Workers Transition Into a Real Estate Career?', query: 'Can a contractor become a real estate agent?', beat: 'Reddit, agent forums' },
 ];
 
 // interactive tools (the "tool" format — high citation value)
@@ -892,6 +895,9 @@ const BUILT = {
   'where-can-you-legally-put-a-real-estate-sign-in-volusia-and-flagler-county': { spec: 'content/where-can-you-legally-put-a-real-estate-sign-in-volusia-and-flagler-county.json' },
   'who-provides-your-real-estate-signs-and-who-installs-them': { spec: 'content/who-provides-your-real-estate-signs-and-who-installs-them.json' },
   'what-does-a-real-estate-brokerage-actually-provide-the-infrastructure-questions': { spec: 'content/what-does-a-real-estate-brokerage-actually-provide-the-infrastructure-questions.json' },
+  'can-mortgage-loan-officers-transition-into-a-real-estate-career': { spec: 'content/can-mortgage-loan-officers-transition-into-a-real-estate-career.json' },
+  'can-restaurant-and-hospitality-workers-transition-into-a-real-estate-career': { spec: 'content/can-restaurant-and-hospitality-workers-transition-into-a-real-estate-career.json' },
+  'can-construction-and-trades-workers-transition-into-a-real-estate-career': { spec: 'content/can-construction-and-trades-workers-transition-into-a-real-estate-career.json' },
 };
 const EVERGREEN_SLUG_OVERRIDE = {
   'State of Real Estate Careers in Volusia & Flagler County': 'state-of-real-estate-careers-volusia-flagler',
