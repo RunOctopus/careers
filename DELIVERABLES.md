@@ -268,6 +268,14 @@ Each page now carries the fact that most distinguishes working in that particula
 
 Measured across the same 210 pairs afterwards, average overlap fell from 76 percent to 60 percent, and the number of near-identical pairs fell from 145 to 35. The overlap that remains is between towns sharing an association, which is a smaller and more tractable piece of work than the one just completed.
 
+## Two pages on handling client money and keeping records
+- **How long does a broker have to deposit earnest money in Florida.** The library had pages on escrow and on earnest money but nothing on the timing, and there are two deadlines rather than one. A sales associate must hand a deposit to their broker by the end of the next business day. The broker must then place it in escrow within three business days. Saturdays, Sundays and legal holidays are not business days, which is exactly what makes a Friday deposit the one to watch rather than the easy one. The page also covers where the money is legally allowed to be held, and is direct that almost none of these cases involve dishonesty: the money is not stolen, it is simply not moved.
+- **How long must a brokerage keep transaction records.** Five years, and the clock starts earlier than most people assume, running from when funds were received or the agreement was signed rather than from closing. That means a deal that collapsed at inspection and a listing that expired unsold both carry the obligation. Where a record becomes involved in litigation the requirement extends past the conclusion of the case, which is the detail that catches firms clearing files on schedule.
+
+The escrow page was also updated with the one firm deadline the statute contains for resolving a disputed deposit, and is explicit about which parts come from the statute and which from Commission rule.
+
+*(Both new pages are built and awaiting publication; the hosting account stopped accepting new deploys on 17 August.)*
+
 ## Editorial quality
 - **A full copy-quality pass** removed automated-writing tells across the entire site, so every page reads as professionally written by a person, not by a machine. This covers both the new pages and the original site pages.
 - **No other company is named anywhere on the site.** Every page speaks only to what Adams, Cameron & Co. offers; reputation and comparison content is written generically (review sites, brokerage models) rather than naming any competitor or third-party platform.
