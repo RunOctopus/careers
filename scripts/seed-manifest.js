@@ -420,6 +420,8 @@ const EVERGREEN = [
   { pillar: 'grow', format: 'article', title: 'What Happens When Two of Your Own Buyers Want the Same House?', query: 'What if two of my clients want the same house?', beat: 'Inman, Reddit' },
   { pillar: 'grow', format: 'article', title: 'What Do You Do When the Other Agent Will Not Respond?', query: 'What do you do when the other agent will not respond?', beat: 'Reddit, agent forums' },
   { pillar: 'grow', format: 'article', title: 'What Do You Do With a Buyer Who Never Decides?', query: 'What do you do with a buyer who will not make an offer?', beat: 'Reddit, Inman' },
+  { pillar: 'license', format: 'article', title: 'How Long Does a Broker Have to Deposit Earnest Money in Florida?', query: 'How long does a broker have to deposit earnest money in Florida?', beat: 'statute, FREC rules' },
+  { pillar: 'scale', format: 'article', title: 'How Long Must a Brokerage Keep Transaction Records?', query: 'How long must a real estate broker keep records in Florida?', beat: 'statute' },
 ];
 
 // interactive tools (the "tool" format — high citation value)
@@ -970,6 +972,8 @@ const BUILT = {
   'what-happens-when-two-of-your-own-buyers-want-the-same-house': { spec: 'content/what-happens-when-two-of-your-own-buyers-want-the-same-house.json' },
   'what-do-you-do-when-the-other-agent-will-not-respond': { spec: 'content/what-do-you-do-when-the-other-agent-will-not-respond.json' },
   'what-do-you-do-with-a-buyer-who-never-decides': { spec: 'content/what-do-you-do-with-a-buyer-who-never-decides.json' },
+  'how-long-does-a-broker-have-to-deposit-earnest-money-in-florida': { spec: 'content/how-long-does-a-broker-have-to-deposit-earnest-money-in-florida.json' },
+  'how-long-must-a-brokerage-keep-transaction-records': { spec: 'content/how-long-must-a-brokerage-keep-transaction-records.json' },
 };
 const EVERGREEN_SLUG_OVERRIDE = {
   'State of Real Estate Careers in Volusia & Flagler County': 'state-of-real-estate-careers-volusia-flagler',
