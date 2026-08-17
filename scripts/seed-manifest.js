@@ -390,6 +390,9 @@ const EVERGREEN = [
   { pillar: 'decide', format: 'article', title: 'Can a Real Estate Assistant or Transaction Coordinator Become an Agent?', query: 'Can a real estate assistant become an agent?', beat: 'Reddit, agent forums' },
   { pillar: 'decide', format: 'article', title: 'Can Hair Stylists and Salon Professionals Transition Into a Real Estate Career?', query: 'Can a hairstylist become a real estate agent?', beat: 'Reddit, agent forums' },
   { pillar: 'decide', format: 'article', title: 'Can Car Salespeople Transition Into a Real Estate Career?', query: 'Can a car salesman become a real estate agent?', beat: 'Reddit, agent forums' },
+  { pillar: 'decide', format: 'article', title: 'Can Title and Escrow Professionals Transition Into a Real Estate Career?', query: 'Can a title or escrow officer become a real estate agent?', beat: 'Reddit, agent forums' },
+  { pillar: 'decide', format: 'article', title: 'Can Corporate Professionals Transition Into a Real Estate Career?', query: 'Can I leave my corporate job to become a real estate agent?', beat: 'Reddit, Indeed' },
+  { pillar: 'decide', format: 'article', title: 'Can Social Workers and Case Managers Transition Into a Real Estate Career?', query: 'Can a social worker become a real estate agent?', beat: 'Reddit, agent forums' },
 ];
 
 // interactive tools (the "tool" format — high citation value)
@@ -910,6 +913,9 @@ const BUILT = {
   'can-a-real-estate-assistant-or-transaction-coordinator-become-an-agent': { spec: 'content/can-a-real-estate-assistant-or-transaction-coordinator-become-an-agent.json' },
   'can-hair-stylists-and-salon-professionals-transition-into-a-real-estate-career': { spec: 'content/can-hair-stylists-and-salon-professionals-transition-into-a-real-estate-career.json' },
   'can-car-salespeople-transition-into-a-real-estate-career': { spec: 'content/can-car-salespeople-transition-into-a-real-estate-career.json' },
+  'can-title-and-escrow-professionals-transition-into-a-real-estate-career': { spec: 'content/can-title-and-escrow-professionals-transition-into-a-real-estate-career.json' },
+  'can-corporate-professionals-transition-into-a-real-estate-career': { spec: 'content/can-corporate-professionals-transition-into-a-real-estate-career.json' },
+  'can-social-workers-and-case-managers-transition-into-a-real-estate-career': { spec: 'content/can-social-workers-and-case-managers-transition-into-a-real-estate-career.json' },
 };
 const EVERGREEN_SLUG_OVERRIDE = {
   'State of Real Estate Careers in Volusia & Flagler County': 'state-of-real-estate-careers-volusia-flagler',
