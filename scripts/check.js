@@ -183,6 +183,22 @@ for (const [f, d] of Object.entries(specs)) {
 }
 console.log(`10. markdown in HTML bodies: ${md}`);
 
+// ── 10b. balanced paragraph tags ─────────────────────────────────────────────
+// Added 2026-08-17. Retrofitting sourced sections into existing pages means
+// splicing HTML by hand, and an unclosed <p> renders as a run-on paragraph that
+// looks like sloppy writing rather than a bug. Caught one the day this was added.
+// NOTE: match /<p[\s>]/ and not /<p>/. The first version of this check counted
+// bare <p> only and reported 24 failures, nearly all of them pages using
+// <p class="cmp-note"> or <p class="lst-src">. Verify the instrument first.
+let unbalanced = 0;
+for (const [f, d] of Object.entries(specs)) {
+  if (!d.body) continue;
+  const o = (d.body.match(/<p[\s>]/g) || []).length;
+  const c = (d.body.match(/<\/p>/g) || []).length;
+  if (o !== c) { bad(`unbalanced <p> tags (${o} open, ${c} close) — ${f}`); unbalanced++; }
+}
+console.log(`10b. unbalanced <p> tags: ${unbalanced}`);
+
 // ── 11. every registry page is actually 'built' ──────────────────────────────
 try {
   const M = require(path.join(CDIR, 'manifest.js'));
