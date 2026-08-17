@@ -177,6 +177,15 @@ The career-change section now covers twelve backgrounds, each written to its own
 - **Hair stylists and salon professionals.** Structurally one of the closest matches to a real estate career and almost never recognized as one. Booth rent works like a desk fee, a personal client book works like a sphere of influence, and cosmetology is already a licensed profession with continuing education and renewals. The honest adjustment is that a transaction pays months later and only if it closes.
 - **Car salespeople.** The daily selling skills transfer almost perfectly and the relationship does not. The page is direct about the change that matters: a dealership sale puts you across the table from the customer, whereas representing a client puts their interest ahead of your own, including when the right advice costs you the commission.
 
+## The career-change section, completed at fifteen professions
+Three final backgrounds, and a correction to an earlier page.
+
+- **Title and escrow professionals.** They have seen more transactions actually finish than most agents ever will, and know instantly which title problems are routine and which end a deal. The page names the adjustment nobody warns them about, which is that closing work is neutral by design and representing a client asks the opposite.
+- **Corporate and office professionals.** Written as an honest accounting rather than an escape story. The skills transfer well. What disappears is everything an employer quietly provides, including health coverage, the retirement match, paid leave, and a pipeline somebody else filled. It also covers the case where the move follows a layoff, where severance is genuinely useful runway if it is treated that way.
+- **Social workers and case managers.** Most transactions are life transitions in disguise, which is exactly the territory this profession works in. The page is careful about the professional boundary, since a helping instinct pushes toward answering the neighborhood questions a licensee is not permitted to answer.
+
+**A correction worth noting.** The page on mortgage loan officers was covering the same ground as an existing detailed page about holding both a real estate and a mortgage license. Rather than leave two pages competing for the same search, the newer one now summarizes and points readers to the fuller treatment, and the older page points back for the career-change angle it does not cover.
+
 ## Editorial quality
 - **A full copy-quality pass** removed automated-writing tells across the entire site, so every page reads as professionally written by a person, not by a machine. This covers both the new pages and the original site pages.
 - **No other company is named anywhere on the site.** Every page speaks only to what Adams, Cameron & Co. offers; reputation and comparison content is written generically (review sites, brokerage models) rather than naming any competitor or third-party platform.
