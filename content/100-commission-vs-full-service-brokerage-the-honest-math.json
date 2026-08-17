@@ -12,7 +12,10 @@
   "h1": "100% Commission vs. Full-Service Brokerage: The Honest Math",
   "heroImg": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=1500&q=80&fit=crop",
   "about": "Comparing 100% commission brokerages and full-service brokerages for real estate agents",
-  "hub": { "slug": "best-brokerage-for-experienced-agents-volusia-flagler", "name": "For Experienced Agents" },
+  "hub": {
+    "slug": "best-brokerage-for-experienced-agents-volusia-flagler",
+    "name": "For Experienced Agents"
+  },
   "answer": "A 100% commission brokerage lets you keep your full commission but charges flat monthly and per-transaction fees, and you fund your own marketing and tools. A full-service brokerage takes a split but typically includes tools, marketing, and manager support at no extra cost. The 100% model tends to win only at very high production once the flat fees are spread thin; a full-service brokerage often wins at low-to-moderate volume once you count what you'd otherwise have to buy yourself.",
   "takeaways": [
     "A 100% model isn't free. You pay flat monthly and per-transaction fees, and fund your own tools and marketing.",
@@ -24,24 +27,78 @@
   "tldr": "A 100% commission brokerage keeps your commission intact but charges flat monthly and per-transaction fees, with tools and marketing funded by you. A full-service brokerage takes a split but often bundles in tools, marketing, and manager support. The 100% model tends to win at very high production; a full-service brokerage often wins at low-to-moderate volume once self-funded costs are counted.",
   "intro": "<p>&ldquo;Keep 100% of your commission&rdquo; is one of the most common recruiting pitches in real estate, and it's true as far as it goes. It's also incomplete on its own, because a 100% model replaces the split with a different set of costs: flat fees, and tools and marketing you have to buy yourself. This comparison lays out both models honestly, side by side, so the decision comes down to your actual production and what you value, not which pitch sounds better in a recruiting meeting.</p>",
   "compare": {
-    "columns": ["100% Commission Model", "Full-Service Brokerage"],
+    "columns": [
+      "100% Commission Model",
+      "Full-Service Brokerage"
+    ],
     "rows": [
-      { "label": "Commission structure", "values": ["You keep close to 100% of every commission.", "The brokerage keeps a split of every commission."] },
-      { "label": "What you pay instead", "values": ["Flat monthly desk fee plus a per-transaction fee, regardless of the split you'd otherwise pay.", "No separate desk or per-transaction fee in most cases; the split is the cost."] },
-      { "label": "Marketing &amp; tech", "values": ["You buy and manage your own CRM, website, and marketing. Every tool is a separate line item.", "Often included at no extra cost: CRM, agent websites, and marketing support, depending on the brokerage."] },
-      { "label": "Manager support", "values": ["Minimal to none in most cases. You largely run your own business independently.", "Manager support is typically part of the package, available for guidance on deals and questions."] },
-      { "label": "Predictability", "values": ["Costs are flat and predictable regardless of production, so the effective cost per deal drops as you close more.", "Cost scales with production, since it's a percentage of each commission, but total support is usually higher."] },
-      { "label": "Best for", "values": ["Very high-volume agents who will self-fund every tool and want the flat fees spread across many transactions.", "Agents at low-to-moderate volume, or anyone who values included tools, marketing, and support over a headline 100% number."] }
+      {
+        "label": "Commission structure",
+        "values": [
+          "You keep close to 100% of every commission.",
+          "The brokerage keeps a split of every commission."
+        ]
+      },
+      {
+        "label": "What you pay instead",
+        "values": [
+          "Flat monthly desk fee plus a per-transaction fee, regardless of the split you'd otherwise pay.",
+          "No separate desk or per-transaction fee in most cases; the split is the cost."
+        ]
+      },
+      {
+        "label": "Marketing &amp; tech",
+        "values": [
+          "You buy and manage your own CRM, website, and marketing. Every tool is a separate line item.",
+          "Often included at no extra cost: CRM, agent websites, and marketing support, depending on the brokerage."
+        ]
+      },
+      {
+        "label": "Manager support",
+        "values": [
+          "Minimal to none in most cases. You largely run your own business independently.",
+          "Manager support is typically part of the package, available for guidance on deals and questions."
+        ]
+      },
+      {
+        "label": "Predictability",
+        "values": [
+          "Costs are flat and predictable regardless of production, so the effective cost per deal drops as you close more.",
+          "Cost scales with production, since it's a percentage of each commission, but total support is usually higher."
+        ]
+      },
+      {
+        "label": "Best for",
+        "values": [
+          "Very high-volume agents who will self-fund every tool and want the flat fees spread across many transactions.",
+          "Agents at low-to-moderate volume, or anyone who values included tools, marketing, and support over a headline 100% number."
+        ]
+      }
     ],
     "note": "Exact fees and what's included vary by brokerage. The honest comparison is always your real take-home after every fee, plus what you'd otherwise pay out of pocket for tools and marketing."
   },
-  "body": "<h2>What &ldquo;100% commission&rdquo; actually means</h2><p>A 100% commission brokerage doesn't take a percentage of your commission on a closing. Instead, it charges a flat monthly fee to hang your license there, and often a separate flat fee per closed transaction. On the surface, keeping the full commission sounds like the clear win. The real question is what that flat-fee structure costs you across a full year, and what you're not getting that a full-service brokerage would have included.</p>\n\n  <h2>What a full-service brokerage actually provides for its split</h2>\n  <p>A full-service brokerage takes a percentage of your commission, but that split is typically doing more work than it first appears. Many full-service firms include a CRM, a transaction management platform, a professionally built agent website, social media marketing support, and access to a manager for guidance on deals. None of that is free to provide, and at a 100% shop, you'd be sourcing and paying for every one of those pieces separately.</p>\n\n  <h2>The math at moderate production</h2>\n  <p>Consider an agent closing twelve transactions a year at an average gross commission of $9,000 per deal, for $108,000 in annual gross commission. At a 100% brokerage charging a $500 monthly desk fee and a $300 per-transaction fee, the flat costs alone total $9,600 for the year ($6,000 in desk fees plus $3,600 in transaction fees), before adding a single dollar spent on a CRM, a website, or marketing. At a full-service brokerage with, for example, a 70/30 split and no separate desk or transaction fee, the brokerage's share on the same production is $32,400, but that split typically already includes the CRM, website, and marketing the 100% agent is paying for separately. Once those self-funded tools are added back into the 100% agent's real cost, the gap between the two models often narrows sharply, and can reverse, at this production level.</p>\n\n  <h2>The math at very high production</h2>\n  <p>Now consider an agent closing thirty-five transactions a year at the same average commission, for $315,000 in gross commission. The 100% brokerage's flat costs stay the same, roughly $6,000 in desk fees plus $10,500 in per-transaction fees, about $16,500 total, a small fraction of gross commission at this volume. At a full-service brokerage's 70/30 split, the brokerage's share on the same production is $94,500. Even after adding back a generous estimate for self-funded tools and marketing, the 100% model produces meaningfully more take-home at this level of production. This is exactly why the 100% pitch is aimed most effectively at high-volume agents, and why it's a very different proposition for someone closing far fewer deals a year.</p>\n\n  <h2>What the split model buys beyond the math</h2>\n  <p>Money isn't the only variable. A full-service brokerage that includes a non-competing manager, done-for-you marketing, and an established local brand can save real hours every week and can matter directly in listing presentations, where brand recognition and manager support behind you can be part of winning the listing in the first place. For many agents, that time and reputation value is worth counting alongside the raw dollar comparison, especially at moderate production levels where the pure math is close.</p>\n\n  <h2>Running your own numbers</h2>\n  <p>Pull your actual gross commission from the last twelve months and run it through both models using the <a href=\"brokerage-fee-comparison-calculator-splits-caps-and-desk-fees.html\">brokerage fee comparison calculator</a>, then add back what you currently spend on any tools a full-service brokerage would include. The model that wins for your specific production and habits is the right one, regardless of which one sounds better in a recruiting pitch.</p>\n  <p><em>Example figures are illustrative only. Exact fees, splits, and included tools vary by brokerage and agreement. Confirm current terms directly with any brokerage. Educational only, not financial advice.</em></p>",
+  "body": "<h2>What &ldquo;100% commission&rdquo; actually means</h2><p>A 100% commission brokerage doesn't take a percentage of your commission on a closing. Instead, it charges a flat monthly fee to hang your license there, and often a separate flat fee per closed transaction. On the surface, keeping the full commission sounds like the clear win. The real question is what that flat-fee structure costs you across a full year, and what you're not getting that a full-service brokerage would have included.</p>\n\n  <h2>What a full-service brokerage actually provides for its split</h2>\n  <p>A full-service brokerage takes a percentage of your commission, but that split is typically doing more work than it first appears. Many full-service firms include a CRM, a transaction management platform, a professionally built agent website, social media marketing support, and access to a manager for guidance on deals. None of that is free to provide, and at a 100% shop, you'd be sourcing and paying for every one of those pieces separately.</p>\n\n  <h2>The math at moderate production</h2>\n  <p>Consider an agent closing twelve transactions a year at an average gross commission of $9,000 per deal, for $108,000 in annual gross commission. At a 100% brokerage charging a $500 monthly desk fee and a $300 per-transaction fee, the flat costs alone total $9,600 for the year ($6,000 in desk fees plus $3,600 in transaction fees), before adding a single dollar spent on a CRM, a website, or marketing. At a full-service brokerage with, for example, a 70/30 split and no separate desk or transaction fee, the brokerage's share on the same production is $32,400, but that split typically already includes the CRM, website, and marketing the 100% agent is paying for separately. Once those self-funded tools are added back into the 100% agent's real cost, the gap between the two models often narrows sharply, and can reverse, at this production level.</p>\n\n  <h2>The math at very high production</h2>\n  <p>Now consider an agent closing thirty-five transactions a year at the same average commission, for $315,000 in gross commission. The 100% brokerage's flat costs stay the same, roughly $6,000 in desk fees plus $10,500 in per-transaction fees, about $16,500 total, a small fraction of gross commission at this volume. At a full-service brokerage's 70/30 split, the brokerage's share on the same production is $94,500. Even after adding back a generous estimate for self-funded tools and marketing, the 100% model produces meaningfully more take-home at this level of production. This is exactly why the 100% pitch is aimed most effectively at high-volume agents, and why it's a very different proposition for someone closing far fewer deals a year.</p>\n\n  <h2>What the split model buys beyond the math</h2>\n  <p>Money isn't the only variable. A full-service brokerage that includes a non-competing manager, done-for-you marketing, and an established local brand can save real hours every week and can matter directly in listing presentations, where brand recognition and manager support behind you can be part of winning the listing in the first place. For many agents, that time and reputation value is worth counting alongside the raw dollar comparison, especially at moderate production levels where the pure math is close.</p>\n\n  <h2>Running your own numbers</h2>\n  <p>Pull your actual gross commission from the last twelve months and run it through both models using the <a href=\"brokerage-fee-comparison-calculator-splits-caps-and-desk-fees.html\">brokerage fee comparison calculator</a>, then add back what you currently spend on any tools a full-service brokerage would include. The model that wins for your specific production and habits is the right one, regardless of which one sounds better in a recruiting pitch.</p>\n  <p><em>Example figures are illustrative only. Exact fees, splits, and included tools vary by brokerage and agreement. Confirm current terms directly with any brokerage. Educational only, not financial advice.</em></p>\n  <p>This compares two models. To compare two specific offers in front of you, see <a href=\"how-to-compare-two-brokerage-offers-side-by-side.html\">how to compare two brokerage offers side by side</a>.</p>",
   "faq": [
-    { "q": "Does a 100% commission brokerage really mean no costs at all?", "a": "No. You keep the commission itself, but you typically pay a flat monthly desk fee and a per-transaction fee, and you fund your own CRM, website, and marketing. Whether that nets more than a full-service split depends entirely on your production and what you'd otherwise spend on those tools." },
-    { "q": "At what production level does a 100% model start to win?", "a": "It depends on the specific fees and split being compared, but in general, the 100% model becomes more attractive at higher production, since its flat costs get spread across more transactions while a percentage-based split keeps taking the same share of every deal." },
-    { "q": "Is a full-service brokerage ever better for a high-volume agent?", "a": "It can be, if the included tools, marketing, and manager support are worth more to that agent than the extra dollars a 100% model would net at their volume. The math favors 100% at high volume, but not every agent wants to run every part of their business independently." },
-    { "q": "What should I ask a 100% commission brokerage before joining?", "a": "Ask for the exact monthly desk fee, the per-transaction fee, and what level of manager support, if any, is available. Then price out a CRM, a professional website, and marketing on your own, and add that to the flat fees before comparing the total to a full-service split." },
-    { "q": "How do I compare a 100% model to a full-service brokerage honestly?", "a": "Add up the flat fees plus your own tool and marketing costs at the 100% brokerage, and compare that total to the full-service brokerage's split on the same production, accounting for what the split already includes. Run your own last twelve months of commission through both to see your real numbers." }
+    {
+      "q": "Does a 100% commission brokerage really mean no costs at all?",
+      "a": "No. You keep the commission itself, but you typically pay a flat monthly desk fee and a per-transaction fee, and you fund your own CRM, website, and marketing. Whether that nets more than a full-service split depends entirely on your production and what you'd otherwise spend on those tools."
+    },
+    {
+      "q": "At what production level does a 100% model start to win?",
+      "a": "It depends on the specific fees and split being compared, but in general, the 100% model becomes more attractive at higher production, since its flat costs get spread across more transactions while a percentage-based split keeps taking the same share of every deal."
+    },
+    {
+      "q": "Is a full-service brokerage ever better for a high-volume agent?",
+      "a": "It can be, if the included tools, marketing, and manager support are worth more to that agent than the extra dollars a 100% model would net at their volume. The math favors 100% at high volume, but not every agent wants to run every part of their business independently."
+    },
+    {
+      "q": "What should I ask a 100% commission brokerage before joining?",
+      "a": "Ask for the exact monthly desk fee, the per-transaction fee, and what level of manager support, if any, is available. Then price out a CRM, a professional website, and marketing on your own, and add that to the flat fees before comparing the total to a full-service split."
+    },
+    {
+      "q": "How do I compare a 100% model to a full-service brokerage honestly?",
+      "a": "Add up the flat fees plus your own tool and marketing costs at the 100% brokerage, and compare that total to the full-service brokerage's split on the same production, accounting for what the split already includes. Run your own last twelve months of commission through both to see your real numbers."
+    }
   ],
   "ctaHeading": "See the honest math for your production.",
   "ctaSub": "A non-competing Adams, Cameron &amp; Co. manager will run your real numbers against a 100% model, no pressure."

@@ -12,7 +12,10 @@
   "h1": "Commission Splits vs. Caps: Which Is Better for Your Production?",
   "heroImg": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=1500&q=80&fit=crop",
   "about": "Comparing traditional commission split models and cap models for real estate agents",
-  "hub": { "slug": "best-brokerage-for-experienced-agents-volusia-flagler", "name": "For Experienced Agents" },
+  "hub": {
+    "slug": "best-brokerage-for-experienced-agents-volusia-flagler",
+    "name": "For Experienced Agents"
+  },
   "answer": "Neither a traditional split nor a cap model is universally better. A traditional split takes the same percentage on every closed transaction all year, so it's predictable and often nets more for lower-to-moderate producers. A cap model takes a split only until the brokerage collects an annual cap amount, then lets you keep close to 100% for the rest of the year, which tends to favor high-volume agents who clear the cap early. The honest answer depends on your actual production, not on which model sounds better in a recruiting pitch.",
   "takeaways": [
     "A traditional split is the same percentage on every deal, all year. A cap model is a split until you hit an annual cap, then close to 100%.",
@@ -24,24 +27,78 @@
   "tldr": "A traditional split takes a fixed percentage of every commission all year, which is predictable and often better for lower-to-moderate producers. A cap model takes a split only until the brokerage collects a set annual amount, then lets you keep nearly everything for the rest of the year, which can favor high-volume agents. Which one wins depends entirely on your production, not the headline structure.",
   "intro": "<p>Agents comparing brokerages hear two very different pitches: a straightforward split, or a cap that promises to stop taking a cut once you've produced enough. Both are real, common structures in Florida real estate, and both can be the right choice depending on your production level. This comparison covers how each model actually works, who it tends to favor, and the honest math behind the decision, separate from desk fees and 100% models, which work differently and are covered on their own.</p>",
   "compare": {
-    "columns": ["Traditional Split", "Cap Model"],
+    "columns": [
+      "Traditional Split",
+      "Cap Model"
+    ],
     "rows": [
-      { "label": "How it works", "values": ["The brokerage keeps the same percentage of your commission on every closed transaction, all year, with no ceiling.", "You pay a split on each transaction until the brokerage has collected a set annual cap amount, then you keep close to 100% for the rest of the year, often with a small monthly fee."] },
-      { "label": "Predictability", "values": ["Your take-home percentage is identical on every check. Easy to project, no tracking required.", "Your effective take-home changes mid-year once you clear the cap, so you need to track your progress against it."] },
-      { "label": "Best production level", "values": ["Lower-to-moderate producers, since you rarely produce enough for a cap to have paid off yet.", "High-volume producers who clear the cap early enough in the year for the post-cap months to matter."] },
-      { "label": "Risk if production slows", "values": ["No added risk. Your split is the same whether you close two deals or twenty this year.", "If you have a slow year and never reach the cap, you've simply paid a split all year with none of the post-cap upside."] },
-      { "label": "What's usually included", "values": ["Often paired with more built-in manager support and tools, since the brokerage's revenue scales with your production.", "Often paired with fewer included services; agents are more likely to fund their own tools and marketing."] },
-      { "label": "Best for", "values": ["Agents who want predictable take-home and value included support and tools over a theoretical ceiling.", "Agents confident they'll clear the cap well before year-end and want the upside on every deal after that."] }
+      {
+        "label": "How it works",
+        "values": [
+          "The brokerage keeps the same percentage of your commission on every closed transaction, all year, with no ceiling.",
+          "You pay a split on each transaction until the brokerage has collected a set annual cap amount, then you keep close to 100% for the rest of the year, often with a small monthly fee."
+        ]
+      },
+      {
+        "label": "Predictability",
+        "values": [
+          "Your take-home percentage is identical on every check. Easy to project, no tracking required.",
+          "Your effective take-home changes mid-year once you clear the cap, so you need to track your progress against it."
+        ]
+      },
+      {
+        "label": "Best production level",
+        "values": [
+          "Lower-to-moderate producers, since you rarely produce enough for a cap to have paid off yet.",
+          "High-volume producers who clear the cap early enough in the year for the post-cap months to matter."
+        ]
+      },
+      {
+        "label": "Risk if production slows",
+        "values": [
+          "No added risk. Your split is the same whether you close two deals or twenty this year.",
+          "If you have a slow year and never reach the cap, you've simply paid a split all year with none of the post-cap upside."
+        ]
+      },
+      {
+        "label": "What's usually included",
+        "values": [
+          "Often paired with more built-in manager support and tools, since the brokerage's revenue scales with your production.",
+          "Often paired with fewer included services; agents are more likely to fund their own tools and marketing."
+        ]
+      },
+      {
+        "label": "Best for",
+        "values": [
+          "Agents who want predictable take-home and value included support and tools over a theoretical ceiling.",
+          "Agents confident they'll clear the cap well before year-end and want the upside on every deal after that."
+        ]
+      }
     ],
     "note": "Exact splits, cap amounts, and monthly fees vary by brokerage and agreement. The honest way to decide is to run your own last twelve months of production through both models."
   },
-  "body": "<h2>What a traditional split actually does</h2><p>A traditional split takes the same percentage of your gross commission on every transaction, for the entire year, with no finish line. If your split is 70/30, the brokerage keeps 30% of every commission whether it's your first closing of the year or your fortieth. That consistency is the whole appeal: you always know your number, and it doesn't change based on how much you produce.</p>\n\n  <h2>What a cap model actually does</h2>\n  <p>A cap model works like a split at the start of the year, then stops. Once the brokerage has collected a set dollar amount from you, commonly in the range of a set annual figure agreed to in your contract, you move to keeping close to 100% of every commission for the rest of the year, typically still paying a small monthly fee. The math only pays off if you produce enough, and early enough in the year, for the post-cap months to add up to something meaningful.</p>\n\n  <h2>Where the break-even actually sits</h2>\n  <p>Say your annual cap is $16,000 and your pre-cap split is 80/20. At $12,000 in average gross commission per closing, the brokerage's 20% share is $2,400 per deal, so it takes roughly seven closings before you clear the cap. If you close ten deals a year, you get maybe three deals a year at close to full commission, a real but modest boost. If you close thirty deals a year, you get roughly twenty-three deals at close to full commission, which is a very different outcome. The cap model rewards production concentrated early in the year and rewards volume far more than it rewards a slow, steady pace.</p>\n\n  <h2>Why a traditional split often wins for lower-to-moderate producers</h2>\n  <p>An agent closing eight to twelve deals a year rarely clears a meaningful cap early enough for the remaining months to matter. For that agent, a traditional split at a brokerage with strong included support, tools, and manager availability can net more real take-home than a cap model where they never really reach the upside and pay for their own marketing and tools along the way.</p>\n\n  <h2>Why a cap model can win for high-volume producers</h2>\n  <p>An agent closing thirty, forty, or more deals a year, especially with strong average commissions, can clear a cap within the first few months and spend the rest of the year keeping nearly the full commission on every deal. For that level of production, the math tends to favor a cap, assuming the brokerage's fees and structure are otherwise reasonable and the agent is comfortable funding more of their own tools and marketing.</p>\n\n  <h2>Run your own numbers before you decide</h2>\n  <p>Neither model is better in the abstract. Pull your actual gross commission from the last twelve months, and run it through both structures using the <a href=\"real-estate-commission-split-calculator.html\">commission split calculator</a> for a straight split and the <a href=\"brokerage-fee-comparison-calculator-splits-caps-and-desk-fees.html\">brokerage fee comparison calculator</a> to see the cap and desk-fee models side by side. The model that wins for your production is the one worth choosing, not the one with the more exciting ceiling in the recruiting pitch.</p>\n  <p><em>Exact split percentages, cap amounts, and fees vary by brokerage and agreement. Confirm current terms directly with any brokerage. Educational only, not financial advice.</em></p>",
+  "body": "<h2>What a traditional split actually does</h2><p>A traditional split takes the same percentage of your gross commission on every transaction, for the entire year, with no finish line. If your split is 70/30, the brokerage keeps 30% of every commission whether it's your first closing of the year or your fortieth. That consistency is the whole appeal: you always know your number, and it doesn't change based on how much you produce.</p>\n\n  <h2>What a cap model actually does</h2>\n  <p>A cap model works like a split at the start of the year, then stops. Once the brokerage has collected a set dollar amount from you, commonly in the range of a set annual figure agreed to in your contract, you move to keeping close to 100% of every commission for the rest of the year, typically still paying a small monthly fee. The math only pays off if you produce enough, and early enough in the year, for the post-cap months to add up to something meaningful.</p>\n\n  <h2>Where the break-even actually sits</h2>\n  <p>Say your annual cap is $16,000 and your pre-cap split is 80/20. At $12,000 in average gross commission per closing, the brokerage's 20% share is $2,400 per deal, so it takes roughly seven closings before you clear the cap. If you close ten deals a year, you get maybe three deals a year at close to full commission, a real but modest boost. If you close thirty deals a year, you get roughly twenty-three deals at close to full commission, which is a very different outcome. The cap model rewards production concentrated early in the year and rewards volume far more than it rewards a slow, steady pace.</p>\n\n  <h2>Why a traditional split often wins for lower-to-moderate producers</h2>\n  <p>An agent closing eight to twelve deals a year rarely clears a meaningful cap early enough for the remaining months to matter. For that agent, a traditional split at a brokerage with strong included support, tools, and manager availability can net more real take-home than a cap model where they never really reach the upside and pay for their own marketing and tools along the way.</p>\n\n  <h2>Why a cap model can win for high-volume producers</h2>\n  <p>An agent closing thirty, forty, or more deals a year, especially with strong average commissions, can clear a cap within the first few months and spend the rest of the year keeping nearly the full commission on every deal. For that level of production, the math tends to favor a cap, assuming the brokerage's fees and structure are otherwise reasonable and the agent is comfortable funding more of their own tools and marketing.</p>\n\n  <h2>Run your own numbers before you decide</h2>\n  <p>Neither model is better in the abstract. Pull your actual gross commission from the last twelve months, and run it through both structures using the <a href=\"real-estate-commission-split-calculator.html\">commission split calculator</a> for a straight split and the <a href=\"brokerage-fee-comparison-calculator-splits-caps-and-desk-fees.html\">brokerage fee comparison calculator</a> to see the cap and desk-fee models side by side. The model that wins for your production is the one worth choosing, not the one with the more exciting ceiling in the recruiting pitch.</p>\n  <p><em>Exact split percentages, cap amounts, and fees vary by brokerage and agreement. Confirm current terms directly with any brokerage. Educational only, not financial advice.</em></p>\n  <p>The method for applying either structure to your own production is in <a href=\"how-to-compare-two-brokerage-offers-side-by-side.html\">how to compare two brokerage offers side by side</a>.</p>",
   "faq": [
-    { "q": "Is a cap model always better than a traditional split?", "a": "No. A cap model only pays off if you produce enough, and early enough in the year, to clear the cap and benefit from several months at close to full commission. Lower-to-moderate producers often net more under a traditional split, especially one paired with strong included tools and support." },
-    { "q": "How do I know if I'll clear my cap in a given year?", "a": "Divide your cap amount by the brokerage's dollar share per average transaction at your pre-cap split. That tells you roughly how many closings it takes to reach the cap. Compare that number to your typical annual transaction count and when in the year those closings tend to happen." },
-    { "q": "Do cap models still charge any fees after I hit the cap?", "a": "Often yes, typically a smaller monthly fee rather than a percentage of your commission. Ask any brokerage offering a cap model for the exact post-cap fee structure in writing before you compare it to a traditional split." },
-    { "q": "What's the difference between a cap model and a desk fee or 100% model?", "a": "A cap model works like a split until you reach a dollar ceiling, then drops close to a flat fee. A desk fee or 100% model charges flat monthly and per-transaction fees from the very first deal, with no split at all. They're related but distinct structures, each with its own break-even math." },
-    { "q": "Where can I run my own numbers on splits versus caps?", "a": "Use the commission split calculator for a straight split scenario and the brokerage fee comparison calculator to see a traditional split, a cap model, and a desk-fee model side by side using your own annual production." }
+    {
+      "q": "Is a cap model always better than a traditional split?",
+      "a": "No. A cap model only pays off if you produce enough, and early enough in the year, to clear the cap and benefit from several months at close to full commission. Lower-to-moderate producers often net more under a traditional split, especially one paired with strong included tools and support."
+    },
+    {
+      "q": "How do I know if I'll clear my cap in a given year?",
+      "a": "Divide your cap amount by the brokerage's dollar share per average transaction at your pre-cap split. That tells you roughly how many closings it takes to reach the cap. Compare that number to your typical annual transaction count and when in the year those closings tend to happen."
+    },
+    {
+      "q": "Do cap models still charge any fees after I hit the cap?",
+      "a": "Often yes, typically a smaller monthly fee rather than a percentage of your commission. Ask any brokerage offering a cap model for the exact post-cap fee structure in writing before you compare it to a traditional split."
+    },
+    {
+      "q": "What's the difference between a cap model and a desk fee or 100% model?",
+      "a": "A cap model works like a split until you reach a dollar ceiling, then drops close to a flat fee. A desk fee or 100% model charges flat monthly and per-transaction fees from the very first deal, with no split at all. They're related but distinct structures, each with its own break-even math."
+    },
+    {
+      "q": "Where can I run my own numbers on splits versus caps?",
+      "a": "Use the commission split calculator for a straight split scenario and the brokerage fee comparison calculator to see a traditional split, a cap model, and a desk-fee model side by side using your own annual production."
+    }
   ],
   "ctaHeading": "Run your production through both models.",
   "ctaSub": "A non-competing Adams, Cameron &amp; Co. manager will walk through your real numbers, split or cap, with no pressure."

@@ -405,6 +405,9 @@ const EVERGREEN = [
   { pillar: 'grow', format: 'article', title: 'When Should You Hire Your First Real Estate Assistant?', query: 'When should a real estate agent hire an assistant?', beat: 'Inman, Reddit' },
   { pillar: 'grow', format: 'article', title: 'What Happens When a Team Member Leaves and Takes Clients?', query: 'What happens when a real estate team member leaves?', beat: 'Inman, Reddit' },
   { pillar: 'choose-new', format: 'article', title: 'Should You Join a Team and Give Up Commission for Mentorship?', query: 'Is it worth joining a real estate team as a new agent?', beat: 'Reddit, agent forums' },
+  { pillar: 'compare', format: 'article', title: 'Red Flags When Evaluating a Real Estate Brokerage', query: 'What are red flags when choosing a real estate brokerage?', beat: 'Reddit, Inman' },
+  { pillar: 'compare', format: 'article', title: 'How to Compare Two Brokerage Offers Side by Side', query: 'How do I compare two real estate brokerage offers?', beat: 'Reddit, Inman' },
+  { pillar: 'compare', format: 'article', title: 'How to Tell a Good Brokerage From a Good Recruiter', query: 'How do I know if a real estate brokerage is really good?', beat: 'Reddit, agent forums' },
 ];
 
 // interactive tools (the "tool" format — high citation value)
@@ -940,6 +943,9 @@ const BUILT = {
   'when-should-you-hire-your-first-real-estate-assistant': { spec: 'content/when-should-you-hire-your-first-real-estate-assistant.json' },
   'what-happens-when-a-team-member-leaves-and-takes-clients': { spec: 'content/what-happens-when-a-team-member-leaves-and-takes-clients.json' },
   'should-you-join-a-team-and-give-up-commission-for-mentorship': { spec: 'content/should-you-join-a-team-and-give-up-commission-for-mentorship.json' },
+  'red-flags-when-evaluating-a-real-estate-brokerage': { spec: 'content/red-flags-when-evaluating-a-real-estate-brokerage.json' },
+  'how-to-compare-two-brokerage-offers-side-by-side': { spec: 'content/how-to-compare-two-brokerage-offers-side-by-side.json' },
+  'how-to-tell-a-good-brokerage-from-a-good-recruiter': { spec: 'content/how-to-tell-a-good-brokerage-from-a-good-recruiter.json' },
 };
 const EVERGREEN_SLUG_OVERRIDE = {
   'State of Real Estate Careers in Volusia & Flagler County': 'state-of-real-estate-careers-volusia-flagler',
