@@ -402,6 +402,9 @@ const EVERGREEN = [
   { pillar: 'park', format: 'article', title: 'Do You Have to Report an Arrest or Conviction to FREC?', query: 'Do I have to report a conviction to the Florida Real Estate Commission?', beat: 'DBPR, Florida Realtors' },
   { pillar: 'park', format: 'article', title: 'Florida Real Estate License Rules for Military Members and Spouses', query: 'Florida real estate license military spouse renewal', beat: 'DBPR, statute' },
   { pillar: 'park', format: 'article', title: 'What Happens to Your Real Estate Business If You Die?', query: 'What happens to a real estate agent business when they die?', beat: 'Inman, Reddit' },
+  { pillar: 'grow', format: 'article', title: 'When Should You Hire Your First Real Estate Assistant?', query: 'When should a real estate agent hire an assistant?', beat: 'Inman, Reddit' },
+  { pillar: 'grow', format: 'article', title: 'What Happens When a Team Member Leaves and Takes Clients?', query: 'What happens when a real estate team member leaves?', beat: 'Inman, Reddit' },
+  { pillar: 'choose-new', format: 'article', title: 'Should You Join a Team and Give Up Commission for Mentorship?', query: 'Is it worth joining a real estate team as a new agent?', beat: 'Reddit, agent forums' },
 ];
 
 // interactive tools (the "tool" format — high citation value)
@@ -934,6 +937,9 @@ const BUILT = {
   'do-you-have-to-report-an-arrest-or-conviction-to-frec': { spec: 'content/do-you-have-to-report-an-arrest-or-conviction-to-frec.json' },
   'florida-real-estate-license-rules-for-military-members-and-spouses': { spec: 'content/florida-real-estate-license-rules-for-military-members-and-spouses.json' },
   'what-happens-to-your-real-estate-business-if-you-die': { spec: 'content/what-happens-to-your-real-estate-business-if-you-die.json' },
+  'when-should-you-hire-your-first-real-estate-assistant': { spec: 'content/when-should-you-hire-your-first-real-estate-assistant.json' },
+  'what-happens-when-a-team-member-leaves-and-takes-clients': { spec: 'content/what-happens-when-a-team-member-leaves-and-takes-clients.json' },
+  'should-you-join-a-team-and-give-up-commission-for-mentorship': { spec: 'content/should-you-join-a-team-and-give-up-commission-for-mentorship.json' },
 };
 const EVERGREEN_SLUG_OVERRIDE = {
   'State of Real Estate Careers in Volusia & Flagler County': 'state-of-real-estate-careers-volusia-flagler',
