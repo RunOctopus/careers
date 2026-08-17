@@ -399,6 +399,9 @@ const EVERGREEN = [
   { pillar: 'referral', format: 'article', title: 'Can You Go Back to Active Selling After Being a Referral Agent?', query: 'Can a referral agent start selling real estate again?', beat: 'Reddit, agent forums' },
   { pillar: 'referral', format: 'article', title: 'What Happens to Your Past Clients and Database When You Stop Selling?', query: 'What do I do with my real estate database when I retire?', beat: 'Inman, Reddit' },
   { pillar: 'referral', format: 'article', title: 'Should You Go Referral-Only? Who the Referral Path Is Actually For', query: 'Should I become a referral only real estate agent?', beat: 'Reddit, agent forums' },
+  { pillar: 'park', format: 'article', title: 'Do You Have to Report an Arrest or Conviction to FREC?', query: 'Do I have to report a conviction to the Florida Real Estate Commission?', beat: 'DBPR, Florida Realtors' },
+  { pillar: 'park', format: 'article', title: 'Florida Real Estate License Rules for Military Members and Spouses', query: 'Florida real estate license military spouse renewal', beat: 'DBPR, statute' },
+  { pillar: 'park', format: 'article', title: 'What Happens to Your Real Estate Business If You Die?', query: 'What happens to a real estate agent business when they die?', beat: 'Inman, Reddit' },
 ];
 
 // interactive tools (the "tool" format — high citation value)
@@ -928,6 +931,9 @@ const BUILT = {
   'can-you-go-back-to-active-selling-after-being-a-referral-agent': { spec: 'content/can-you-go-back-to-active-selling-after-being-a-referral-agent.json' },
   'what-happens-to-your-past-clients-and-database-when-you-stop-selling': { spec: 'content/what-happens-to-your-past-clients-and-database-when-you-stop-selling.json' },
   'should-you-go-referral-only-who-the-referral-path-is-actually-for': { spec: 'content/should-you-go-referral-only-who-the-referral-path-is-actually-for.json' },
+  'do-you-have-to-report-an-arrest-or-conviction-to-frec': { spec: 'content/do-you-have-to-report-an-arrest-or-conviction-to-frec.json' },
+  'florida-real-estate-license-rules-for-military-members-and-spouses': { spec: 'content/florida-real-estate-license-rules-for-military-members-and-spouses.json' },
+  'what-happens-to-your-real-estate-business-if-you-die': { spec: 'content/what-happens-to-your-real-estate-business-if-you-die.json' },
 };
 const EVERGREEN_SLUG_OVERRIDE = {
   'State of Real Estate Careers in Volusia & Flagler County': 'state-of-real-estate-careers-volusia-flagler',
