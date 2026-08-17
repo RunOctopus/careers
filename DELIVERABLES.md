@@ -159,6 +159,17 @@ Three specific problems came out of that, all now fixed:
 
 All six profession pages are now linked together and from the main career-change page, so someone arriving on any one of them finds the others.
 
+## Three more career-transition pages, and a quality gate
+Continued the strongest-performing vein with three more backgrounds, each launched with proper internal links from day one rather than published into a corner:
+
+- **Property managers.** A genuinely different situation from other career changes. In Florida, renting or leasing property on someone else's behalf already requires a real estate license, so most property managers hold one already. The page treats the move as changing what you do with a license rather than qualifying for one, covers the owner relationships that convert directly into listings, and is honest about the real cost, which is trading predictable monthly management income for commission at closing.
+- **Insurance agents.** In Florida a growing share of transactions now turn on whether a home can be insured at a price the buyer can afford, and an insurance agent already understands roof age, four point inspections, wind mitigation and claims history the way an underwriter does. That is a genuine advantage in this market from week one. The page also handles the compliance side of keeping an insurance book alongside, rather than presenting it as an easy win.
+- **Police officers and firefighters.** The practical reason this works is the shift rotation: days off fall midweek, which is when inspections, closings and lender conversations happen, while a salary and benefits continue. That removes the financial problem that ends most career changes. The page also sets out the fair housing boundary around questions about whether a neighborhood is safe, which matters more for this group than any other, because they may genuinely know and must not answer.
+
+All nine profession pages are now linked from the main career-change page and cross-referenced to each other, so a reader arriving on any one finds the rest.
+
+**A permanent quality gate was added to the publishing engine.** It runs before anything is deployed and blocks the build on eleven separate checks, including page length, search snippet length, duplicate content, broken links, any competitor being named, and American versus British spelling. Each check exists because of a specific problem that was caught in the past, so the same mistake cannot quietly return in six months.
+
 ## Editorial quality
 - **A full copy-quality pass** removed automated-writing tells across the entire site, so every page reads as professionally written by a person, not by a machine. This covers both the new pages and the original site pages.
 - **No other company is named anywhere on the site.** Every page speaks only to what Adams, Cameron & Co. offers; reputation and comparison content is written generically (review sites, brokerage models) rather than naming any competitor or third-party platform.
