@@ -393,6 +393,9 @@ const EVERGREEN = [
   { pillar: 'decide', format: 'article', title: 'Can Title and Escrow Professionals Transition Into a Real Estate Career?', query: 'Can a title or escrow officer become a real estate agent?', beat: 'Reddit, agent forums' },
   { pillar: 'decide', format: 'article', title: 'Can Corporate Professionals Transition Into a Real Estate Career?', query: 'Can I leave my corporate job to become a real estate agent?', beat: 'Reddit, Indeed' },
   { pillar: 'decide', format: 'article', title: 'Can Social Workers and Case Managers Transition Into a Real Estate Career?', query: 'Can a social worker become a real estate agent?', beat: 'Reddit, agent forums' },
+  { pillar: 'scale', format: 'article', title: 'What Happens If a Complaint Is Filed Against You With FREC?', query: 'What happens if a complaint is filed against a real estate agent in Florida?', beat: 'DBPR, Florida Realtors' },
+  { pillar: 'scale', format: 'article', title: 'What Happens to Your Business If Your Brokerage Is Sold or Your Broker Retires?', query: 'What happens if my real estate brokerage is sold?', beat: 'Inman, Reddit' },
+  { pillar: 'scale', format: 'article', title: 'Does Your Brokerage Give You Office Space, and Does It Still Matter?', query: 'Do real estate agents get an office at their brokerage?', beat: 'Reddit, agent forums' },
 ];
 
 // interactive tools (the "tool" format — high citation value)
@@ -916,6 +919,9 @@ const BUILT = {
   'can-title-and-escrow-professionals-transition-into-a-real-estate-career': { spec: 'content/can-title-and-escrow-professionals-transition-into-a-real-estate-career.json' },
   'can-corporate-professionals-transition-into-a-real-estate-career': { spec: 'content/can-corporate-professionals-transition-into-a-real-estate-career.json' },
   'can-social-workers-and-case-managers-transition-into-a-real-estate-career': { spec: 'content/can-social-workers-and-case-managers-transition-into-a-real-estate-career.json' },
+  'what-happens-if-a-complaint-is-filed-against-you-with-frec': { spec: 'content/what-happens-if-a-complaint-is-filed-against-you-with-frec.json' },
+  'what-happens-to-your-business-if-your-brokerage-is-sold-or-your-broker-retires': { spec: 'content/what-happens-to-your-business-if-your-brokerage-is-sold-or-your-broker-retires.json' },
+  'does-your-brokerage-give-you-office-space-and-does-it-still-matter': { spec: 'content/does-your-brokerage-give-you-office-space-and-does-it-still-matter.json' },
 };
 const EVERGREEN_SLUG_OVERRIDE = {
   'State of Real Estate Careers in Volusia & Flagler County': 'state-of-real-estate-careers-volusia-flagler',

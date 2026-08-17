@@ -129,10 +129,19 @@ const COMP = ['eXp', 'Keller Williams', 'Coldwell', 'RE/MAX', 'Remax', 'Century 
   'Compass', 'Berkshire Hathaway', 'Sotheby', 'Aceable', 'Colibri', 'Gold Coast',
   'Kaplan', 'Watson Realty', 'Charles Rutenberg', 'Google Voice', 'Zillow',
   'Realtor.com', 'Redfin', 'LionDesk', 'Follow Up Boss', 'kvCORE', 'BoomTown'];
+// Scan only reader-facing text, never the whole JSON. Serializing the spec
+// drags in `pillar`, `slug` and `track`, and the pillar id "switch-exp" matches
+// /\beXp\b/ at the hyphen — a false positive that has now fired twice, once in
+// an earlier session and once against this very check.
+const PROSE = (d) => [d.title, d.metaDesc, d.h1, d.eyebrow, d.crumb, d.about,
+  d.answer, d.tldr, (d.takeaways || []).join(' '), d.body,
+  (d.faq || []).map((x) => x.q + ' ' + x.a).join(' '), d.ctaHeading, d.ctaSub]
+  .filter(Boolean).join(' ');
+
 let hits = 0;
 for (const f of recent) {
   const d = specs[f]; if (!d) continue;
-  const s = JSON.stringify(d);
+  const s = PROSE(d);
   for (const c of COMP) {
     const re = new RegExp('\\b' + c.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&') + '\\b', 'i');
     if (re.test(s)) { bad(`brand name "${c}" in ${f}`); hits++; }
