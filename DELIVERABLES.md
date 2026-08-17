@@ -170,6 +170,13 @@ All nine profession pages are now linked from the main career-change page and cr
 
 **A permanent quality gate was added to the publishing engine.** It runs before anything is deployed and blocks the build on eleven separate checks, including page length, search snippet length, duplicate content, broken links, any competitor being named, and American versus British spelling. Each check exists because of a specific problem that was caught in the past, so the same mistake cannot quietly return in six months.
 
+## Three more transition pages, and the career-change cluster completed
+The career-change section now covers twelve backgrounds, each written to its own situation and all cross-linked so a reader arriving on one finds the rest.
+
+- **Real estate assistants and transaction coordinators.** Built around what Florida actually allows an unlicensed assistant to do, and more usefully what it does not: no discussing or explaining an offer, no hosting a showing alone, nothing beyond pre-printed facts at an open house, and no commission pay at all. That last point is the genuine argument for getting licensed, since it means pay is capped no matter how much of the transaction someone actually carries. The page is also honest that the one skill such a role never permits you to practice is persuasion, which becomes the job on day one. This is a useful recruiting page in both directions, since it speaks to the capable support staff already inside brokerages.
+- **Hair stylists and salon professionals.** Structurally one of the closest matches to a real estate career and almost never recognized as one. Booth rent works like a desk fee, a personal client book works like a sphere of influence, and cosmetology is already a licensed profession with continuing education and renewals. The honest adjustment is that a transaction pays months later and only if it closes.
+- **Car salespeople.** The daily selling skills transfer almost perfectly and the relationship does not. The page is direct about the change that matters: a dealership sale puts you across the table from the customer, whereas representing a client puts their interest ahead of your own, including when the right advice costs you the commission.
+
 ## Editorial quality
 - **A full copy-quality pass** removed automated-writing tells across the entire site, so every page reads as professionally written by a person, not by a machine. This covers both the new pages and the original site pages.
 - **No other company is named anywhere on the site.** Every page speaks only to what Adams, Cameron & Co. offers; reputation and comparison content is written generically (review sites, brokerage models) rather than naming any competitor or third-party platform.
