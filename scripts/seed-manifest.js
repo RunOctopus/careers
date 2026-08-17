@@ -408,6 +408,9 @@ const EVERGREEN = [
   { pillar: 'compare', format: 'article', title: 'Red Flags When Evaluating a Real Estate Brokerage', query: 'What are red flags when choosing a real estate brokerage?', beat: 'Reddit, Inman' },
   { pillar: 'compare', format: 'article', title: 'How to Compare Two Brokerage Offers Side by Side', query: 'How do I compare two real estate brokerage offers?', beat: 'Reddit, Inman' },
   { pillar: 'compare', format: 'article', title: 'How to Tell a Good Brokerage From a Good Recruiter', query: 'How do I know if a real estate brokerage is really good?', beat: 'Reddit, agent forums' },
+  { pillar: 'economics', format: 'article', title: 'How and When Do Real Estate Agents Actually Get Paid After a Closing?', query: 'When do real estate agents get paid after closing?', beat: 'Reddit, agent forums' },
+  { pillar: 'local', format: 'article', title: 'Do Real Estate Agents Have to Attend the Closing?', query: 'Does a real estate agent have to attend closing?', beat: 'Reddit, agent forums' },
+  { pillar: 'decide', format: 'article', title: 'What Do You Actually Do at Your First Showing?', query: 'What does a real estate agent do at a showing?', beat: 'Reddit, agent forums' },
 ];
 
 // interactive tools (the "tool" format — high citation value)
@@ -946,6 +949,9 @@ const BUILT = {
   'red-flags-when-evaluating-a-real-estate-brokerage': { spec: 'content/red-flags-when-evaluating-a-real-estate-brokerage.json' },
   'how-to-compare-two-brokerage-offers-side-by-side': { spec: 'content/how-to-compare-two-brokerage-offers-side-by-side.json' },
   'how-to-tell-a-good-brokerage-from-a-good-recruiter': { spec: 'content/how-to-tell-a-good-brokerage-from-a-good-recruiter.json' },
+  'how-and-when-do-real-estate-agents-actually-get-paid-after-a-closing': { spec: 'content/how-and-when-do-real-estate-agents-actually-get-paid-after-a-closing.json' },
+  'do-real-estate-agents-have-to-attend-the-closing': { spec: 'content/do-real-estate-agents-have-to-attend-the-closing.json' },
+  'what-do-you-actually-do-at-your-first-showing': { spec: 'content/what-do-you-actually-do-at-your-first-showing.json' },
 };
 const EVERGREEN_SLUG_OVERRIDE = {
   'State of Real Estate Careers in Volusia & Flagler County': 'state-of-real-estate-careers-volusia-flagler',
