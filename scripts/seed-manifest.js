@@ -417,6 +417,9 @@ const EVERGREEN = [
   { pillar: 'license', format: 'article', title: 'Can You Represent Both the Buyer and Seller in Florida?', query: 'Can a real estate agent represent both buyer and seller in Florida?', beat: 'DBPR, Florida Realtors' },
   { pillar: 'license', format: 'article', title: 'Do You Have to Disclose a Death in a House in Florida?', query: 'Do you have to disclose a death in a house in Florida?', beat: 'statute, Florida Realtors' },
   { pillar: 'grow', format: 'article', title: 'What Do You Do When Your Buyer Wants to Make a Lowball Offer?', query: 'How do you handle a lowball offer as a buyer agent?', beat: 'Reddit, Inman' },
+  { pillar: 'grow', format: 'article', title: 'What Happens When Two of Your Own Buyers Want the Same House?', query: 'What if two of my clients want the same house?', beat: 'Inman, Reddit' },
+  { pillar: 'grow', format: 'article', title: 'What Do You Do When the Other Agent Will Not Respond?', query: 'What do you do when the other agent will not respond?', beat: 'Reddit, agent forums' },
+  { pillar: 'grow', format: 'article', title: 'What Do You Do With a Buyer Who Never Decides?', query: 'What do you do with a buyer who will not make an offer?', beat: 'Reddit, Inman' },
 ];
 
 // interactive tools (the "tool" format — high citation value)
@@ -964,6 +967,9 @@ const BUILT = {
   'can-you-represent-both-the-buyer-and-seller-in-florida': { spec: 'content/can-you-represent-both-the-buyer-and-seller-in-florida.json' },
   'do-you-have-to-disclose-a-death-in-a-house-in-florida': { spec: 'content/do-you-have-to-disclose-a-death-in-a-house-in-florida.json' },
   'what-do-you-do-when-your-buyer-wants-to-make-a-lowball-offer': { spec: 'content/what-do-you-do-when-your-buyer-wants-to-make-a-lowball-offer.json' },
+  'what-happens-when-two-of-your-own-buyers-want-the-same-house': { spec: 'content/what-happens-when-two-of-your-own-buyers-want-the-same-house.json' },
+  'what-do-you-do-when-the-other-agent-will-not-respond': { spec: 'content/what-do-you-do-when-the-other-agent-will-not-respond.json' },
+  'what-do-you-do-with-a-buyer-who-never-decides': { spec: 'content/what-do-you-do-with-a-buyer-who-never-decides.json' },
 };
 const EVERGREEN_SLUG_OVERRIDE = {
   'State of Real Estate Careers in Volusia & Flagler County': 'state-of-real-estate-careers-volusia-flagler',

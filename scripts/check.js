@@ -150,10 +150,20 @@ for (const f of recent) {
 console.log(`8. competitor names in recent pages: ${hits}`);
 
 // ── 9. British spellings (this is a Florida client) ──────────────────────────
+// Curated rather than a /-ise$/ regex on purpose: a heuristic flags advise,
+// surprise, precise, improvise, franchise and expertise constantly, and a gate
+// that cries wolf gets ignored, which is worse than no gate. Add words here as
+// they actually turn up. 'rationalisation' was added 2026-08-17 after slipping
+// through while 'apologise' in the same paragraph was caught.
 const BRIT = ['licence', 'licences', 'organise', 'organised', 'organisation',
   'recognise', 'recognised', 'characterise', 'characterised', 'apologise',
   'realise', 'realised', 'neighbourhood', 'neighbourhoods', 'behaviour',
-  'favour', 'colour', 'whilst', 'amongst', 'learnt', 'centre', 'defence'];
+  'favour', 'colour', 'whilst', 'amongst', 'learnt', 'centre', 'defence',
+  'rationalise', 'rationalisation', 'prioritise', 'minimise', 'maximise',
+  'summarise', 'emphasise', 'criticise', 'analyse', 'analysed', 'specialise',
+  'standardise', 'utilise', 'categorise', 'authorise', 'personalise',
+  'customise', 'capitalise', 'finalise', 'normalise', 'generalise',
+  'apologised', 'practise', 'offence', 'travelling', 'labelled', 'cancelled'];
 let brit = 0;
 for (const [f, d] of Object.entries(specs)) {
   const s = JSON.stringify(d);
