@@ -396,6 +396,9 @@ const EVERGREEN = [
   { pillar: 'scale', format: 'article', title: 'What Happens If a Complaint Is Filed Against You With FREC?', query: 'What happens if a complaint is filed against a real estate agent in Florida?', beat: 'DBPR, Florida Realtors' },
   { pillar: 'scale', format: 'article', title: 'What Happens to Your Business If Your Brokerage Is Sold or Your Broker Retires?', query: 'What happens if my real estate brokerage is sold?', beat: 'Inman, Reddit' },
   { pillar: 'scale', format: 'article', title: 'Does Your Brokerage Give You Office Space, and Does It Still Matter?', query: 'Do real estate agents get an office at their brokerage?', beat: 'Reddit, agent forums' },
+  { pillar: 'referral', format: 'article', title: 'Can You Go Back to Active Selling After Being a Referral Agent?', query: 'Can a referral agent start selling real estate again?', beat: 'Reddit, agent forums' },
+  { pillar: 'referral', format: 'article', title: 'What Happens to Your Past Clients and Database When You Stop Selling?', query: 'What do I do with my real estate database when I retire?', beat: 'Inman, Reddit' },
+  { pillar: 'referral', format: 'article', title: 'Should You Go Referral-Only? Who the Referral Path Is Actually For', query: 'Should I become a referral only real estate agent?', beat: 'Reddit, agent forums' },
 ];
 
 // interactive tools (the "tool" format — high citation value)
@@ -922,6 +925,9 @@ const BUILT = {
   'what-happens-if-a-complaint-is-filed-against-you-with-frec': { spec: 'content/what-happens-if-a-complaint-is-filed-against-you-with-frec.json' },
   'what-happens-to-your-business-if-your-brokerage-is-sold-or-your-broker-retires': { spec: 'content/what-happens-to-your-business-if-your-brokerage-is-sold-or-your-broker-retires.json' },
   'does-your-brokerage-give-you-office-space-and-does-it-still-matter': { spec: 'content/does-your-brokerage-give-you-office-space-and-does-it-still-matter.json' },
+  'can-you-go-back-to-active-selling-after-being-a-referral-agent': { spec: 'content/can-you-go-back-to-active-selling-after-being-a-referral-agent.json' },
+  'what-happens-to-your-past-clients-and-database-when-you-stop-selling': { spec: 'content/what-happens-to-your-past-clients-and-database-when-you-stop-selling.json' },
+  'should-you-go-referral-only-who-the-referral-path-is-actually-for': { spec: 'content/should-you-go-referral-only-who-the-referral-path-is-actually-for.json' },
 };
 const EVERGREEN_SLUG_OVERRIDE = {
   'State of Real Estate Careers in Volusia & Flagler County': 'state-of-real-estate-careers-volusia-flagler',
