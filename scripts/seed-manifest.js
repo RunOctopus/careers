@@ -414,6 +414,9 @@ const EVERGREEN = [
   { pillar: 'license', format: 'article', title: 'Do You Need a Local Business Tax Receipt as a Real Estate Agent in Florida?', query: 'Do real estate agents need a business tax receipt in Florida?', beat: 'DBPR, county sites' },
   { pillar: 'decide', format: 'article', title: 'Can You Show a Listing From Another Brokerage?', query: 'Can a real estate agent show another company listing?', beat: 'Reddit, agent forums' },
   { pillar: 'grow', format: 'article', title: 'What Do You Do When a Seller Insists on Overpricing?', query: 'What do you do when a seller wants to overprice their home?', beat: 'Inman, Reddit' },
+  { pillar: 'license', format: 'article', title: 'Can You Represent Both the Buyer and Seller in Florida?', query: 'Can a real estate agent represent both buyer and seller in Florida?', beat: 'DBPR, Florida Realtors' },
+  { pillar: 'license', format: 'article', title: 'Do You Have to Disclose a Death in a House in Florida?', query: 'Do you have to disclose a death in a house in Florida?', beat: 'statute, Florida Realtors' },
+  { pillar: 'grow', format: 'article', title: 'What Do You Do When Your Buyer Wants to Make a Lowball Offer?', query: 'How do you handle a lowball offer as a buyer agent?', beat: 'Reddit, Inman' },
 ];
 
 // interactive tools (the "tool" format — high citation value)
@@ -958,6 +961,9 @@ const BUILT = {
   'do-you-need-a-local-business-tax-receipt-as-a-real-estate-agent-in-florida': { spec: 'content/do-you-need-a-local-business-tax-receipt-as-a-real-estate-agent-in-florida.json' },
   'can-you-show-a-listing-from-another-brokerage': { spec: 'content/can-you-show-a-listing-from-another-brokerage.json' },
   'what-do-you-do-when-a-seller-insists-on-overpricing': { spec: 'content/what-do-you-do-when-a-seller-insists-on-overpricing.json' },
+  'can-you-represent-both-the-buyer-and-seller-in-florida': { spec: 'content/can-you-represent-both-the-buyer-and-seller-in-florida.json' },
+  'do-you-have-to-disclose-a-death-in-a-house-in-florida': { spec: 'content/do-you-have-to-disclose-a-death-in-a-house-in-florida.json' },
+  'what-do-you-do-when-your-buyer-wants-to-make-a-lowball-offer': { spec: 'content/what-do-you-do-when-your-buyer-wants-to-make-a-lowball-offer.json' },
 };
 const EVERGREEN_SLUG_OVERRIDE = {
   'State of Real Estate Careers in Volusia & Flagler County': 'state-of-real-estate-careers-volusia-flagler',
