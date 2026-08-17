@@ -6,6 +6,21 @@ This repo (mg770/johnadams-careers-engine) is PRIVATE. It holds the engine, cont
 
 ---
 
+## 2026-08-17 (cont. x6) — All 21 town pages retrofitted, and a pre-existing duplication problem found and halved (538 pages)
+
+- **⭐⭐⭐ FOUND A PRE-EXISTING NEAR-DUPLICATE PROBLEM BY ACCIDENT.** Checking two town pages for similarity before starting showed **3%**, which looked reassuring — **that pair was an outlier.** Measuring **all 210 pairs** across the 21 pages told a different story: **average 8-word shingle overlap 76%, with 145 of 210 pairs at 80% or higher.** Those pages were substantially versions of one another. ⭐ **Nothing in the build flagged it, because the existing duplicate check only catches byte-identical bodies.**
+- **THE RETROFIT.** Each town page now carries **the association and MLS that actually applies to an office in that town**, drawn from research already published on the MLS page rather than invented:
+  - **Daytona Beach Area Association** (est. 1922, ⭐ **runs its OWN separate MLS**) — Daytona Beach · Ormond Beach · Port Orange · Ponce Inlet · Daytona Beach Shores · Holly Hill · South Daytona
+  - **West Volusia Association** (roots 1963, Stellar MLS) — DeLand · Deltona · DeBary · Orange City · Lake Helen · Pierson
+  - **New Smyrna Beach Board** (since 1945, **joined Stellar as a shareholder Sept 2023**) — New Smyrna Beach · Edgewater · Oak Hill
+  - **Flagler County Association** (**joined Stellar as a shareholder 2022**) — Palm Coast · Flagler Beach · Bunnell
+  - The two **county rollups** get the full three- and four-association picture instead.
+- ⭐ **The fact earns its place on a careers page because it has a CONSEQUENCE:** an agent in Ormond Beach and a colleague at the same brokerage in DeLand are **on different listing systems**, since the Daytona Beach Area association does not use the statewide MLS the other three do. That is a real argument for a firm with offices across the footprint, and a recruit can check it.
+- **⭐⭐ MEASURED RESULT across the same 210 pairs: average overlap 76% -> 60%, pairs >=80% alike 145 -> 35.** The remaining 35 are **within-association groups** now sharing an association paragraph; reducing further needs per-town differentiation inside each group, which is separate work.
+- **Confirmed the retrofit did not CREATE the duplication:** daytona-beach vs ormond-beach was **94% before, 93% after**, while daytona-beach vs deland went **94% -> 65%**. The problem pre-dated the change and the change reduced it.
+- **Gate caught British "practise"** in the Flagler County page — in the same word list I had widened an hour earlier. Fixed.
+- **Live: one page threw a transient 500 mid-deploy, so polled; one town per association spot-checked in served HTML, all correct, and 0 British spellings live.** Private `9d52975`, public `0ddd189`.
+
 ## 2026-08-17 (cont. x5) — Second retrofit round: three more pages sourced (538 pages, no new pages)
 
 **Sourced pages now 15 of 42 for the session, up from 10. Session average 1,783 words; the sourced set averages 1,844.**
