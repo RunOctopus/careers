@@ -27,6 +27,13 @@
  *     entry is NOT enough, BUILT[] in seed-manifest.js is a third registration
  *     step and pages missing from it render fine while being absent from
  *     sitemap.xml and llms.txt entirely
+ * 12  NEAR-duplicate detection. Check 5 only catches byte-identical bodies, and
+ *     that blind spot hid an average 76% overlap across the 21 town comparison
+ *     pages for a long time. This one shingles every body into 8-word windows
+ *     and compares all pairs. Similarity between town variants is EXPECTED and
+ *     fine (Matt's call); this reports the distribution as information and only
+ *     fails if a NEW page is ~95% identical to an existing one, i.e. a genuine
+ *     copy-paste accident.
  */
 const fs = require('fs');
 const path = require('path');
@@ -210,6 +217,66 @@ try {
   }
 } catch (e) {
   bad('could not read content/manifest.js — run scripts/seed-manifest.js first');
+}
+
+
+// ── 12. near-duplicate pages ─────────────────────────────────────────────────
+// Check 5 above only finds byte-identical bodies. That is close to useless for
+// a site built on templated families: the 21 town comparison pages averaged 76%
+// overlap with each other and every build passed clean.
+//
+// This shingles each body into overlapping 8-word windows and measures, for
+// each pair, what share of the SMALLER page's windows also appear in the larger.
+// ~143k pairs over 535 pages runs in about two seconds, so it is cheap enough
+// to run every time.
+//
+// MATT'S CALL, 2026-08-17: "It's ok for things to be similar don't worry."
+// He is right and this check was originally tuned too tight. These are town
+// variants for one brokerage in one two-county market; they SHOULD resemble
+// each other, and a family resemblance is not a defect to be engineered away.
+// So this reports the distribution as information and does not police it.
+//
+// The failure threshold is deliberately set where only an accident lands: a NEW
+// page essentially copy-pasted from an existing one. At 0.95 nothing on the site
+// currently trips it, including every templated town family. Do not lower this
+// to chase tidier numbers.
+const NEAR_DUP_FAIL = 0.95;
+const shingle = (body) => {
+  const w = body.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().split(' ');
+  if (w.length < 50) return null;
+  const s = new Set();
+  for (let i = 0; i + 8 <= w.length; i++) s.add(w.slice(i, i + 8).join(' '));
+  return s;
+};
+const shingles = [], shNames = [];
+for (const [f, d] of Object.entries(specs)) {
+  if (!d.body) continue;
+  const sg = shingle(d.body);
+  if (sg) { shingles.push(sg); shNames.push(f); }
+}
+const overlap = (A, B) => {
+  const [small, big] = A.size < B.size ? [A, B] : [B, A];
+  let hit = 0;
+  for (const s of small) if (big.has(s)) hit++;
+  return hit / small.size;
+};
+let d95 = 0, d90 = 0, d85 = 0, d80 = 0;
+const newPageHits = [];
+for (let i = 0; i < shingles.length; i++) {
+  for (let j = i + 1; j < shingles.length; j++) {
+    const o = overlap(shingles[i], shingles[j]);
+    if (o >= 0.95) d95++;
+    if (o >= 0.90) d90++;
+    if (o >= 0.85) d85++;
+    if (o >= 0.80) d80++;
+    if (o >= NEAR_DUP_FAIL && (fresh.includes(shNames[i]) || fresh.includes(shNames[j]))) {
+      newPageHits.push([o, shNames[i], shNames[j]]);
+    }
+  }
+}
+console.log(`12. similarity across ${shingles.length} pages (information, not a target): >=95% ${d95} · >=90% ${d90} · >=85% ${d85} · >=80% ${d80}`);
+for (const [o, a, b] of newPageHits.sort((x, y) => y[0] - x[0]).slice(0, 10)) {
+  bad(`NEW page is ${Math.round(o * 100)}% identical to an existing one, which looks like an accidental copy — ${a} ~ ${b}`);
 }
 
 console.log('\n' + (fail ? `GAUNTLET FAILED — ${fail} issue(s)` : 'GAUNTLET PASSED'));
