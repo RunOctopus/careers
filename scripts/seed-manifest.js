@@ -384,6 +384,9 @@ const EVERGREEN = [
   { pillar: 'decide', format: 'article', title: 'Can Mortgage Loan Officers Transition Into a Real Estate Career?', query: 'Can a loan officer become a real estate agent?', beat: 'Reddit, agent forums' },
   { pillar: 'decide', format: 'article', title: 'Can Restaurant and Hospitality Workers Transition Into a Real Estate Career?', query: 'Can a server or bartender become a real estate agent?', beat: 'Reddit, agent forums' },
   { pillar: 'decide', format: 'article', title: 'Can Construction and Trades Workers Transition Into a Real Estate Career?', query: 'Can a contractor become a real estate agent?', beat: 'Reddit, agent forums' },
+  { pillar: 'decide', format: 'article', title: 'Can Insurance Agents Transition Into a Real Estate Career?', query: 'Can an insurance agent become a real estate agent?', beat: 'Reddit, agent forums' },
+  { pillar: 'decide', format: 'article', title: 'Can Property Managers Transition Into a Real Estate Career?', query: 'Can a property manager become a real estate agent?', beat: 'Reddit, agent forums' },
+  { pillar: 'decide', format: 'article', title: 'Can Police Officers and Firefighters Transition Into a Real Estate Career?', query: 'Can a police officer or firefighter be a real estate agent?', beat: 'Reddit, agent forums' },
 ];
 
 // interactive tools (the "tool" format — high citation value)
@@ -898,6 +901,9 @@ const BUILT = {
   'can-mortgage-loan-officers-transition-into-a-real-estate-career': { spec: 'content/can-mortgage-loan-officers-transition-into-a-real-estate-career.json' },
   'can-restaurant-and-hospitality-workers-transition-into-a-real-estate-career': { spec: 'content/can-restaurant-and-hospitality-workers-transition-into-a-real-estate-career.json' },
   'can-construction-and-trades-workers-transition-into-a-real-estate-career': { spec: 'content/can-construction-and-trades-workers-transition-into-a-real-estate-career.json' },
+  'can-insurance-agents-transition-into-a-real-estate-career': { spec: 'content/can-insurance-agents-transition-into-a-real-estate-career.json' },
+  'can-property-managers-transition-into-a-real-estate-career': { spec: 'content/can-property-managers-transition-into-a-real-estate-career.json' },
+  'can-police-officers-and-firefighters-transition-into-a-real-estate-career': { spec: 'content/can-police-officers-and-firefighters-transition-into-a-real-estate-career.json' },
 };
 const EVERGREEN_SLUG_OVERRIDE = {
   'State of Real Estate Careers in Volusia & Flagler County': 'state-of-real-estate-careers-volusia-flagler',

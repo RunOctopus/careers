@@ -1,0 +1,181 @@
+#!/usr/bin/env node
+/*
+ * check.js — the pre-deploy gauntlet for floridarealtorcareers.com
+ *
+ * Run this BEFORE committing and BEFORE deploying, never after:
+ *     node scripts/build.js && node scripts/check.js
+ *
+ * Every check here exists because something actually shipped or nearly shipped
+ * broken. Do not remove one without replacing it with something better.
+ *
+ *  1  every content spec parses as JSON
+ *  2  no em dashes            (house style, set after 69 were found in old pages)
+ *  3  no curly quotes         (same)
+ *  4  no broken internal links, counted on the BUILT artifact, not the served
+ *     HTML — Netlify rewrites href="slug.html" to /slug at serve time, so
+ *     grepping the live site for the local form finds nothing and lies to you
+ *  5  no duplicate page bodies
+ *  6  metaDesc <= 160 chars on anything touched recently (Google truncates)
+ *  7  word-count floor of 1400 on new pages — first drafts on operational
+ *     topics come in 200-300 words light, every single time
+ *  8  no competitor or third-party brand names, matched on WORD BOUNDARIES
+ *     (a naive regex once flagged "aceable" inside "traceable")
+ *  9  no British spellings — this is a Florida client. Added 2026-08-16 after
+ *     58 instances of licence/neighbourhood/recognise shipped into six pages
+ * 10  no markdown syntax left inside HTML body fields
+ * 11  every page in the registry is status:'built' — a spec plus an EVERGREEN
+ *     entry is NOT enough, BUILT[] in seed-manifest.js is a third registration
+ *     step and pages missing from it render fine while being absent from
+ *     sitemap.xml and llms.txt entirely
+ */
+const fs = require('fs');
+const path = require('path');
+
+const ROOT = path.join(__dirname, '..');
+const CDIR = path.join(ROOT, 'content');
+const RECENT_DAYS = 3;
+
+let fail = 0;
+const bad = (m) => { console.log('   ✗ ' + m); fail++; };
+
+// ── load ─────────────────────────────────────────────────────────────────────
+const files = fs.readdirSync(CDIR).filter((f) => f.endsWith('.json'));
+const specs = {};
+for (const f of files) {
+  try { specs[f] = JSON.parse(fs.readFileSync(path.join(CDIR, f), 'utf8')); }
+  catch (e) { bad(`invalid JSON: ${f} — ${e.message}`); }
+}
+console.log(`1. JSON valid: ${Object.keys(specs).length}/${files.length}`);
+
+// Two different windows, deliberately.
+//   `fresh`  = files CREATED recently -> genuinely new pages. The 1400-word
+//              floor applies to these only. CONTENT_PHILOSOPHY is explicit that
+//              the floor is forward-looking and older pages are not rewritten in
+//              a blanket pass, so keying this off mtime would fail every time a
+//              link is added to a 2025 page. That is a broken gate, not a finding.
+//   `recent` = files MODIFIED recently -> metaDesc is checked here, because it
+//              is a one-line fix and truncation costs real clicks.
+// "New" is decided by git, not by filesystem timestamps. birthtime is unusable
+// here because the tooling rewrites specs in place when adding links, which
+// resets it on macOS and made this gate flag five-year-old pages as new.
+const cutoff = Date.now() - RECENT_DAYS * 864e5;
+const stat = (f) => fs.statSync(path.join(CDIR, f));
+const recent = files.filter((f) => stat(f).mtimeMs > cutoff);
+
+let tracked = new Set();
+try {
+  tracked = new Set(require('child_process')
+    .execSync('git ls-tree -r --name-only HEAD content/', { cwd: ROOT, encoding: 'utf8' })
+    .split('\n').filter(Boolean).map((p) => path.basename(p)));
+} catch (e) { console.log('   (git unavailable — treating all specs as tracked)'); tracked = new Set(files); }
+const fresh = files.filter((f) => !tracked.has(f));
+
+// ── 2/3. typography ──────────────────────────────────────────────────────────
+let em = 0, cq = 0; const emF = [], cqF = [];
+for (const [f, d] of Object.entries(specs)) {
+  const s = JSON.stringify(d);
+  const e = (s.match(/—/g) || []).length;
+  const c = (s.match(/[‘’“”]/g) || []).length;
+  if (e) { em += e; emF.push(f); }
+  if (c) { cq += c; cqF.push(f); }
+}
+console.log(`2. em dashes: ${em}`);   if (em) bad('em dashes in: ' + emF.slice(0, 5).join(', '));
+console.log(`3. curly quotes: ${cq}`); if (cq) bad('curly quotes in: ' + cqF.slice(0, 5).join(', '));
+
+// ── 4. internal links, on the built artifact ─────────────────────────────────
+const html = new Set(fs.readdirSync(ROOT).filter((f) => f.endsWith('.html')));
+let links = 0; const broken = [];
+for (const f of html) {
+  const s = fs.readFileSync(path.join(ROOT, f), 'utf8');
+  for (const m of s.matchAll(/href="([^"#?:]+\.html)"/g)) {
+    links++;
+    if (!html.has(m[1])) broken.push(`${f} -> ${m[1]}`);
+  }
+}
+console.log(`4. internal links on built artifact: ${links}, broken: ${broken.length}`);
+broken.slice(0, 10).forEach((b) => bad('broken link ' + b));
+
+// ── 5. duplicate bodies ──────────────────────────────────────────────────────
+const seen = new Map(); let dup = 0;
+for (const [f, d] of Object.entries(specs)) {
+  const b = (d.body || '').replace(/\s+/g, ' ').trim();
+  if (!b) continue;
+  if (seen.has(b)) { bad(`duplicate body: ${f} == ${seen.get(b)}`); dup++; }
+  else seen.set(b, f);
+}
+console.log(`5. unique bodies: ${seen.size}, duplicates: ${dup}`);
+
+// ── 6/7. metaDesc + word floor on recently touched pages ─────────────────────
+const wordsOf = (d) => [d.answer, d.tldr, (d.takeaways || []).join(' '), d.body,
+    (d.faq || []).map((x) => x.q + ' ' + x.a).join(' ')]
+    .join(' ').replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
+
+console.log(`6. metaDesc <= 160 on ${recent.length} modified spec(s):`);
+for (const f of recent) {
+  const md = (specs[f] && specs[f].metaDesc || '').length;
+  if (md > 160) bad(`metaDesc ${md} > 160 — ${f}`);
+}
+
+console.log(`7. word floor (1400) on ${fresh.length} NEW page(s):`);
+for (const f of fresh) {
+  const d = specs[f]; if (!d) continue;
+  const w = wordsOf(d);
+  if (w < 1400) bad(`only ${w} words (floor 1400) — ${f}`);
+  else console.log(`   ✓ ${f.replace('.json', '')} — ${w}w, metaDesc ${(d.metaDesc || '').length}`);
+}
+
+// ── 8. competitor / third-party brand names ──────────────────────────────────
+const COMP = ['eXp', 'Keller Williams', 'Coldwell', 'RE/MAX', 'Remax', 'Century 21',
+  'Compass', 'Berkshire Hathaway', 'Sotheby', 'Aceable', 'Colibri', 'Gold Coast',
+  'Kaplan', 'Watson Realty', 'Charles Rutenberg', 'Google Voice', 'Zillow',
+  'Realtor.com', 'Redfin', 'LionDesk', 'Follow Up Boss', 'kvCORE', 'BoomTown'];
+let hits = 0;
+for (const f of recent) {
+  const d = specs[f]; if (!d) continue;
+  const s = JSON.stringify(d);
+  for (const c of COMP) {
+    const re = new RegExp('\\b' + c.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&') + '\\b', 'i');
+    if (re.test(s)) { bad(`brand name "${c}" in ${f}`); hits++; }
+  }
+}
+console.log(`8. competitor names in recent pages: ${hits}`);
+
+// ── 9. British spellings (this is a Florida client) ──────────────────────────
+const BRIT = ['licence', 'licences', 'organise', 'organised', 'organisation',
+  'recognise', 'recognised', 'characterise', 'characterised', 'apologise',
+  'realise', 'realised', 'neighbourhood', 'neighbourhoods', 'behaviour',
+  'favour', 'colour', 'whilst', 'amongst', 'learnt', 'centre', 'defence'];
+let brit = 0;
+for (const [f, d] of Object.entries(specs)) {
+  const s = JSON.stringify(d);
+  for (const w of BRIT) {
+    const m = s.match(new RegExp('\\b' + w + '\\b', 'gi'));
+    if (m) { bad(`British spelling "${w}" x${m.length} in ${f}`); brit += m.length; }
+  }
+}
+console.log(`9. British spellings: ${brit}`);
+
+// ── 10. markdown left inside HTML ────────────────────────────────────────────
+let md = 0;
+for (const [f, d] of Object.entries(specs)) {
+  if (!d.body) continue;
+  if (d.body.includes('**')) { bad(`markdown bold (**) inside HTML body — ${f}`); md++; }
+  if (/\[[^\]]+\]\([^)]+\)/.test(d.body)) { bad(`markdown link inside HTML body — ${f}`); md++; }
+}
+console.log(`10. markdown in HTML bodies: ${md}`);
+
+// ── 11. every registry page is actually 'built' ──────────────────────────────
+try {
+  const M = require(path.join(CDIR, 'manifest.js'));
+  const planned = M.pages.filter((p) => p.status !== 'built');
+  console.log(`11. registry: ${M.pages.length - planned.length} built, ${planned.length} planned`);
+  if (planned.length) {
+    bad(`${planned.length} page(s) NOT in BUILT[] — they render but are absent from ` +
+        `sitemap.xml and llms.txt: ${planned.map((p) => p.slug).slice(0, 8).join(', ')}`);
+  }
+} catch (e) {
+  bad('could not read content/manifest.js — run scripts/seed-manifest.js first');
+}
+
+console.log('\n' + (fail ? `GAUNTLET FAILED — ${fail} issue(s)` : 'GAUNTLET PASSED'));
+process.exit(fail ? 1 : 0);
