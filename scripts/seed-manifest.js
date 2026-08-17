@@ -411,6 +411,9 @@ const EVERGREEN = [
   { pillar: 'economics', format: 'article', title: 'How and When Do Real Estate Agents Actually Get Paid After a Closing?', query: 'When do real estate agents get paid after closing?', beat: 'Reddit, agent forums' },
   { pillar: 'local', format: 'article', title: 'Do Real Estate Agents Have to Attend the Closing?', query: 'Does a real estate agent have to attend closing?', beat: 'Reddit, agent forums' },
   { pillar: 'decide', format: 'article', title: 'What Do You Actually Do at Your First Showing?', query: 'What does a real estate agent do at a showing?', beat: 'Reddit, agent forums' },
+  { pillar: 'license', format: 'article', title: 'Do You Need a Local Business Tax Receipt as a Real Estate Agent in Florida?', query: 'Do real estate agents need a business tax receipt in Florida?', beat: 'DBPR, county sites' },
+  { pillar: 'decide', format: 'article', title: 'Can You Show a Listing From Another Brokerage?', query: 'Can a real estate agent show another company listing?', beat: 'Reddit, agent forums' },
+  { pillar: 'grow', format: 'article', title: 'What Do You Do When a Seller Insists on Overpricing?', query: 'What do you do when a seller wants to overprice their home?', beat: 'Inman, Reddit' },
 ];
 
 // interactive tools (the "tool" format — high citation value)
@@ -952,6 +955,9 @@ const BUILT = {
   'how-and-when-do-real-estate-agents-actually-get-paid-after-a-closing': { spec: 'content/how-and-when-do-real-estate-agents-actually-get-paid-after-a-closing.json' },
   'do-real-estate-agents-have-to-attend-the-closing': { spec: 'content/do-real-estate-agents-have-to-attend-the-closing.json' },
   'what-do-you-actually-do-at-your-first-showing': { spec: 'content/what-do-you-actually-do-at-your-first-showing.json' },
+  'do-you-need-a-local-business-tax-receipt-as-a-real-estate-agent-in-florida': { spec: 'content/do-you-need-a-local-business-tax-receipt-as-a-real-estate-agent-in-florida.json' },
+  'can-you-show-a-listing-from-another-brokerage': { spec: 'content/can-you-show-a-listing-from-another-brokerage.json' },
+  'what-do-you-do-when-a-seller-insists-on-overpricing': { spec: 'content/what-do-you-do-when-a-seller-insists-on-overpricing.json' },
 };
 const EVERGREEN_SLUG_OVERRIDE = {
   'State of Real Estate Careers in Volusia & Flagler County': 'state-of-real-estate-careers-volusia-flagler',
