@@ -79,6 +79,7 @@ const TEMPLATES = [
 
 // evergreen "how" pages (non-geo) — each in its best format
 const EVERGREEN = [
+  { pillar: 'local',      format: 'guide',      title: 'Volusia & Flagler Real Estate Operations Reference', query: 'Which Realtor association and MLS do I join in Volusia or Flagler County, and what are the local sign rules?', beat: 'no national source has this' },
   { pillar: 'compare',    format: 'comparison',  title: 'The Best Real Estate Companies to Work For in Florida', query: 'What are the best real estate companies to work for in Florida?', beat: 'national ranked lists' },
   { pillar: 'decide',     format: 'article',    title: 'State of Real Estate Careers in Volusia & Flagler County', query: 'What is the real estate job market like in Volusia and Flagler County, Florida?', beat: 'original data page' },
   { pillar: 'license',    format: 'guide',      title: 'How to Get Your Florida Real Estate License: Step-by-Step', query: 'What are the steps to get a real estate license in Florida and how long does it take?', beat: 'Gold Coast Schools' },
@@ -435,6 +436,7 @@ const TOOLS = [
 ];
 
 const BUILT = {
+  'volusia-flagler-real-estate-operations-reference': { spec: 'content/volusia-flagler-real-estate-operations-reference.json' },
   'best-real-estate-companies-to-work-for-in-florida': { spec: 'content/best-real-estate-companies-to-work-for-in-florida.json' },
   'the-florida-real-estate-career-path-from-sales-associate-to-broker': { spec: 'content/the-florida-real-estate-career-path-from-sales-associate-to-broker.json' },
   'florida-real-estate-mutual-recognition-the-10-states-and-how-it-works': { spec: 'content/florida-real-estate-mutual-recognition-the-10-states-and-how-it-works.json' },
@@ -978,6 +980,7 @@ const BUILT = {
   'how-long-must-a-brokerage-keep-transaction-records': { spec: 'content/how-long-must-a-brokerage-keep-transaction-records.json' },
 };
 const EVERGREEN_SLUG_OVERRIDE = {
+  'Volusia & Flagler Real Estate Operations Reference': 'volusia-flagler-real-estate-operations-reference',
   'The Best Real Estate Companies to Work For in Florida': 'best-real-estate-companies-to-work-for-in-florida',
   'State of Real Estate Careers in Volusia & Flagler County': 'state-of-real-estate-careers-volusia-flagler',
   'How to Get Your Florida Real Estate License: Step-by-Step': 'florida-real-estate-license-guide',

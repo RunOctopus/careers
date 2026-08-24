@@ -2270,6 +2270,12 @@
             "position": 364,
             "url": "https://floridarealtorcareers.com/do-real-estate-agents-have-to-attend-the-closing",
             "name": "Do Real Estate Agents Have to Attend the Closing?"
+          },
+          {
+            "@type": "ListItem",
+            "position": 365,
+            "url": "https://floridarealtorcareers.com/volusia-flagler-real-estate-operations-reference",
+            "name": "Volusia & Flagler Real Estate Operations Reference"
           }
         ]
       }
@@ -2479,6 +2485,25 @@
 .lst-tk-l{font-family:var(--mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-dk);display:block;margin-bottom:.55rem}
 .lst-takeaways ul{margin:0;padding-left:1.15rem}
 .lst-takeaways li{margin-bottom:.4rem;color:#384450;line-height:1.55}
+/* ── reference tables: for the local operational data nobody else has ──
+   Added 2026-08-24. The site's uniquely local facts (association/MLS by city,
+   sign ordinance by jurisdiction) were locked in prose with zero tables, which
+   is both harder for a reader to scan and harder for an AI assistant to lift
+   and attribute cleanly. Scrolls rather than breaking the layout on mobile. */
+.lst-tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.6rem 0 .6rem;border-top:2px solid var(--ink)}
+/* Reference tables carry more columns than the 760px reading column fits, so on
+   desktop they break out either side of it. Narrower viewports keep them inside
+   the column and scroll instead. Without this the right-hand column clips. */
+@media(min-width:1000px){.lst-tw{width:calc(100% + 11rem);margin-left:-5.5rem;margin-right:-5.5rem}}
+.lst-tbl{border-collapse:collapse;width:100%;min-width:520px;font-size:.93rem;line-height:1.45}
+.lst-tbl caption{caption-side:top;text-align:left;font-family:var(--mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-dk);padding:.75rem 0 .6rem}
+.lst-tbl th{text-align:left;font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);font-weight:500;padding:.7rem .9rem .7rem 0;border-bottom:1px solid var(--line);white-space:nowrap;vertical-align:bottom}
+.lst-tbl td{padding:.75rem .9rem .75rem 0;border-bottom:1px solid var(--line);vertical-align:top;color:#384450}
+.lst-tbl td:first-child{color:var(--ink);font-weight:600}
+.lst-tbl tbody tr:hover td{background:rgba(201,168,76,.06)}
+.lst-tbl .num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.lst-tbl .unk{color:var(--mute);font-style:italic}
+.lst-tnote{font-size:.82rem;color:var(--mute);line-height:1.5;margin:.5rem 0 2rem;max-width:60ch}
 /* related guides - auto internal-linking mesh */
 .lst-related{padding:3.2rem 0;background:var(--cream)}
 .lst-related h2{font-family:var(--ff-head);font-weight:700;font-size:clamp(1.4rem,2.6vw,2rem);margin:.5rem 0 1.1rem}
@@ -2956,6 +2981,7 @@
       <li class="lst-row"><a href="best-parks-bunnell.html"><span class="lst-row-no">57</span><span class="lst-row-t">Best Parks in Bunnell, FL</span><span class="lst-row-arr">&rarr;</span></a></li>
       <li class="lst-row"><div class="lst-more">By topic</div></li>
       <li class="lst-row"><a href="do-real-estate-agents-have-to-attend-the-closing.html"><span class="lst-row-no">01</span><span class="lst-row-t">Do Real Estate Agents Have to Attend the Closing?</span><span class="lst-row-arr">&rarr;</span></a></li>
+      <li class="lst-row"><a href="volusia-flagler-real-estate-operations-reference.html"><span class="lst-row-no">02</span><span class="lst-row-t">Volusia &amp; Flagler Real Estate Operations Reference</span><span class="lst-row-arr">&rarr;</span></a></li>
   </ol>
 </section>
 </div></div>
