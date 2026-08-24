@@ -281,7 +281,9 @@ The escrow page was also updated with the one firm deadline the statute contains
 - **No other company is named anywhere on the site.** Every page speaks only to what Adams, Cameron & Co. offers; reputation and comparison content is written generically (review sites, brokerage models) rather than naming any competitor or third-party platform.
 
 ## What's next
-- Re-measure how often the site is cited by AI assistants and search, to show the gain against the starting baseline. That window has now arrived.
+- **Re-measure how often the site is cited by AI assistants.** This is now the only item waiting on John, and it matters more than it did: roughly half the site is local operational knowledge that Google search volume structurally cannot value, and the citation battery is the only instrument that can see it. Involves real spend, so it needs his go-ahead.
+- **Push the near-miss searches into the top three.** About ten queries sit between position 11 and 35 with real demand behind them. Worth more than fifty new pages on phrases nobody types.
+- **Watch whether the deepened career-path page displaces the site index.** `/guides` has been outranking specific pages for the term with the most recruiting demand. If the rebuilt page does not take it back, the next question is whether that index should be indexed at all.
 - Watch the new renewal and switching pages over the next several weeks. They target the audience already converting best, so this is the clearest test yet of where to concentrate future work.
 - Continue the town history series to the remaining smaller towns, and extend the two-market comparison test to other neighboring pairs if the first one performs well.
 - Confirm Search Console access is fully handed to John as a Full user.

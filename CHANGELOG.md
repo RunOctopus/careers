@@ -1,5 +1,71 @@
 # Changelog
 
+## 2026-08-24 (cont. x2) — ⭐⭐⭐ THE 8-DAY "NETLIFY OUTAGE" WAS US NOT PUSHING. 542 pages, all live.
+
+**⛔⛔ I WAS WRONG ABOUT THE CAUSE AND I TOLD THE CLIENT.** Pushed to `origin` at 17:19:11 and
+**Netlify deployed in under two minutes.** Live sitemap 547 -> 551, both pages stranded since
+17 Aug went 404 -> 200. **Netlify was never broken.** The connection, the account and the builds
+were all fine the whole time.
+
+**The real cause: nobody pushed.** A deploy did not fire on 17 Aug, Netlify never retries a missed
+webhook delivery, and — **because I had just changed us to batching a whole session into ONE
+publish** — nothing pushed again for 8 days to nudge it. **The site was one push away from fixing
+itself the entire time. My own credit-saving fix is what turned a missed webhook into an 8-day
+outage.**
+
+**⚠️ HOW I GOT IT WRONG:** built an account-level theory (credits/billing) on **one data point** —
+a single push that did not deploy. Then put it in a client report and told Matt to send John to
+his Deploys tab. Every individual observation was correct (deploy never starts · not a build
+failure · HTML committed so a failed build would still serve). The **conclusion** was not
+supported by one sample. [[feedback_never_call_a_ceiling_from_a_partial_sweep]] ·
+[[feedback_one_defect_found_by_chance_is_a_population]] inverted.
+
+**Also corrected:** origin's `netlify.toml` has **NO build command at all** — just `publish = "."`.
+The `node scripts/build.js` line exists only in the PRIVATE repo's copy, which Netlify never reads.
+So the live site is a pure static file deploy and a build failure was ruled out completely, which
+also made the credits theory the *least* likely explanation rather than the most.
+
+**PUBLISHING TO origin SAFELY (there is no publish script — previous pushes were hand-curated).**
+origin = 550 html + 12 support files. NO `content/`, NO `scripts/`. Published via an isolated
+`git worktree` at origin/main, copying ONLY `*.html css/ js/ images/ favicon.png llms.txt
+robots.txt sitemap.xml`, then verified **before** committing that nothing private was staged and
+`netlify.toml` was unchanged. **Never `git push origin main` from the main checkout — it would
+publish the private engine.**
+
+**NEW (542): `volusia-flagler-real-estate-operations-reference`** — 2,020w, **3 real tables, 26
+rows**. All 19 cities -> association -> MLS · the 4 associations · sign rules by jurisdiction.
+Driven by the finding that the 3 pages holding this site's genuinely proprietary local data draw
+**ZERO Google impressions** — not a failure, just the wrong instrument. Nobody googles "where can
+I put a sign in Edgewater"; an AI assistant asked "I just got licensed in Edgewater, what now?"
+has no source on earth. Gaps marked INSIDE the table; dues deliberately refused.
+Doctrine: [[runoctopus_data_tables_beat_prose_for_citation]].
+
+**⚠️ The site had NO table CSS.** Added `.lst-tw`/`.lst-tbl` from existing tokens. First version
+**clipped its right column while the HTML was valid and the gate PASSED** — caught only by
+rendering it and looking. Tables break out either side of the 760px reading column above 1000px.
+
+**llms.txt: directory -> stated brief.** Was 548 bare links. Now opens with "What this site is the
+source for", stating the association map, sign figures, F.S. 720.304(6) and why dues are not
+published. **Facts are PARSED OUT OF the reference page**, so the two cannot drift — proven by
+moving Oak Hill in the table, rebuilding, watching llms.txt follow, then reverting.
+
+**Career-path page was THIN, not link-starved.** `real estate career path fl` (74 imps, pos 59.9,
+biggest recruiting query) had `/guides` ranking at 46.9 instead. 11 inbound links and correct
+anchors, but **1,147 words — under our own 1,400 floor, which only checks NEW pages so it never
+fired.** Now 1,954w.
+
+**CLIENT REPORT CORRECTED AND RE-RENDERED** (13 pages, `~/Downloads/John-Adams-Update-2026-08-24.pdf`).
+It had said publishing was paused and two pages were queued — untrue once the deploy ran. Now:
+everything live, **one** item waits on John (the citation battery), Netlify described in one
+sentence with no blame and no action for him.
+
+**LIVE AND VERIFIED AT CLOSEOUT:** live sitemap 551 = local 551 · all 5 key pages 200 · llms.txt
+brief live · 3 tables rendering live. Gate: 542/542, 8,638 internal links, 0 broken.
+
+**⚠️ OPEN RISK:** batching to one publish per session is exactly what let a missed deploy sit
+unnoticed for 8 days. A liveness check (live sitemap count vs local) would surface it same-day.
+Offered, not built.
+
 ## 2026-08-24 (cont.) — The Related-guides block was starving 460 of 537 pages (540 -> 541)
 
 **Ran the near-miss queries down to a cause and it was one function.** Traced each of Matt's

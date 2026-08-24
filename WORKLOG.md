@@ -12,6 +12,33 @@ of here — this file picks back up for anything that isn't a content batch.
 ---
 
 
+## 2026-08-24 — The "Netlify outage" was us; plus the AI-citation reframe
+
+**What:** Pushed to origin and Netlify deployed in 2 minutes. 542 pages now live, including two
+stranded since 17 Aug. Shipped: 532 titles shortened, 72 descriptions rewritten, internal linking
+rebuilt site-wide, 2 new pages, career-path page deepened, llms.txt turned into a stated brief.
+
+**Why it matters more than the list:** GSC said impressions doubled (2,426 -> 5,340) while clicks
+sat at 34. Chased that and found the site ranks top-10 on 173 pages that produce 22 clicks,
+because **376 of 427 visible queries are searched 1-4 times a month.** We win where nobody
+searches; the high-volume terms (renewal at pos 59) are held by DBPR and the national schools and
+are probably unwinnable. That is the honest ceiling and it went in the client report.
+
+**The bigger reframe:** the 3 pages holding genuinely proprietary local data (association/MLS by
+city, sign ordinance by city, lockbox) draw **zero Google impressions** — and that is fine.
+Nobody googles those. An AI assistant asked "I just got licensed in Edgewater, what now?" needs
+them and has no other source. **We had been grading the moat with the wrong ruler all session.**
+Built the operations reference (3 tables, 26 rows) and rewrote llms.txt to state the facts inline.
+
+**What I got wrong, and told the client:** diagnosed the 8-day publishing stall as a Netlify
+account/credits problem from **one** data point. It was us — a missed webhook on 17 Aug that
+nothing re-triggered, because I had just moved us to one publish per session. Report corrected
+before sending; it now says everything is live and only the citation battery waits on John.
+
+**Deferred deliberately:** the liveness check (live sitemap count vs local) that would have caught
+this on day one. Offered to Matt, not built. Also left alone: whether to stop Google indexing
+`/guides`, which keeps outranking specific pages — a real SEO call, Matt's lane, better judged
+once the deepened career-path page has had a few weeks.
 
 ## 2026-08-09 (cont.) — Wave 2: five more, picked from GSC gaps
 
