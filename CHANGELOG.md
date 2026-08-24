@@ -1,5 +1,59 @@
 # Changelog
 
+## 2026-08-24 — Title/description pass driven by GSC, plus two faults in the gate itself (540 pages, no new pages)
+
+**GSC read first, which redirected the work.** 28d to 08-22: 5,340 impressions (up 120% from
+2,426), 34 clicks (up from 18). Normalising www/non-www duplicate rows and matching against the
+549 live sitemap URLs: **323 pages drew an impression, 173 hold a top-10 average.** Raw,
+unnormalised page rows read 388 and 226 — that overstates by counting each page twice, see
+reference_gsc_www_duplicate_page_rows.
+
+**The finding: we rank where nobody searches.** Of 427 visible queries, **376 (88%) were searched
+1-4 times in 28 days**; only 5 broke 20. The 173 top-10 pages produced 22 clicks — 0.89%. The
+high-volume terms are all buried: `florida real estate license renewal` 128 imps at pos 58.9,
+`real estate career path fl` 74 at 59.9. The renewal page (373 imps, pos 59.6) cleanly owns every
+renewal phrasing and has not moved in two weeks — page one is DBPR plus the national course
+companies. Probably not winnable with content.
+
+**Titles: the brand suffix was being truncated away on 85% of pages.** Every title carried
+` | Adams Cameron` (16 chars). 460 of 540 titles ran past ~60 chars where Google truncates; 122
+past 80. Removed the suffix from 532 answer pages, **kept on the 3 hub pages**
+(become-a-real-estate-agent-in-florida, best-brokerage-for-experienced-agents-volusia-flagler,
+real-estate-referral-program-florida). Verified first that the brand survives in schema
+(`"name": "Adams, Cameron & Co., Realtors"`) and body prose, so attribution is not lost.
+**Median title 71 -> 55 chars; over-60 count 460 -> 190; over-80 122 -> 15.**
+
+**⭐⭐ THE GATE WAS ONLY CHECKING PAGES YOU'D JUST TOUCHED.** Check 6 runs on `recent` (modified)
+specs. Touching 532 files made it check nearly everything and it immediately failed with **72
+over-length metaDescs that had been live and invisible**. All 72 rewritten: 42 via two shortened
+town templates, 30 by hand. **Five carried a real formatting fault** — the description template
+was fed a title already ending `, FL?` and appended `, FL` again, producing
+`"in DeLand, FL, FL:"` and `"in DeBary, FL?, FL:"`. Live on the site.
+
+**⚠️ TWO FAULTS IN THE GATE ITSELF, both instrument bugs (verify the instrument before the finding).**
+1. Check 6 measured `metaDesc.length` on the **raw JSON string**, so `&rsquo;` counted 7 and
+   `&amp;` counted 5. Over-counted one passing page by 10 chars. Now decodes first, mirroring
+   build-head-seo.js.
+2. Check 8 matched competitor names **case-insensitively**, so `BoomTown` fired on the ordinary
+   word "boomtown" ("in a different way than a boomtown") in 3 pages. Same class as the
+   `aceable`/`traceable` false positive already recorded in that file's own comment. Added a
+   `CASED` set (BoomTown, Compass, Gold Coast) requiring the brand's own casing.
+   **Verified case-sensitively across all 540 pages: zero real competitor mentions.**
+
+**Gate: PASSED with all 532 specs checked**, not just recently-touched ones. 8,602 internal links,
+0 broken. 0 British spellings, 0 em dashes, 0 duplicates.
+
+**Client report** `~/Downloads/John-Adams-Update-2026-08-24.pdf` (11 pages, 77 appendix rows =
+71 new pages + 6 technical changes). Leads with market shape before any number, per the Sterman
+lesson. States both ceilings plainly: renewal probably unwinnable, and the recruiting queries are
+near-silent (`best real estate companies to work for in florida` = 7 imps at pos 27).
+
+**⛔ NOT DEPLOYED. Netlify has not built since 17 Aug** — origin/main is at aa48336 with the two
+pending pages and the live sitemap still reads 547 vs 549 committed. Proved it is not a build
+failure: publish = "." and the generated HTML is committed, so even a failed build would serve
+them. The deploy never starts. Cause needs John's Deploys tab. Everything here is committed to
+`private` and NOT pushed to `origin`, deliberately, so one build publishes the lot when unblocked.
+
 Internal build log for floridarealtorcareers.com (Adams, Cameron & Co. careers site). Newest first. All times Eastern. For a clean, date-free version to share with the client, see DELIVERABLES.md.
 
 This repo (mg770/johnadams-careers-engine) is PRIVATE. It holds the engine, content source, and this log. The public repo (johnadams-dev/careers, John's) holds ONLY compiled static output — see the 2026-08-06 entries below for why and how that split happened.

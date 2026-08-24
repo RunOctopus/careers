@@ -112,6 +112,12 @@ for (const [f, d] of Object.entries(specs)) {
 }
 console.log(`5. unique bodies: ${seen.size}, duplicates: ${dup}`);
 
+// Entity-aware length. Mirrors the decoder in build-head-seo.js so both measure
+// the string a searcher actually sees rather than its JSON source form.
+const decode = (s) => s
+  .replace(/&amp;/g, '&').replace(/&rsquo;|&#39;/g, "'").replace(/&mdash;/g, '\u2014')
+  .replace(/&ndash;/g, '\u2013').replace(/&quot;/g, '"').replace(/\s+/g, ' ').trim();
+
 // ── 6/7. metaDesc + word floor on recently touched pages ─────────────────────
 const wordsOf = (d) => [d.answer, d.tldr, (d.takeaways || []).join(' '), d.body,
     (d.faq || []).map((x) => x.q + ' ' + x.a).join(' ')]
@@ -119,7 +125,10 @@ const wordsOf = (d) => [d.answer, d.tldr, (d.takeaways || []).join(' '), d.body,
 
 console.log(`6. metaDesc <= 160 on ${recent.length} modified spec(s):`);
 for (const f of recent) {
-  const md = (specs[f] && specs[f].metaDesc || '').length;
+  // Measure what Google renders, not the source string: "&rsquo;" is 7 characters
+  // in the JSON and one on screen. Measuring raw over-counted a passing page by
+  // 10 characters on 2026-08-24 — verify the instrument before the finding.
+  const md = decode((specs[f] && specs[f].metaDesc) || '').length;
   if (md > 160) bad(`metaDesc ${md} > 160 — ${f}`);
 }
 
@@ -145,12 +154,20 @@ const PROSE = (d) => [d.title, d.metaDesc, d.h1, d.eyebrow, d.crumb, d.about,
   (d.faq || []).map((x) => x.q + ' ' + x.a).join(' '), d.ctaHeading, d.ctaSub]
   .filter(Boolean).join(' ');
 
+// Brands whose name is also an ordinary English word or a place name. Matching
+// these case-insensitively fires on innocent prose: "in a different way than a
+// boomtown" flagged three pages in 2026-08-24. For these, require the brand's own
+// casing — a real mention writes it the brand's way. Same class of false positive
+// as "aceable" inside "traceable", which the COMP comment above already records.
+const CASED = new Set(['BoomTown', 'Compass', 'Gold Coast']);
+
 let hits = 0;
 for (const f of recent) {
   const d = specs[f]; if (!d) continue;
   const s = PROSE(d);
   for (const c of COMP) {
-    const re = new RegExp('\\b' + c.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&') + '\\b', 'i');
+    const re = new RegExp('\\b' + c.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&') + '\\b',
+      CASED.has(c) ? '' : 'i');
     if (re.test(s)) { bad(`brand name "${c}" in ${f}`); hits++; }
   }
 }
