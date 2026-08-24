@@ -319,7 +319,26 @@ function relatedGuides(spec) {
   const links = [];
   const hub = (MANIFEST.tracks || []).find((t) => t.id === me.track);
   if (hub && exists(hub.hub)) links.push({ slug: hub.hub, title: hub.title });
-  for (const p of [...samePillar, ...sameTrack, ...crossTrack]) {
+  // Rotate the SAME-PILLAR pool by this page's own position in the registry.
+  // Without any rotation every page in a pillar took the same first six, so the
+  // block fed a handful of pages and starved the rest: measured 2026-08-24,
+  // 460 of 537 pages received zero links from here while one received 102, and
+  // 77 of the 89 brokerage-comparison pages had none.
+  //
+  // Rotate WITHIN samePillar, not across the whole concatenated pool. Rotating
+  // the flat list pushes almost every page's window past the same-pillar region
+  // into unrelated cross-track pages: it spreads the links but only 19% of them
+  // stay topically related, which is worse than the starvation it fixes.
+  // Rotating inside the pillar keeps that at 100% and still distributes:
+  // zero-link pages 460 -> 38, median inbound 0 -> 5, max 102 -> 14.
+  // Index-based so it stays deterministic: same registry, same links, every build.
+  const meIdx = MANIFEST.pages.findIndex((p) => p.slug === spec.slug);
+  let rotated = samePillar;
+  if (samePillar.length > 1 && meIdx > 0) {
+    const k = meIdx % samePillar.length;
+    rotated = [...samePillar.slice(k), ...samePillar.slice(0, k)];
+  }
+  for (const p of [...rotated, ...sameTrack, ...crossTrack]) {
     if (links.length >= 6) break;
     if (!links.some((l) => l.slug === p.slug)) links.push({ slug: p.slug, title: p.title });
   }

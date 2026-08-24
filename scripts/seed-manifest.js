@@ -79,6 +79,7 @@ const TEMPLATES = [
 
 // evergreen "how" pages (non-geo) — each in its best format
 const EVERGREEN = [
+  { pillar: 'compare',    format: 'comparison',  title: 'The Best Real Estate Companies to Work For in Florida', query: 'What are the best real estate companies to work for in Florida?', beat: 'national ranked lists' },
   { pillar: 'decide',     format: 'article',    title: 'State of Real Estate Careers in Volusia & Flagler County', query: 'What is the real estate job market like in Volusia and Flagler County, Florida?', beat: 'original data page' },
   { pillar: 'license',    format: 'guide',      title: 'How to Get Your Florida Real Estate License: Step-by-Step', query: 'What are the steps to get a real estate license in Florida and how long does it take?', beat: 'Gold Coast Schools' },
   { pillar: 'decide',     format: 'article',    title: 'Is a Real Estate Career Right for You? An Honest Look',      query: 'Should I become a real estate agent?', beat: 'Indeed, Reddit' },
@@ -434,6 +435,7 @@ const TOOLS = [
 ];
 
 const BUILT = {
+  'best-real-estate-companies-to-work-for-in-florida': { spec: 'content/best-real-estate-companies-to-work-for-in-florida.json' },
   'the-florida-real-estate-career-path-from-sales-associate-to-broker': { spec: 'content/the-florida-real-estate-career-path-from-sales-associate-to-broker.json' },
   'florida-real-estate-mutual-recognition-the-10-states-and-how-it-works': { spec: 'content/florida-real-estate-mutual-recognition-the-10-states-and-how-it-works.json' },
   'real-estate-team-vs-solo-agent-which-model-actually-fits-you': { spec: 'content/real-estate-team-vs-solo-agent-which-model-actually-fits-you.json' },
@@ -976,6 +978,7 @@ const BUILT = {
   'how-long-must-a-brokerage-keep-transaction-records': { spec: 'content/how-long-must-a-brokerage-keep-transaction-records.json' },
 };
 const EVERGREEN_SLUG_OVERRIDE = {
+  'The Best Real Estate Companies to Work For in Florida': 'best-real-estate-companies-to-work-for-in-florida',
   'State of Real Estate Careers in Volusia & Flagler County': 'state-of-real-estate-careers-volusia-flagler',
   'How to Get Your Florida Real Estate License: Step-by-Step': 'florida-real-estate-license-guide',
   'What Does E&O Insurance Cost for Florida Real Estate Agents?': 'what-does-eo-insurance-cost-for-florida-real-estate-agents',

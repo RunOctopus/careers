@@ -1,5 +1,62 @@
 # Changelog
 
+## 2026-08-24 (cont.) — The Related-guides block was starving 460 of 537 pages (540 -> 541)
+
+**Ran the near-miss queries down to a cause and it was one function.** Traced each of Matt's
+near-miss queries to its ranking page: `best real estate companies to work for in florida` ->
+Flagler County page with **2 inbound links** at pos 27.1 · `pierson fl real estate agents` ->
+**2 links** at 12.9 · `what is a showing agent` -> **3 links** at 31.2. For contrast the site's
+best page, `how-to-transfer-your-florida-real-estate-license`, has 12 and sits at 6.8 earning
+5 of the site's 34 clicks.
+
+**⭐⭐⭐ THE FINDING: 77 of the 89 brokerage-comparison pages received ZERO links from any sibling.**
+The other 12 received 46 each. Cause: `relatedGuides()` in build-page.js took the **first six
+same-pillar pages in registry order**, an identical list for every page in a pillar. Its own code
+comment says "nothing is orphaned and authority flows (scales to 1,500)" and it did the opposite.
+Site-wide **460 of 537 pages got zero links from that block; one got 102.**
+Fourth time internal links have been the lever here — see
+[[feedback_check_inbound_links_before_blaming_authority]].
+
+**⚠️ MY FIRST FIX WAS WRONG AND THE NUMBERS HID IT.** Rotating the *flat concatenated* pool by
+page index spread the links (zero-count 460 -> 68) but pushed almost every page's window past the
+same-pillar region into unrelated cross-track pages: **only 19% of links stayed topically
+relevant.** Better distribution, worse relevance — a quantity win masking a quality loss. Caught
+by measuring relevance, not just spread. Corrected to rotate **within samePillar**: zero-count
+**460 -> 70**, median **0 -> 4**, max **102 -> 74**, relevance **94%**, and the 89 recruiting
+pages went **77 orphaned -> 0, median 6 inbound**. Deterministic (index-based), so the same
+registry always builds the same links.
+
+**⚠️ AND MY RELEVANCE MEASUREMENT WAS WRONG FIRST TIME TOO** — it read pillar from `content/*.json`,
+but the 89 town pages are TEMPLATE-generated and have no content file, so it reported 22% instead
+of 94%. Measure from `content/manifest.js`, which is the actual source of truth for template pages.
+[[feedback_verify_the_instrument_before_the_finding]] — third time this session.
+
+**NEW PAGE (541): `best-real-estate-companies-to-work-for-in-florida`.** 89 town-level pages
+existed and **zero Florida-level one**, so Google was answering the statewide query with the
+Bunnell and Palm Coast pages. Matt's call was an honest statewide framing rather than a fake
+ranked list. The page refuses to rank firms, grounds that refusal in Ch. 475 (your license is
+registered under ONE active employing broker, so the choice is a local licensing decision), gives
+the five questions that travel anywhere in Florida, and then says plainly **"we are not a
+statewide answer and are not going to pretend to be one."** 1,970 words, metaDesc 151, already
+carries 7 inbound links thanks to the rotation fix.
+
+**⚠️ REGISTRATION IS FOUR STEPS, NOT THREE.** content JSON + EVERGREEN entry + BUILT map +
+**`node scripts/seed-manifest.js`**. `build.js` only READS `content/manifest.js`; it never
+regenerates it. All three registrations were correct and the build still said 540 until
+seed-manifest was run explicitly. Watch the "X built / Y in registry" line.
+
+**SHOWING AGENT: not a wording tweak, a missing answer.** `what is a showing agent` (13 imps,
+pos 31.2) landed on the showing-*service* page, which never used the phrase once — because a
+showing agent is a **person** and a showing service is a **tool**. Added a real section
+distinguishing them, grounded in the Florida rule that showing property for compensation is
+licensed activity, so a showing agent must be licensed under the same broker. Did not keyword-stuff
+a page that answered a different question.
+
+**Gate PASSED**: 541/541 JSON, 8,621 internal links 0 broken, word floor 1,970w on the new page,
+0 British spellings, 0 em dashes, 0 competitor names, 0 duplicates.
+
+**⛔ STILL NOT DEPLOYED.** Netlify has not built since 17 Aug. Committed to `private` only.
+
 ## 2026-08-24 — Title/description pass driven by GSC, plus two faults in the gate itself (540 pages, no new pages)
 
 **GSC read first, which redirected the work.** 28d to 08-22: 5,340 impressions (up 120% from
