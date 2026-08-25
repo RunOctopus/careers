@@ -1,5 +1,40 @@
 # Changelog
 
+## 2026-08-24 (cont. x3) — Liveness check, so a stalled deploy surfaces the same day
+
+**The gap this closes.** The 8-day stall was invisible because nothing compared the live site to
+what we had built. `check.js` is a PRE-deploy gate and runs entirely offline; it cannot see the
+live site at all.
+
+**`node scripts/liveness.js`** — run it AFTER publishing, and any time you have not published in a
+while. Exits 1 when stale, so it can be wired to cron later with no change.
+
+**It compares CONTENT, not just the sitemap count.** A count alone would NOT have caught this
+week's real work: 532 title rewrites and 72 description rewrites changed no page count at all.
+
+**⚠️ It compares rendered TEXT, not HTML, and that is deliberate.** Netlify post-processes what it
+serves: `href="page.html"` becomes `href='/page'` and attribute quotes are swapped. Verified this
+directly — a raw HTML hash mismatches on **every** page forever. Stripping tags and collapsing
+whitespace is stable across that, and still catches any real content change including `<title>`,
+whose text survives the strip.
+
+**Sampling: newly ADDED pages first, then MODIFIED ones sampled evenly.** First version took the
+head of `git log --name-only`, which on a 543-file commit is just the alphabetical head and told
+us nothing. Now it leads with new pages (a new page 404ing live is the loudest signal) and spreads
+across the rest.
+
+**It distinguishes the two failure modes**, which is the useful part:
+- *404 live, exists locally* -> "the deploy probably never ran"
+- *live but out of date* -> "a deploy ran against an older commit"
+
+**⭐ BOTH FAILURE PATHS TESTED, not assumed.** Committed a page and left it unpublished (the exact
+17 Aug scenario) -> caught the 404 and exited 1. Edited a live page locally -> caught the stale
+copy and exited 1. A check that has only ever passed is worthless.
+[[feedback_my_own_verification_always_passes]]
+
+The failure message says the right thing: **publish again before diagnosing.** A missed webhook is
+never retried and looks identical to an account problem until you send a second push.
+
 ## 2026-08-24 (cont. x2) — ⭐⭐⭐ THE 8-DAY "NETLIFY OUTAGE" WAS US NOT PUSHING. 542 pages, all live.
 
 **⛔⛔ I WAS WRONG ABOUT THE CAUSE AND I TOLD THE CLIENT.** Pushed to `origin` at 17:19:11 and
