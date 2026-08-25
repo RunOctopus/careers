@@ -35,10 +35,19 @@ account/credits problem from **one** data point. It was us — a missed webhook 
 nothing re-triggered, because I had just moved us to one publish per session. Report corrected
 before sending; it now says everything is live and only the citation battery waits on John.
 
-**Deferred deliberately:** the liveness check (live sitemap count vs local) that would have caught
-this on day one. Offered to Matt, not built. Also left alone: whether to stop Google indexing
-`/guides`, which keeps outranking specific pages — a real SEO call, Matt's lane, better judged
-once the deepened career-path page has had a few weeks.
+**Then built the thing that would have caught it on day one: `node scripts/liveness.js`.**
+`check.js` is a pre-deploy gate and runs offline, so nothing ever compared the live site to what
+we had built. This does. It compares rendered TEXT rather than an HTML hash, because Netlify
+rewrites `href="x.html"` to `href='/x'` and swaps quotes, so a markup hash mismatches on every
+page forever — verified that before choosing the approach. It also compares content rather than
+only the sitemap count, because a count would not have caught this week's real work: 532 title
+and 72 description rewrites changed no page count at all. It separates "404 live = the deploy
+never ran" from "out of date = it ran on an older commit", and both failure paths were tested by
+deliberately breaking them rather than assumed.
+
+**Still left alone:** whether to stop Google indexing `/guides`, which keeps outranking specific
+pages — a real SEO call, Matt's lane, better judged once the deepened career-path page has had a
+few weeks.
 
 ## 2026-08-09 (cont.) — Wave 2: five more, picked from GSC gaps
 
