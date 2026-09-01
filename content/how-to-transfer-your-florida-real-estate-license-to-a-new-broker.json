@@ -12,7 +12,10 @@
   "heroImg": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=1500&q=80&fit=crop",
   "about": "Transferring a Florida real estate license from one broker to another",
   "updatedLabel": "June 2026",
-  "hub": { "slug": "best-brokerage-for-experienced-agents-volusia-flagler", "name": "For Experienced Agents" },
+  "hub": {
+    "slug": "best-brokerage-for-experienced-agents-volusia-flagler",
+    "name": "For Experienced Agents"
+  },
   "answer": "To transfer your Florida real estate license to a new broker: confirm your license is active with the DBPR, line up your new broker before you leave your old one, submit the change of employer through the state&rsquo;s online licensing portal, and have your new broker accept it. The change itself is usually reflected within a business day or two once both sides confirm it online.",
   "takeaways": [
     "Your license itself doesn&rsquo;t change. Only your employing broker of record updates with the DBPR.",
@@ -23,20 +26,53 @@
   ],
   "tldr": "Transferring your Florida real estate license to a new broker means updating your employing broker of record with the DBPR through its online licensing portal, not reissuing a new license. Line up your new broker first, submit the change, have them confirm it, and handle your active listings and pending deals by agreement so nothing lapses during the switch.",
   "howto": [
-    { "name": "Confirm your license is active and in good standing", "text": "Check your license status through the DBPR's online licensing system before you start anything, so you know you're transferring a clean, active license." },
-    { "name": "Line up your new broker first", "text": "Have your new brokerage ready to accept you before you leave your current one. Florida requires an active employing broker on file at all times, so avoid any gap between brokers." },
-    { "name": "Notify your current broker professionally", "text": "Tell your current broker directly, in person or in writing, before you submit anything to the state. A clean, professional exit protects your reputation and referral relationships." },
-    { "name": "Submit the change of employer online", "text": "Log in to the DBPR's online licensing portal and submit the change of employing broker to your new brokerage. This is normally free and handled entirely online." },
-    { "name": "Have your new broker confirm the change", "text": "Your new broker typically has to accept or confirm the change on their end of the same online system before your license record shows the new employer." },
-    { "name": "Handle your active listings and pending deals", "text": "Decide with both brokers, and with your sellers where required, how active listings and any pending contracts will be handled through the transition." }
+    {
+      "name": "Confirm your license is active and in good standing",
+      "text": "Check your license status through the DBPR's online licensing system before you start anything, so you know you're transferring a clean, active license."
+    },
+    {
+      "name": "Line up your new broker first",
+      "text": "Have your new brokerage ready to accept you before you leave your current one. Florida requires an active employing broker on file at all times, so avoid any gap between brokers."
+    },
+    {
+      "name": "Notify your current broker professionally",
+      "text": "Tell your current broker directly, in person or in writing, before you submit anything to the state. A clean, professional exit protects your reputation and referral relationships."
+    },
+    {
+      "name": "Submit the change of employer online",
+      "text": "Log in to the DBPR's online licensing portal and submit the change of employing broker to your new brokerage. This is normally free and handled entirely online."
+    },
+    {
+      "name": "Have your new broker confirm the change",
+      "text": "Your new broker typically has to accept or confirm the change on their end of the same online system before your license record shows the new employer."
+    },
+    {
+      "name": "Handle your active listings and pending deals",
+      "text": "Decide with both brokers, and with your sellers where required, how active listings and any pending contracts will be handled through the transition."
+    }
   ],
-  "body": "<h2>How do you actually change your employing broker in Florida?</h2><p>Your Florida real estate license itself doesn&rsquo;t change when you switch brokerages. The same license number stays with you for your entire career. What changes is a single field on your record with the Florida Department of Business and Professional Regulation (DBPR): your <strong>employing broker</strong>. Sales associates in Florida must always be registered under an active broker, so a brokerage change is really a change-of-employer transaction, not a new license application.</p>\n\n  <h2>Is there a fee to transfer your Florida real estate license?</h2>\n  <p>Changing your employing broker through the DBPR&rsquo;s online licensing system is typically free, since you&rsquo;re updating a record rather than applying for a new license. Confirm the current fee schedule on the DBPR&rsquo;s site before you start, since state fee schedules can change.</p>\n\n  <h2>What happens to active listings and pending deals during a license transfer?</h2>\n  <p>The license transfer and your business obligations are two separate things. Active listings technically belong to the brokerage that took them, so moving a listing to your new brokerage requires your current broker&rsquo;s cooperation and, in most cases, the seller&rsquo;s written consent. Pending transactions under contract are typically allowed to close out at the brokerage where they started, or transferred by agreement between your old and new broker. Map out every active listing and pending deal <em>before</em> you submit your change of employer, so nothing falls into a gap.</p>\n\n  <h2>How long does the DBPR license transfer take?</h2>\n  <p>Once you submit the change online and your new broker confirms it on their end, the update is often reflected within a business day or two. The slower part is rarely the DBPR paperwork. It&rsquo;s making sure your new brokerage is genuinely ready to accept you the same day you leave your old one, so you&rsquo;re never without an active employing broker on file.</p>\n\n  <h2>Avoiding a gap between brokers</h2>\n  <p>A Florida sales associate license can&rsquo;t legally operate without an employing broker attached to it. If you submit your departure before your new broker has accepted the transfer, you can end up with a short window where you technically can&rsquo;t practice. The fix is simple: have your new broker&rsquo;s paperwork and portal confirmation ready to go before you give notice at your current firm, so the change of employer happens in one motion rather than two separate steps with a gap in between.</p>\n\n  <h2>Transferring your license to Adams, Cameron &amp; Co.</h2>\n  <p>If you&rsquo;re transferring your license to Adams, Cameron &amp; Co., the largest brokerage in Volusia and Flagler counties since 1963, a non-competing manager will walk you through the DBPR change of employer, timing it against your active listings and any pending deals so you keep producing without a gap. <a href=\"join.html\">Start a confidential conversation.</a></p>\n  <p><em>License transfer mechanics, forms, and fees are set by the Florida DBPR and can change. Confirm current requirements directly with the DBPR. Educational only, not legal advice.</em></p>",
+  "body": "<h2>How do you actually change your employing broker in Florida?</h2><p>Your Florida real estate license itself doesn&rsquo;t change when you switch brokerages. The same license number stays with you for your entire career. What changes is a single field on your record with the Florida Department of Business and Professional Regulation (DBPR): your <strong>employing broker</strong>. Sales associates in Florida must always be registered under an active broker, so a brokerage change is really a change-of-employer transaction, not a new license application.</p>\n\n  <h2>Is there a fee to transfer your Florida real estate license?</h2>\n  <p>Changing your employing broker through the DBPR&rsquo;s online licensing system is typically free, since you&rsquo;re updating a record rather than applying for a new license. Confirm the current fee schedule on the DBPR&rsquo;s site before you start, since state fee schedules can change.</p>\n\n  <h2>What happens to active listings and pending deals during a license transfer?</h2>\n  <p>The license transfer and your business obligations are two separate things. Active listings technically belong to the brokerage that took them, so moving a listing to your new brokerage requires your current broker&rsquo;s cooperation and, in most cases, the seller&rsquo;s written consent. Pending transactions under contract are typically allowed to close out at the brokerage where they started, or transferred by agreement between your old and new broker. Map out every active listing and pending deal <em>before</em> you submit your change of employer, so nothing falls into a gap.</p>\n\n  <h2>How long does the DBPR license transfer take?</h2>\n  <p>Once you submit the change online and your new broker confirms it on their end, the update is often reflected within a business day or two. The slower part is rarely the DBPR paperwork. It&rsquo;s making sure your new brokerage is genuinely ready to accept you the same day you leave your old one, so you&rsquo;re never without an active employing broker on file.</p>\n\n  <h2>Avoiding a gap between brokers</h2>\n  <p>A Florida sales associate license can&rsquo;t legally operate without an employing broker attached to it. If you submit your departure before your new broker has accepted the transfer, you can end up with a short window where you technically can&rsquo;t practice. The fix is simple: have your new broker&rsquo;s paperwork and portal confirmation ready to go before you give notice at your current firm, so the change of employer happens in one motion rather than two separate steps with a gap in between.</p>\n\n  <h2>Transferring your license to Adams, Cameron &amp; Co.</h2>\n  <p>If you&rsquo;re transferring your license to Adams, Cameron &amp; Co., the largest brokerage in Volusia and Flagler counties since 1963, a non-competing manager will walk you through the DBPR change of employer, timing it against your active listings and any pending deals so you keep producing without a gap. <a href=\"join.html\">Start a confidential conversation.</a></p>\n  <p><em>License transfer mechanics, forms, and fees are set by the Florida DBPR and can change. Confirm current requirements directly with the DBPR. Educational only, not legal advice.</em></p>\n\n  <p>The registration moves cleanly. Your contacts are the part that does not move automatically, and that is worth settling first: <a href=\"who-owns-your-client-database-when-you-leave-a-brokerage.html\">who owns your client database</a>.</p>",
   "faq": [
-    { "q": "How do I transfer my real estate license to a new broker in Florida?", "a": "Confirm your license is active, line up your new broker first, notify your current broker professionally, submit the change of employer through the DBPR's online licensing portal, and have your new broker confirm the change on their end. The license itself doesn't change, only your employing broker of record." },
-    { "q": "Is there a fee to change brokers in Florida?", "a": "Changing your employing broker through the DBPR's online system is typically free, since it's a record update rather than a new license application. Confirm the current fee schedule directly with the DBPR before you start." },
-    { "q": "Can I have a gap between brokers during the transfer?", "a": "You shouldn't. A Florida sales associate license needs an active employing broker on file to legally practice. Line up your new broker and have them ready to confirm the change before you leave your current one, so there's no gap." },
-    { "q": "What happens to my active listings when I transfer my license?", "a": "Active listings belong to the brokerage, so moving one to your new broker requires your current broker's cooperation and, in most cases, your seller's written consent. Pending deals are usually closed out at the original brokerage or transferred by agreement." },
-    { "q": "How long does a Florida real estate license transfer take?", "a": "Once you submit the change online and your new broker confirms it, the update is often reflected within a business day or two. The real timeline usually depends on how quickly your new brokerage is ready to accept you, not on DBPR processing time." }
+    {
+      "q": "How do I transfer my real estate license to a new broker in Florida?",
+      "a": "Confirm your license is active, line up your new broker first, notify your current broker professionally, submit the change of employer through the DBPR's online licensing portal, and have your new broker confirm the change on their end. The license itself doesn't change, only your employing broker of record."
+    },
+    {
+      "q": "Is there a fee to change brokers in Florida?",
+      "a": "Changing your employing broker through the DBPR's online system is typically free, since it's a record update rather than a new license application. Confirm the current fee schedule directly with the DBPR before you start."
+    },
+    {
+      "q": "Can I have a gap between brokers during the transfer?",
+      "a": "You shouldn't. A Florida sales associate license needs an active employing broker on file to legally practice. Line up your new broker and have them ready to confirm the change before you leave your current one, so there's no gap."
+    },
+    {
+      "q": "What happens to my active listings when I transfer my license?",
+      "a": "Active listings belong to the brokerage, so moving one to your new broker requires your current broker's cooperation and, in most cases, your seller's written consent. Pending deals are usually closed out at the original brokerage or transferred by agreement."
+    },
+    {
+      "q": "How long does a Florida real estate license transfer take?",
+      "a": "Once you submit the change online and your new broker confirms it, the update is often reflected within a business day or two. The real timeline usually depends on how quickly your new brokerage is ready to accept you, not on DBPR processing time."
+    }
   ],
   "ctaHeading": "Transfer your license without a gap.",
   "ctaSub": "A non-competing Adams, Cameron &amp; Co. manager will time your DBPR transfer against your active listings, confidentially."

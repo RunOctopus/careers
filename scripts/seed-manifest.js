@@ -79,6 +79,11 @@ const TEMPLATES = [
 
 // evergreen "how" pages (non-geo) — each in its best format
 const EVERGREEN = [
+  { pillar: 'scale', format: 'article', title: 'Wire Fraud in a Real Estate Closing: What an Agent Has to Do', query: 'How does real estate wire fraud work and how does an agent prevent it?', beat: 'no brokerage site covers the FBI guidance' },
+  { pillar: 'scale', format: 'article', title: 'Who Owns Your Client Database When You Leave a Brokerage?', query: 'Who owns the client list and CRM contacts when a real estate agent leaves a brokerage?', beat: 'national advice that ignores state trade secret law' },
+  { pillar: 'economics', format: 'article', title: 'Can You Give a Florida Buyer Part of Your Commission?', query: 'Can a Florida real estate agent rebate part of the commission to a buyer?', beat: 'national posts written for states that ban rebates' },
+  { pillar: 'economics', format: 'article', title: 'What a Commission Advance Actually Costs You', query: 'What does a real estate commission advance actually cost an agent?', beat: 'advance company marketing pages' },
+  { pillar: 'grow', format: 'article', title: 'Can You Sell Your Book of Business When You Retire From Real Estate?', query: 'Can a retiring real estate agent sell their book of business?', beat: 'generic succession advice with no state law' },
   { pillar: 'scale',      format: 'article',    title: 'Do Florida Agents Have to Use a Written Buyer Brokerage Agreement?', query: 'Do Florida real estate agents have to use a written buyer brokerage agreement?', beat: 'national settlement explainers' },
   { pillar: 'economics',  format: 'article',    title: 'What Does a Company-Generated Lead Actually Cost You?', query: 'What does a company-generated or portal real estate lead actually cost an agent?', beat: 'recruiting flyers that quote only the split' },
   { pillar: 'scale',      format: 'article',    title: 'Who Owns Your Listing Photos When You Leave a Brokerage?', query: 'Who owns real estate listing photos, the agent, the brokerage or the photographer?', beat: 'no real estate source covers the copyright rule' },
@@ -439,6 +444,11 @@ const TOOLS = [
 ];
 
 const BUILT = {
+  'wire-fraud-in-a-real-estate-closing-what-an-agent-has-to-do': { spec: 'content/wire-fraud-in-a-real-estate-closing-what-an-agent-has-to-do.json' },
+  'who-owns-your-client-database-when-you-leave-a-brokerage': { spec: 'content/who-owns-your-client-database-when-you-leave-a-brokerage.json' },
+  'can-you-give-a-florida-buyer-part-of-your-commission': { spec: 'content/can-you-give-a-florida-buyer-part-of-your-commission.json' },
+  'what-a-commission-advance-actually-costs-you': { spec: 'content/what-a-commission-advance-actually-costs-you.json' },
+  'can-you-sell-your-book-of-business-when-you-retire-from-real-estate': { spec: 'content/can-you-sell-your-book-of-business-when-you-retire-from-real-estate.json' },
   'do-florida-agents-have-to-use-a-written-buyer-brokerage-agreement': { spec: 'content/do-florida-agents-have-to-use-a-written-buyer-brokerage-agreement.json' },
   'what-does-a-company-generated-lead-actually-cost-you': { spec: 'content/what-does-a-company-generated-lead-actually-cost-you.json' },
   'who-owns-your-listing-photos-when-you-leave-a-brokerage': { spec: 'content/who-owns-your-listing-photos-when-you-leave-a-brokerage.json' },
