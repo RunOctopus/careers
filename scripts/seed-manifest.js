@@ -79,6 +79,9 @@ const TEMPLATES = [
 
 // evergreen "how" pages (non-geo) — each in its best format
 const EVERGREEN = [
+  { pillar: 'scale', format: 'article', title: 'What Happens When Buyer and Seller Both Claim the Escrow Deposit', query: 'What happens when a buyer and seller both claim the escrow deposit in Florida?', beat: 'no source states the business-day clocks' },
+  { pillar: 'scale', format: 'article', title: 'What Is a FREC Citation, and How Does It Differ From a Complaint?', query: 'What is a FREC citation and how is it different from a complaint?', beat: 'nothing covers the lower enforcement tier' },
+  { pillar: 'grow', format: 'article', title: 'What You Become Responsible For When You Open Your Own Florida Brokerage', query: 'What is a Florida broker responsible for when opening their own brokerage?', beat: 'generic how-to-open-a-brokerage posts' },
   { pillar: 'scale', format: 'article', title: 'Wire Fraud in a Real Estate Closing: What an Agent Has to Do', query: 'How does real estate wire fraud work and how does an agent prevent it?', beat: 'no brokerage site covers the FBI guidance' },
   { pillar: 'scale', format: 'article', title: 'Who Owns Your Client Database When You Leave a Brokerage?', query: 'Who owns the client list and CRM contacts when a real estate agent leaves a brokerage?', beat: 'national advice that ignores state trade secret law' },
   { pillar: 'economics', format: 'article', title: 'Can You Give a Florida Buyer Part of Your Commission?', query: 'Can a Florida real estate agent rebate part of the commission to a buyer?', beat: 'national posts written for states that ban rebates' },
@@ -444,6 +447,9 @@ const TOOLS = [
 ];
 
 const BUILT = {
+  'what-happens-when-buyer-and-seller-both-claim-the-escrow-deposit': { spec: 'content/what-happens-when-buyer-and-seller-both-claim-the-escrow-deposit.json' },
+  'what-is-a-frec-citation-and-how-it-differs-from-a-complaint': { spec: 'content/what-is-a-frec-citation-and-how-it-differs-from-a-complaint.json' },
+  'what-you-become-responsible-for-when-you-open-your-own-florida-brokerage': { spec: 'content/what-you-become-responsible-for-when-you-open-your-own-florida-brokerage.json' },
   'wire-fraud-in-a-real-estate-closing-what-an-agent-has-to-do': { spec: 'content/wire-fraud-in-a-real-estate-closing-what-an-agent-has-to-do.json' },
   'who-owns-your-client-database-when-you-leave-a-brokerage': { spec: 'content/who-owns-your-client-database-when-you-leave-a-brokerage.json' },
   'can-you-give-a-florida-buyer-part-of-your-commission': { spec: 'content/can-you-give-a-florida-buyer-part-of-your-commission.json' },
@@ -996,6 +1002,7 @@ const BUILT = {
   'how-long-must-a-brokerage-keep-transaction-records': { spec: 'content/how-long-must-a-brokerage-keep-transaction-records.json' },
 };
 const EVERGREEN_SLUG_OVERRIDE = {
+  'What Is a FREC Citation, and How Does It Differ From a Complaint?': 'what-is-a-frec-citation-and-how-it-differs-from-a-complaint',
   'Volusia & Flagler Real Estate Operations Reference': 'volusia-flagler-real-estate-operations-reference',
   'The Best Real Estate Companies to Work For in Florida': 'best-real-estate-companies-to-work-for-in-florida',
   'State of Real Estate Careers in Volusia & Flagler County': 'state-of-real-estate-careers-volusia-flagler',
