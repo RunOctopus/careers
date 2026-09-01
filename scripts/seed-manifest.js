@@ -79,6 +79,9 @@ const TEMPLATES = [
 
 // evergreen "how" pages (non-geo) — each in its best format
 const EVERGREEN = [
+  { pillar: 'scale', format: 'article', title: 'Milestone Inspections and Reserve Studies: What a Condo Agent Must Know', query: 'What are Florida milestone inspections and structural integrity reserve studies?', beat: 'nothing local covers the coastal 25 year trigger' },
+  { pillar: 'scale', format: 'article', title: 'What Happens When Your Seller Is Not a US Person', query: 'What happens under FIRPTA when a foreign person sells Florida real estate?', beat: 'tax sites that do not speak to agents' },
+  { pillar: 'scale', format: 'article', title: 'Why a Married Seller Spouse Must Sign, Even If Not on Title', query: 'Does a spouse who is not on the deed have to sign to sell a Florida home?', beat: 'confused constantly with the tax exemption' },
   { pillar: 'scale', format: 'guide', title: 'What Gets You Fined by the Daytona Beach MLS', query: 'What are the MLS fines in the Daytona Beach area and what triggers them?', beat: 'no national source has the local schedule' },
   { pillar: 'scale', format: 'article', title: 'What Can a Florida Agent Fill In Without Practicing Law?', query: 'What can a Florida real estate agent fill in on a contract without practicing law?', beat: 'nothing on the site covered the UPL line' },
   { pillar: 'scale', format: 'article', title: 'How a Listing Agent Verifies the Buyer Deposit Actually Exists', query: 'How does a listing agent verify the buyer escrow deposit in Florida?', beat: 'a procedure almost no agent uses' },
@@ -450,6 +453,9 @@ const TOOLS = [
 ];
 
 const BUILT = {
+  'milestone-inspections-and-reserve-studies-what-a-condo-agent-must-know': { spec: 'content/milestone-inspections-and-reserve-studies-what-a-condo-agent-must-know.json' },
+  'what-happens-when-your-seller-is-not-a-us-person': { spec: 'content/what-happens-when-your-seller-is-not-a-us-person.json' },
+  'why-a-married-sellers-spouse-must-sign-even-if-not-on-title': { spec: 'content/why-a-married-sellers-spouse-must-sign-even-if-not-on-title.json' },
   'what-gets-you-fined-by-the-daytona-beach-mls': { spec: 'content/what-gets-you-fined-by-the-daytona-beach-mls.json' },
   'what-can-a-florida-agent-fill-in-without-practicing-law': { spec: 'content/what-can-a-florida-agent-fill-in-without-practicing-law.json' },
   'how-a-listing-agent-verifies-the-buyers-deposit-actually-exists': { spec: 'content/how-a-listing-agent-verifies-the-buyers-deposit-actually-exists.json' },
@@ -1008,6 +1014,7 @@ const BUILT = {
   'how-long-must-a-brokerage-keep-transaction-records': { spec: 'content/how-long-must-a-brokerage-keep-transaction-records.json' },
 };
 const EVERGREEN_SLUG_OVERRIDE = {
+  'Why a Married Seller Spouse Must Sign, Even If Not on Title': 'why-a-married-sellers-spouse-must-sign-even-if-not-on-title',
   'How a Listing Agent Verifies the Buyer Deposit Actually Exists': 'how-a-listing-agent-verifies-the-buyers-deposit-actually-exists',
   'What Is a FREC Citation, and How Does It Differ From a Complaint?': 'what-is-a-frec-citation-and-how-it-differs-from-a-complaint',
   'Volusia & Flagler Real Estate Operations Reference': 'volusia-flagler-real-estate-operations-reference',
