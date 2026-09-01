@@ -163,7 +163,7 @@ const CASED = new Set(['BoomTown', 'Compass', 'Gold Coast']);
 
 // A published case name is a citation, not an endorsement, and you cannot cite a
 // case without naming the parties. VHT v. Zillow is the primary source for how
-// listing-photo licences are scoped, and it is the only thing on the site that
+// listing-photo licenses are scoped, and it is the only thing on the site that
 // sources that page. Subtract the exact citation strings BEFORE scanning, so the
 // brand stays blocked everywhere else — including a bare "Zillow" one sentence
 // later on the same page. Matt's call, 2026-08-31: cite the case, never the
