@@ -79,6 +79,9 @@ const TEMPLATES = [
 
 // evergreen "how" pages (non-geo) — each in its best format
 const EVERGREEN = [
+  { pillar: 'scale', format: 'guide', title: 'What Gets You Fined by the Daytona Beach MLS', query: 'What are the MLS fines in the Daytona Beach area and what triggers them?', beat: 'no national source has the local schedule' },
+  { pillar: 'scale', format: 'article', title: 'What Can a Florida Agent Fill In Without Practicing Law?', query: 'What can a Florida real estate agent fill in on a contract without practicing law?', beat: 'nothing on the site covered the UPL line' },
+  { pillar: 'scale', format: 'article', title: 'How a Listing Agent Verifies the Buyer Deposit Actually Exists', query: 'How does a listing agent verify the buyer escrow deposit in Florida?', beat: 'a procedure almost no agent uses' },
   { pillar: 'scale', format: 'article', title: 'What Happens When Buyer and Seller Both Claim the Escrow Deposit', query: 'What happens when a buyer and seller both claim the escrow deposit in Florida?', beat: 'no source states the business-day clocks' },
   { pillar: 'scale', format: 'article', title: 'What Is a FREC Citation, and How Does It Differ From a Complaint?', query: 'What is a FREC citation and how is it different from a complaint?', beat: 'nothing covers the lower enforcement tier' },
   { pillar: 'grow', format: 'article', title: 'What You Become Responsible For When You Open Your Own Florida Brokerage', query: 'What is a Florida broker responsible for when opening their own brokerage?', beat: 'generic how-to-open-a-brokerage posts' },
@@ -447,6 +450,9 @@ const TOOLS = [
 ];
 
 const BUILT = {
+  'what-gets-you-fined-by-the-daytona-beach-mls': { spec: 'content/what-gets-you-fined-by-the-daytona-beach-mls.json' },
+  'what-can-a-florida-agent-fill-in-without-practicing-law': { spec: 'content/what-can-a-florida-agent-fill-in-without-practicing-law.json' },
+  'how-a-listing-agent-verifies-the-buyers-deposit-actually-exists': { spec: 'content/how-a-listing-agent-verifies-the-buyers-deposit-actually-exists.json' },
   'what-happens-when-buyer-and-seller-both-claim-the-escrow-deposit': { spec: 'content/what-happens-when-buyer-and-seller-both-claim-the-escrow-deposit.json' },
   'what-is-a-frec-citation-and-how-it-differs-from-a-complaint': { spec: 'content/what-is-a-frec-citation-and-how-it-differs-from-a-complaint.json' },
   'what-you-become-responsible-for-when-you-open-your-own-florida-brokerage': { spec: 'content/what-you-become-responsible-for-when-you-open-your-own-florida-brokerage.json' },
@@ -1002,6 +1008,7 @@ const BUILT = {
   'how-long-must-a-brokerage-keep-transaction-records': { spec: 'content/how-long-must-a-brokerage-keep-transaction-records.json' },
 };
 const EVERGREEN_SLUG_OVERRIDE = {
+  'How a Listing Agent Verifies the Buyer Deposit Actually Exists': 'how-a-listing-agent-verifies-the-buyers-deposit-actually-exists',
   'What Is a FREC Citation, and How Does It Differ From a Complaint?': 'what-is-a-frec-citation-and-how-it-differs-from-a-complaint',
   'Volusia & Flagler Real Estate Operations Reference': 'volusia-flagler-real-estate-operations-reference',
   'The Best Real Estate Companies to Work For in Florida': 'best-real-estate-companies-to-work-for-in-florida',
