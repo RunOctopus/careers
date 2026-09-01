@@ -79,6 +79,9 @@ const TEMPLATES = [
 
 // evergreen "how" pages (non-geo) — each in its best format
 const EVERGREEN = [
+  { pillar: 'scale',      format: 'article',    title: 'Do Florida Agents Have to Use a Written Buyer Brokerage Agreement?', query: 'Do Florida real estate agents have to use a written buyer brokerage agreement?', beat: 'national settlement explainers' },
+  { pillar: 'economics',  format: 'article',    title: 'What Does a Company-Generated Lead Actually Cost You?', query: 'What does a company-generated or portal real estate lead actually cost an agent?', beat: 'recruiting flyers that quote only the split' },
+  { pillar: 'scale',      format: 'article',    title: 'Who Owns Your Listing Photos When You Leave a Brokerage?', query: 'Who owns real estate listing photos, the agent, the brokerage or the photographer?', beat: 'no real estate source covers the copyright rule' },
   { pillar: 'local',      format: 'guide',      title: 'Volusia & Flagler Real Estate Operations Reference', query: 'Which Realtor association and MLS do I join in Volusia or Flagler County, and what are the local sign rules?', beat: 'no national source has this' },
   { pillar: 'compare',    format: 'comparison',  title: 'The Best Real Estate Companies to Work For in Florida', query: 'What are the best real estate companies to work for in Florida?', beat: 'national ranked lists' },
   { pillar: 'decide',     format: 'article',    title: 'State of Real Estate Careers in Volusia & Flagler County', query: 'What is the real estate job market like in Volusia and Flagler County, Florida?', beat: 'original data page' },
@@ -436,6 +439,9 @@ const TOOLS = [
 ];
 
 const BUILT = {
+  'do-florida-agents-have-to-use-a-written-buyer-brokerage-agreement': { spec: 'content/do-florida-agents-have-to-use-a-written-buyer-brokerage-agreement.json' },
+  'what-does-a-company-generated-lead-actually-cost-you': { spec: 'content/what-does-a-company-generated-lead-actually-cost-you.json' },
+  'who-owns-your-listing-photos-when-you-leave-a-brokerage': { spec: 'content/who-owns-your-listing-photos-when-you-leave-a-brokerage.json' },
   'volusia-flagler-real-estate-operations-reference': { spec: 'content/volusia-flagler-real-estate-operations-reference.json' },
   'best-real-estate-companies-to-work-for-in-florida': { spec: 'content/best-real-estate-companies-to-work-for-in-florida.json' },
   'the-florida-real-estate-career-path-from-sales-associate-to-broker': { spec: 'content/the-florida-real-estate-career-path-from-sales-associate-to-broker.json' },

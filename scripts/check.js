@@ -161,10 +161,26 @@ const PROSE = (d) => [d.title, d.metaDesc, d.h1, d.eyebrow, d.crumb, d.about,
 // as "aceable" inside "traceable", which the COMP comment above already records.
 const CASED = new Set(['BoomTown', 'Compass', 'Gold Coast']);
 
+// A published case name is a citation, not an endorsement, and you cannot cite a
+// case without naming the parties. VHT v. Zillow is the primary source for how
+// listing-photo licences are scoped, and it is the only thing on the site that
+// sources that page. Subtract the exact citation strings BEFORE scanning, so the
+// brand stays blocked everywhere else — including a bare "Zillow" one sentence
+// later on the same page. Matt's call, 2026-08-31: cite the case, never the
+// company. Add to this list only for another real case name, never for a
+// product, a rate, a ranking or a comparison.
+const CITATIONS = [
+  'VHT, Inc. v. Zillow Group, Inc.',
+  'VHT v. Zillow',
+  'v. Zillow Group',
+];
+const stripCitations = (s) => CITATIONS.reduce(
+  (acc, c) => acc.split(c).join(' [case citation] '), s);
+
 let hits = 0;
 for (const f of recent) {
   const d = specs[f]; if (!d) continue;
-  const s = PROSE(d);
+  const s = stripCitations(PROSE(d));
   for (const c of COMP) {
     const re = new RegExp('\\b' + c.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&') + '\\b',
       CASED.has(c) ? '' : 'i');
