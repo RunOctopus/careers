@@ -203,7 +203,16 @@ const BRIT = ['licence', 'licences', 'organise', 'organised', 'organisation',
   'summarise', 'emphasise', 'criticise', 'analyse', 'analysed', 'specialise',
   'standardise', 'utilise', 'categorise', 'authorise', 'personalise',
   'customise', 'capitalise', 'finalise', 'normalise', 'generalise',
-  'apologised', 'practise', 'offence', 'travelling', 'labelled', 'cancelled'];
+  'apologised', 'practise', 'offence', 'travelling', 'labelled', 'cancelled',
+  // Added 2026-09-10 after 18 instances shipped past this gate, four of them on the
+  // page holding position 1.0 for its query. 'cheque' was the tell: it is a plain
+  // everyday word here, so it never looks like a British spelling while reading.
+  'cheque', 'cheques', 'chequebook', 'judgement', 'enquiry', 'enquiries', 'grey',
+  'rumour', 'rumours', 'aluminium', 'endeavour', 'metre', 'metres', 'programme',
+  'storey', 'tyre', 'kerb', 'sceptical', 'draught', 'fulfil', 'fulfilment',
+  'instalment', 'enrolment', 'skilful', 'wilful', 'counsellor', 'traveller',
+  'modelling', 'labelling', 'signalling', 'honour', 'humour', 'labour',
+  'neighbour', 'neighbours', 'savour', 'flavour', 'armour', 'licenced'];
 let brit = 0;
 for (const [f, d] of Object.entries(specs)) {
   const s = JSON.stringify(d);

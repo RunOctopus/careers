@@ -441,6 +441,9 @@ const EVERGREEN = [
   { pillar: 'grow', format: 'article', title: 'What Do You Do With a Buyer Who Never Decides?', query: 'What do you do with a buyer who will not make an offer?', beat: 'Reddit, Inman' },
   { pillar: 'license', format: 'article', title: 'How Long Does a Broker Have to Deposit Earnest Money in Florida?', query: 'How long does a broker have to deposit earnest money in Florida?', beat: 'statute, FREC rules' },
   { pillar: 'scale', format: 'article', title: 'How Long Must a Brokerage Keep Transaction Records?', query: 'How long must a real estate broker keep records in Florida?', beat: 'statute' },
+  { pillar: 'license', format: 'article', title: 'What Happens to Your License If Your Broker Dies or Leaves?', query: 'What happens to a sales associate license if the broker dies or leaves?', beat: 'exam prep sites that state the rule without the 14 day trading freeze' },
+  { pillar: 'grow', format: 'article', title: 'What Your Broker Is Responsible For When You Start a Team', query: 'What is a Florida supervising broker responsible for regarding a team?', beat: 'team coaching content that ignores the advertising rule' },
+  { pillar: 'scale', format: 'article', title: "What Your Broker's Escrow Records Have to Show Every Month", query: 'What must a Florida broker escrow reconciliation contain each month?', beat: 'nothing states the nine required items' },
 ];
 
 // interactive tools (the "tool" format — high citation value)
@@ -453,6 +456,9 @@ const TOOLS = [
 ];
 
 const BUILT = {
+  'what-happens-to-your-license-if-your-broker-dies-or-leaves': { spec: 'content/what-happens-to-your-license-if-your-broker-dies-or-leaves.json' },
+  'what-your-broker-is-responsible-for-when-you-start-a-team': { spec: 'content/what-your-broker-is-responsible-for-when-you-start-a-team.json' },
+  'what-your-brokers-escrow-records-have-to-show-every-month': { spec: 'content/what-your-brokers-escrow-records-have-to-show-every-month.json' },
   'milestone-inspections-and-reserve-studies-what-a-condo-agent-must-know': { spec: 'content/milestone-inspections-and-reserve-studies-what-a-condo-agent-must-know.json' },
   'what-happens-when-your-seller-is-not-a-us-person': { spec: 'content/what-happens-when-your-seller-is-not-a-us-person.json' },
   'why-a-married-sellers-spouse-must-sign-even-if-not-on-title': { spec: 'content/why-a-married-sellers-spouse-must-sign-even-if-not-on-title.json' },
