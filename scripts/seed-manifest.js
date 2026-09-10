@@ -448,6 +448,7 @@ const EVERGREEN = [
   { pillar: 'scale', format: 'article', title: 'What FREC Can Actually Do to Your License', query: 'What penalties can FREC impose on a Florida real estate license?', beat: 'sites that name revocation and skip the other five' },
   { pillar: 'license', format: 'article', title: 'What Is the Florida Real Estate Recovery Fund?', query: 'What is the Florida Real Estate Recovery Fund and how much does it pay?', beat: 'nothing leads with the automatic suspension' },
   { pillar: 'license', format: 'article', title: 'What Is FREC, and Who Sits on It?', query: 'What is FREC and who sits on the Florida Real Estate Commission?', beat: 'exam prep that lists seven and stops' },
+  { pillar: 'grow', format: 'article', title: 'The 60-Hour Broker Post-Licensing Course, and What Happens If You Miss It', query: 'What is the Florida 60 hour broker post-licensing course and what if you miss it?', beat: 'six pages mention it in passing, none owns it' },
 ];
 
 // interactive tools (the "tool" format — high citation value)
@@ -460,6 +461,7 @@ const TOOLS = [
 ];
 
 const BUILT = {
+  'the-60-hour-broker-post-licensing-course-and-what-happens-if-you-miss-it': { spec: 'content/the-60-hour-broker-post-licensing-course-and-what-happens-if-you-miss-it.json' },
   'what-counts-as-unlicensed-real-estate-activity-in-florida': { spec: 'content/what-counts-as-unlicensed-real-estate-activity-in-florida.json' },
   'what-frec-can-actually-do-to-your-license': { spec: 'content/what-frec-can-actually-do-to-your-license.json' },
   'what-is-the-florida-real-estate-recovery-fund': { spec: 'content/what-is-the-florida-real-estate-recovery-fund.json' },
