@@ -444,6 +444,10 @@ const EVERGREEN = [
   { pillar: 'license', format: 'article', title: 'What Happens to Your License If Your Broker Dies or Leaves?', query: 'What happens to a sales associate license if the broker dies or leaves?', beat: 'exam prep sites that state the rule without the 14 day trading freeze' },
   { pillar: 'grow', format: 'article', title: 'What Your Broker Is Responsible For When You Start a Team', query: 'What is a Florida supervising broker responsible for regarding a team?', beat: 'team coaching content that ignores the advertising rule' },
   { pillar: 'scale', format: 'article', title: "What Your Broker's Escrow Records Have to Show Every Month", query: 'What must a Florida broker escrow reconciliation contain each month?', beat: 'nothing states the nine required items' },
+  { pillar: 'license', format: 'article', title: 'What Counts as Unlicensed Real Estate Activity in Florida?', query: 'What counts as unlicensed real estate activity in Florida?', beat: 'nothing states that inactive fails the active test' },
+  { pillar: 'scale', format: 'article', title: 'What FREC Can Actually Do to Your License', query: 'What penalties can FREC impose on a Florida real estate license?', beat: 'sites that name revocation and skip the other five' },
+  { pillar: 'license', format: 'article', title: 'What Is the Florida Real Estate Recovery Fund?', query: 'What is the Florida Real Estate Recovery Fund and how much does it pay?', beat: 'nothing leads with the automatic suspension' },
+  { pillar: 'license', format: 'article', title: 'What Is FREC, and Who Sits on It?', query: 'What is FREC and who sits on the Florida Real Estate Commission?', beat: 'exam prep that lists seven and stops' },
 ];
 
 // interactive tools (the "tool" format — high citation value)
@@ -456,6 +460,10 @@ const TOOLS = [
 ];
 
 const BUILT = {
+  'what-counts-as-unlicensed-real-estate-activity-in-florida': { spec: 'content/what-counts-as-unlicensed-real-estate-activity-in-florida.json' },
+  'what-frec-can-actually-do-to-your-license': { spec: 'content/what-frec-can-actually-do-to-your-license.json' },
+  'what-is-the-florida-real-estate-recovery-fund': { spec: 'content/what-is-the-florida-real-estate-recovery-fund.json' },
+  'what-is-frec-and-who-sits-on-it': { spec: 'content/what-is-frec-and-who-sits-on-it.json' },
   'what-happens-to-your-license-if-your-broker-dies-or-leaves': { spec: 'content/what-happens-to-your-license-if-your-broker-dies-or-leaves.json' },
   'what-your-broker-is-responsible-for-when-you-start-a-team': { spec: 'content/what-your-broker-is-responsible-for-when-you-start-a-team.json' },
   'what-your-brokers-escrow-records-have-to-show-every-month': { spec: 'content/what-your-brokers-escrow-records-have-to-show-every-month.json' },
