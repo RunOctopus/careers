@@ -5,13 +5,16 @@
   "slug": "cost-to-keep-a-florida-real-estate-license-active",
   "crumb": "Cost to Stay Active",
   "title": "The Real Cost to Keep a Florida Real Estate License Active",
-  "metaDesc": "What it actually costs to keep a Florida real estate license active without selling: the DBPR renewal fee, continuing education, and what you don't pay.",
+  "metaDesc": "The DBPR biennial fee is the small part. What continuing education, board dues and MLS actually add, and which costs you can drop without going inactive.",
   "eyebrow": "Referral · Florida",
   "h1": "The Real Cost to Keep a Florida Real Estate License Active",
   "heroImg": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=1500&q=80&fit=crop",
   "about": "The real, DBPR-based cost of keeping a Florida real estate license active without actively selling",
   "updatedLabel": "July 2026",
-  "hub": { "slug": "real-estate-referral-program-florida", "name": "Referral Program" },
+  "hub": {
+    "slug": "real-estate-referral-program-florida",
+    "name": "Referral Program"
+  },
   "answer": "Keeping a Florida real estate license active mainly costs the DBPR biennial renewal fee (around $64 for a sales associate) plus continuing education, 14 hours every two years after your first renewal, commonly a few hundred dollars total depending on the provider. If you're not actively selling, you typically skip MLS fees and local Realtor board dues, the bigger ongoing costs of active practice.",
   "takeaways": [
     "The core state cost is the DBPR biennial renewal fee, roughly $64 for a sales associate license.",
@@ -23,10 +26,22 @@
   "tldr": "The state-required cost of an active Florida license is mostly the DBPR biennial renewal fee (about $64 for a sales associate) plus 14 hours of continuing education every two years, commonly a few hundred dollars depending on the CE provider. Agents who aren't actively selling typically skip the larger ongoing costs, MLS dues and local board dues, that come with active practice.",
   "body": "<h2>What does the state actually charge to keep a license active?</h2>\n  <p>The core recurring state cost is the <strong>DBPR biennial renewal fee</strong>, currently around $64 for a sales associate license (brokers pay a bit more). Florida licenses renew on a two-year cycle, so this is an every-other-year cost, not annual. Because the exact fee can change, always confirm the current amount on your DBPR renewal screen before paying.</p>\n\n  <h2>What about continuing education?</h2>\n  <p>After your first post-license renewal, Florida requires <strong>14 hours of continuing education</strong> every two-year renewal period: 3 hours of core law, 3 hours of ethics and business practices, and 8 hours of specialty education. Course pricing varies by provider and format, commonly landing somewhere around $150 to $250 for the full 14 hours, though some individual courses run cheaper. Shop by provider and format (online self-paced vs. live) to find a price that fits.</p>\n\n  <h2>Is that the whole cost of staying licensed?</h2>\n  <p>For the state requirements, yes, roughly the renewal fee plus CE. But an <strong>actively practicing agent</strong> also typically pays MLS subscription fees, local Realtor board dues, and often desk fees or marketing costs at their brokerage, expenses that can add up to well beyond the state minimum. Those costs exist to support active selling: showings, listings, and MLS access.</p>\n\n  <h2>What do you save if you're not actively selling?</h2>\n  <p>If you're keeping your license active mainly to refer clients rather than actively list and sell, you typically <strong>skip the MLS fees and board dues</strong> that come with active practice, since you're not using those tools day to day. That leaves the state renewal fee and CE as the main recurring cost of simply keeping the license valid.</p>\n\n  <h2>Is the DBPR fee the only cost, or does a brokerage charge too?</h2>\n  <p>The DBPR renewal fee is a state cost, paid to Florida regardless of which brokerage holds your license. Separately, some brokerages that run referral programs may have their own program terms or a small administrative arrangement; that's a brokerage-level detail, not a state fee, and it's worth asking about directly rather than assuming it matches the state's numbers.</p>\n\n  <h2>Are there one-time costs you won't have to pay again?</h2>\n  <p>Yes. Costs like the original pre-license course, fingerprinting, and the state exam fee are one-time costs from when you first got licensed; they don't recur at renewal. Keeping an existing license active going forward is just the renewal fee and continuing education, a meaningfully smaller ongoing cost than what it took to get licensed in the first place.</p>\n\n  <h2>What does the full two-year cost look like in real numbers?</h2>\n  <p>Roughly: about $64 for the DBPR renewal, plus somewhere around $150 to $250 for the 14 hours of continuing education, putting a typical two-year total somewhere in the $214 to $314 range for most agents. That&rsquo;s the entire state-required cost of staying licensed and legally eligible to earn a referral fee, spread over two full years, not billed annually.</p>\n\n  <h2>What does it cost to let a license go inactive instead, then reactivate later?</h2>\n  <p>Letting a license lapse can end up costing more time and money than keeping it active. Depending on how long it&rsquo;s been inactive, reactivating can mean catching up on missed continuing education, paying reinstatement fees, or in some cases retaking coursework. Compared with a few hundred dollars every two years, restarting from inactive status is usually the more expensive and more time-consuming path.</p>\n\n  <h2>Is it worth the cost just to keep a license active?</h2>\n  <p>That depends on what the license is worth to you. If you still know people who buy and sell, keeping the license active for a few hundred dollars every two years can pay for itself with a single referral fee, since referral fees commonly run around 25% of a commission. Letting the license lapse means starting over later if you ever want it back.</p>\n  <p><em>Fees and continuing education costs change over time and by provider; confirm current amounts with the Florida DBPR and your CE provider before budgeting. Educational only, not legal or financial advice.</em></p>",
   "faq": [
-    { "q": "How much does it cost to renew a Florida real estate license?", "a": "The DBPR biennial renewal fee is currently around $64 for a sales associate license, though it's worth confirming the current amount on your DBPR renewal screen, since fees can change." },
-    { "q": "Do I have to take continuing education to keep my license active?", "a": "Yes, after your first post-license renewal. Florida requires 14 hours of continuing education every two-year renewal period: 3 hours core law, 3 hours ethics and business practices, and 8 hours specialty education." },
-    { "q": "How much does the continuing education cost?", "a": "It varies by provider and format, but commonly runs somewhere around $150 to $250 for the full 14-hour requirement. Shopping between online and live-course providers can lower the cost." },
-    { "q": "Do I pay MLS and board dues if I'm not actively selling?", "a": "Usually not. Those costs support active practice like listing and showing homes. Agents keeping a license active mainly to refer clients typically skip MLS subscription fees and local Realtor board dues." }
+    {
+      "q": "How much does it cost to renew a Florida real estate license?",
+      "a": "The DBPR biennial renewal fee is currently around $64 for a sales associate license, though it's worth confirming the current amount on your DBPR renewal screen, since fees can change."
+    },
+    {
+      "q": "Do I have to take continuing education to keep my license active?",
+      "a": "Yes, after your first post-license renewal. Florida requires 14 hours of continuing education every two-year renewal period: 3 hours core law, 3 hours ethics and business practices, and 8 hours specialty education."
+    },
+    {
+      "q": "How much does the continuing education cost?",
+      "a": "It varies by provider and format, but commonly runs somewhere around $150 to $250 for the full 14-hour requirement. Shopping between online and live-course providers can lower the cost."
+    },
+    {
+      "q": "Do I pay MLS and board dues if I'm not actively selling?",
+      "a": "Usually not. Those costs support active practice like listing and showing homes. Agents keeping a license active mainly to refer clients typically skip MLS subscription fees and local Realtor board dues."
+    }
   ],
   "ctaHeading": "See what your license could still be worth.",
   "ctaSub": "Ask Adams, Cameron &amp; Co. about the Realty Referral Program before you let an active license lapse."

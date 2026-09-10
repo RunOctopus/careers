@@ -5,13 +5,16 @@
   "slug": "whats-the-minimum-age-to-get-a-florida-real-estate-license",
   "crumb": "Minimum Age Requirement",
   "title": "What's the Minimum Age to Get a Florida Real Estate License?",
-  "metaDesc": "The minimum age to hold a Florida real estate license is 18. Here's when you can start your pre-license course and what else the state requires.",
+  "metaDesc": "You can start the pre-license course before your eighteenth birthday. What a 17 year old can and cannot do, and which requirement actually gates the license.",
   "eyebrow": "Licensing · Florida",
   "h1": "What's the Minimum Age to Get a Florida Real Estate License?",
   "heroImg": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=1500&q=80&fit=crop",
   "about": "The minimum age requirement to hold a real estate license in Florida",
   "updatedLabel": "July 2026",
-  "hub": { "slug": "become-a-real-estate-agent-in-florida", "name": "Become a Real Estate Agent in Florida" },
+  "hub": {
+    "slug": "become-a-real-estate-agent-in-florida",
+    "name": "Become a Real Estate Agent in Florida"
+  },
   "answer": "Florida requires you to be at least 18 years old to hold a real estate license. You can enroll in and complete the required 63-hour pre-license course before turning 18, and you can even apply and sit for the state exam early in some cases, but the Florida Department of Business and Professional Regulation (DBPR) won&rsquo;t actually issue your license until you reach 18. There is no upper age limit: as long as you meet the requirements, you can get licensed at any age from 18 onward.",
   "takeaways": [
     "You must be 18 or older to hold an active Florida real estate license.",
@@ -23,10 +26,22 @@
   "tldr": "Florida's minimum age to hold a real estate license is 18. You can complete the 63-hour pre-license course beforehand, but the state won't issue your license until you turn 18. There's no upper age limit, and age is just one of several requirements alongside the course, exam, and background check.",
   "body": "<h2>What is the minimum age to get a Florida real estate license?</h2>\n  <p>You must be <strong>at least 18 years old</strong> to hold a real estate license in Florida. This is a firm requirement set by the state, not a guideline, and it applies to every applicant regardless of education, experience, or how quickly you finish the other steps.</p>\n\n  <h2>Can you start the pre-license course before turning 18?</h2>\n  <p>Yes. Florida&rsquo;s <strong>63-hour pre-license course</strong> has no minimum age to enroll or complete, so a 16 or 17 year old can work through the coursework and be fully prepared. What you cannot do is receive the actual license before your 18th birthday. The Florida Department of Business and Professional Regulation (DBPR) will hold your application until you meet the age requirement, even if every other box is checked.</p>\n\n  <h2>What about the state exam?</h2>\n  <p>The path generally runs: finish the 63-hour course, submit your application and fingerprints, then sit for the state licensing exam. Some applicants under 18 complete the coursework and prepare for the exam ahead of time so they&rsquo;re ready to move the moment they turn 18, rather than starting the process from scratch on their birthday.</p>\n\n  <h2>Is there an upper age limit?</h2>\n  <p>No. Florida sets no maximum age for getting licensed. Real estate is a career people enter at 18, at 40, or after retiring from another field entirely. What matters is meeting the requirements: the education, the exam, and a clean background check, not how old you are when you apply.</p>\n\n  <h2>What else do you need besides age?</h2>\n  <p>Age is only one piece. You also need to complete the pre-license course, pass the state exam, submit fingerprints for a background check, and apply through the DBPR. Once licensed, <strong>every Florida agent must also work under a sponsoring broker</strong>, since the state doesn&rsquo;t allow newly licensed agents to practice independently.</p>\n\n  <p>If you&rsquo;re getting close to 18 or already past it and wondering what a real sponsoring brokerage looks like, Adams, Cameron &amp; Co., the area&rsquo;s largest brokerage since 1963, works with new agents in Daytona Beach and across Volusia and Flagler counties from day one of licensing. <a href=\"join.html\">Start a conversation</a> about what comes after you get your license.</p>\n  <p><em>Licensing requirements and procedures can change; confirm current details with the Florida DBPR. Educational only, not legal advice.</em></p>",
   "faq": [
-    { "q": "Can a 17 year old get a Florida real estate license?", "a": "No. A 17 year old can complete the 63-hour pre-license course and prepare for the state exam, but Florida won't issue an actual real estate license until the applicant turns 18." },
-    { "q": "Do I have to wait until my 18th birthday to take the pre-license course?", "a": "No. There's no minimum age to enroll in or complete the 63-hour pre-license course, so you can finish the coursework before turning 18 and be ready to apply as soon as you're eligible." },
-    { "q": "Is there a maximum age to get a Florida real estate license?", "a": "No. Florida doesn't set an upper age limit for licensing. People start real estate careers at 18, in their 40s, or after retiring from another profession, as long as they meet the course, exam, and background check requirements." },
-    { "q": "What else do I need besides turning 18 to get licensed?", "a": "Turning 18 is necessary but not sufficient. You also need to complete the 63-hour pre-license course, pass the state exam, pass a background check, and apply through the Florida DBPR, then join a sponsoring broker to actually practice." }
+    {
+      "q": "Can a 17 year old get a Florida real estate license?",
+      "a": "No. A 17 year old can complete the 63-hour pre-license course and prepare for the state exam, but Florida won't issue an actual real estate license until the applicant turns 18."
+    },
+    {
+      "q": "Do I have to wait until my 18th birthday to take the pre-license course?",
+      "a": "No. There's no minimum age to enroll in or complete the 63-hour pre-license course, so you can finish the coursework before turning 18 and be ready to apply as soon as you're eligible."
+    },
+    {
+      "q": "Is there a maximum age to get a Florida real estate license?",
+      "a": "No. Florida doesn't set an upper age limit for licensing. People start real estate careers at 18, in their 40s, or after retiring from another profession, as long as they meet the course, exam, and background check requirements."
+    },
+    {
+      "q": "What else do I need besides turning 18 to get licensed?",
+      "a": "Turning 18 is necessary but not sufficient. You also need to complete the 63-hour pre-license course, pass the state exam, pass a background check, and apply through the Florida DBPR, then join a sponsoring broker to actually practice."
+    }
   ],
   "ctaHeading": "Ready for what comes after you're licensed?",
   "ctaSub": "Ask Adams, Cameron &amp; Co. about starting your real estate career in Daytona Beach the moment you turn 18 or whenever you're ready."
