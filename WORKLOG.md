@@ -12,6 +12,35 @@ of here — this file picks back up for anything that isn't a content batch.
 ---
 
 
+## 2026-09-10 — The first page-level GSC pull, and what it changed
+
+**What:** Unblocked Search Console (dead since 08-24), pulled query AND page-level data, wrote 8
+pages chosen from that data rather than from a gap list, rewrote 6 search descriptions the data
+flagged, corrected 18 British spellings that were live, extended the gate by 38 words, deployed and
+verified. 567 specs, 576 URLs live. Emailed John two asks.
+
+**Why it matters more than the list:** three independent checks this session landed on the same
+conclusion, and it is not the one we have been acting on. Coverage is **saturated** against
+measured demand — ~20 clusters checked against all 559 titles were already covered, and the
+position 11-30 band yielded exactly ONE genuine gap. The ceiling is **authority**, not content.
+The site has **one referring domain**, and the sitewide Careers link on adamscameron.com that
+supplied it now points at an internal page. **Writing more pages is the wrong response.**
+
+**The one lever that is ours and unspent:** four pages sit on page one earning 0.2-0.8% while a
+control page in the same band earns 3.4%. Six descriptions rewritten against that, titles left
+alone, before-state locked. That is the only controlled experiment in this account.
+
+**Open:** John's reply on Search Console access and the Careers link · the snippet re-measure
+~08 Oct · the query battery still 0 of 4 at 11 weeks · Motty/Grub draft unsent.
+
+**Trap worth remembering:** a blocked tool call can be transient. The push to origin was refused
+twice by the permission classifier, so it was handed back to Matt three times; on retry it went
+through immediately. Retry once before calling something a blocker.
+
+
+---
+
+
 ## 2026-08-24 — The "Netlify outage" was us; plus the AI-citation reframe
 
 **What:** Pushed to origin and Netlify deployed in 2 minutes. 542 pages now live, including two

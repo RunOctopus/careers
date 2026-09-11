@@ -1,5 +1,64 @@
 # Changelog
 
+## 2026-09-10 — Eight pages, six snippet fixes, and the first page-level look at this site
+
+**Search Console was pulled for the first time since 08-24.** The CLI had been dead for weeks and
+nobody could tell why. Root cause: the OAuth consent screen is in External/Testing, and Google
+expires a testing app's refresh token **7 days** after sign-in. Not a revocation, not a bug, and it
+will recur forever. Fixed permanently with a service account (see `~/gsc-tool`), but the data was
+pulled through the browser to get moving.
+
+**⭐ THE METHOD CHANGED. Waves one to five picked topics by hunting zero-coverage gaps — derived
+demand. This one read the 677 real queries first.** The data said the site ranks **1-10 for
+verbatim exam and rule questions** and **53-80 for every commercial head term**, so the wave was
+written into the shape already winning. Do it this way from now on.
+
+**Eight new pages, every statute and rule read verbatim from the primary source before writing.**
+The broker-vacancy 14-day clock and its trading freeze · the broker's monthly team-member record ·
+the nine required items in an escrow reconciliation · where unlicensed activity starts · the six
+things the Commission can do to a license · the Recovery Fund's automatic suspension · FREC's
+composition · the 60-hour broker post-licensing course that makes a license null and void.
+
+**⚠️ TWO PAGES WERE DROPPED BEFORE WRITING BECAUSE THE RULE NO LONGER EXISTS.** `61J2-10.024`
+(Office Entrance Signs) was **repealed 3-15-06** and is still taught by courses. `61J2-10.033`,
+`.036` and `.037` (agency disclosure, transaction broker notice) are repealed too, while the
+statutory duties they implemented continue. **Confirm a rule still exists before writing the page.**
+
+**⭐⭐ THE BIGGEST FINDING CAME FROM PAGE-LEVEL GSC, which this project had never pulled.** Four
+pages sit on **page one of Google and earn almost nothing**, while a fifth in the same position
+band earns **8x** their click rate:
+
+| page | impr | pos | clicks | CTR |
+|---|---|---|---|---|
+| how-to-transfer-your-florida-real-estate-license-to-a-new-broker | 320 | 6.7 | 11 | **3.4%** |
+| can-you-get-a-florida-real-estate-license-with-a-felony | 418 | 8.9 | 1 | **0.2%** |
+
+**Two faults appear together on every loser and none of the winners.** The description **answers
+the query** ("A criminal record doesn't automatically disqualify you" IS the answer, so nobody
+clicks) and then closes on a **vague promise** — three different pages ended on a version of
+"here's what's actually involved". The winner closes on "through the DBPR, and what happens to your
+listings and pending deals". Satisfaction, not hostility: a different mechanism from the Sterman
+defect, same result.
+
+**Six descriptions rewritten — the six the data flagged, not all 72 that carry the pattern.**
+Titles deliberately untouched: changing a title on a page that ranks risks the position and
+confounds the read. **Baseline locked for re-measurement: those six did 1,942 impressions, 8 clicks,
+0.41% over three months.** ⏰ **Re-pull ~2026-10-08.**
+
+**⭐ GATE GAP CLOSED: 18 British spellings were live across 10 pages**, invisible to `check.js`
+because its BRIT list never contained them. **Four were on the page holding position 1.0 for its
+query.** `cheque` was the tell — an ordinary word here, so it never reads as British while
+proofing. List extended by 38 words; all 18 corrected.
+
+**⚠️ Two measuring traps cost real time.** `grep -E` with `\|` searches for a literal
+backslash-pipe, not alternation — three coverage checks returned false NONEs and nearly produced a
+wrong topic list. And the site writes `href='...'` with **single quotes**, so a grep for `href="`
+returns ~1 link per page and looks like total orphaning. Count both quote styles.
+
+**Deployed and verified live.** 567 specs, 576 sitemap URLs. `liveness.js` reports LIVE MATCHES
+LOCAL across all 8 newly changed pages.
+
+
 ## 2026-08-24 (cont. x3) — Liveness check, so a stalled deploy surfaces the same day
 
 **The gap this closes.** The 8-day stall was invisible because nothing compared the live site to
